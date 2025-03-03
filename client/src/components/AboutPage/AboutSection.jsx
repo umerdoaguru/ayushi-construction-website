@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-// import About2 from ".../../images/about2.png";
-// import About2 from "../../images/about2.png";
-import About2 from "../../images/aboutsection.jpeg";
+
+import About2 from "../../images/about-us.jpeg";
 
 const AboutSection = () => {
   return (
@@ -12,7 +11,7 @@ const AboutSection = () => {
       <div className="container">
 <div className="heading text-center">
   
-  <h1>Welcome to One Realty Developer About Us Page</h1>
+  <h1>Welcome to Aysuhi Construction About Us Page</h1>
   <div
                 className="underline mx-auto"
                 style={{
@@ -34,10 +33,10 @@ const AboutSection = () => {
             <div className="about-content s-about-content pl-30  " data-aos= "fade-right">
               <div className="about-title second-atitle">
                 <span>About Us</span>
-                <h2>Welcome To One Realty</h2>
+                <h2>Welcome To Ayushi Construction</h2>
                 <p><span></span>We provide an essential support for you</p>
               </div>
-              <p>With extensive expertise in the field of real estate, One Realty Developers provides top-tier housing solutions and undertakes the construction of residential, commercial, and industrial buildings. Our services extend to comprehensive infrastructural works, ensuring robust and sustainable development.</p>
+              <p>With extensive expertise in the field of real estate, Ayushi Construction Developers provides top-tier housing solutions and undertakes the construction of residential, commercial, and industrial buildings. Our services extend to comprehensive infrastructural works, ensuring robust and sustainable development.</p>
               <ul className="list-item">
                 <li><span>Residential Construction</span>: We create beautiful, functional, and durable homes that cater to diverse needs and preferences.</li>
                 <li><span>Commercial Projects</span>: From office spaces to retail establishments, we deliver commercial buildings designed for success and growth.</li>
@@ -84,15 +83,15 @@ height: 40rem;
   }
 }
 h1{
-  /* color: #006c28; */
-  color: #01614e;
+
+  color: #f26a20;
   /* color: #d29b33; */
   font-family: "Playfair Display";
 }
 h2{
-  /* color: #006c28; */
-  /* color: #006c28; */
-  color: #01614e;
+
+
+  color:#f26a20;
   font-family: "Playfair Display";
 }
 li{

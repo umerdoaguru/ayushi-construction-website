@@ -16,7 +16,7 @@ function About() {
       <Heros title="About Us" backgroundImage={AboutUs} />
    
       <AboutSection />
-<OurProjects/>
+      <OurProjects/>
      
       <ContactSection />
       <CountSection />

@@ -1,6 +1,6 @@
 import React from "react";
 // import img from "../images/slider_img01.webp";
-import img from "../images/imgnew1.webp";
+import img from "../images/ayushi-banner.avif";
 
 
 import img1 from "../images/Untitled design (10).png";
@@ -9,8 +9,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AboutSection from "../components/HomePage/AboutSection";
 import Bank_Partner from "../components/HomePage/Bank_Partner";
-import WhyChoose from "../components/HomePage/WhyChoose";
-import OurProjects from "../components/HomePage/OurProjects";
+import WhyChoose from "../components/HomePage/OurProjects";
+import OurProjects from "../components/HomePage/WhyChoose";
 import LastHeropage from "../components/HomePage/LastHeropage";
 import OurVideo from "../components/HomePage/OurVideo";
 import styled from "styled-components";
@@ -127,7 +127,7 @@ export default HomePage;
 
 const Wrapper = styled.div`
   #cont{
-    height: 60vh;
+    height: 70vh;
     @media screen and (max-width: 768px) {
       height: 20vh;
       

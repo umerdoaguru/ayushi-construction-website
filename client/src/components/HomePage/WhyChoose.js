@@ -16,7 +16,7 @@ function WhyChoose() {
         <div className="row g-5">
           
           <div className="col-lg-12 mb-4 mt-5 text-center">
-            <h2>Why Choose One Realty Developer?</h2>
+            <h2>Why Choose Ayushi Construction?</h2>
             <div className="underline mx-auto"></div>
           </div>
 
@@ -160,8 +160,8 @@ const Wrapper = styled.div`
 
   h5 {
     font-size: 15px;
-    /* color:#006c28; */
-    color: #01614e;
+    color:#373435;
+    /* color: #01614e; */
     margin-top: 2rem;
     text-align: center;
     @media screen and (max-width: 768px) {
@@ -172,7 +172,7 @@ const Wrapper = styled.div`
 
   h2 {
     /* color: #006c28; */
-    color: #01614e;
+    color: #f26a20;
     /* color: #d29b33; */
     font-family: "Playfair Display";
     @media screen and (max-width: 768px) {

@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import img from '../../images/aura_city.avif'
-import img1 from '../../images/nirvana_city_new.jpg'
-import img2 from '../../images/nirvana_exoticaaa.jpg'
-import img3 from '../../images/nirman_nagar.jpeg'
-import img4 from '../../images/nirvana_home.avif'
+
+import ayushi_dhara from '../../images/ayushi dhara logo png.png'
+import ayushi_home  from '../../images/ayushi homes logo png.png'
+import ayushi_villa from '../../images/ayushi villa logo png.png'
+import ayushi_hari_vihar from '../../images/ayushi hari vihar logo png.png'
+import ayushi_vridavan from '../../images/ayushi vrindavan logo png.png'
+import ayushi_palm_green from '../../images/ayushi palm green logo png.png'
+import ayushi_rudraksha_park from '../../images/rudraksha park logo png.png'
 
 
 
@@ -31,7 +34,7 @@ function OurProjects() {
 <div className="row align-items-center mt-5">
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-up">
-              <img src= {img} alt="img" />
+              <img src= {ayushi_dhara} alt="img" />
          
             </div>
           </div>
@@ -39,10 +42,10 @@ function OurProjects() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-down">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Our Aura City</h2>
+                <h2>Welcome To Our Ayushi Dhara</h2>
                
               </div>
-              <p>Aura City Located 15 km from Sadar, at Barela road on the national highway NH 12A is One Realty Aura. This 4-acre township with all modern amenities consists of 68 plots, a residential apartment. Its unique location, just on the brink of the highway, view of Maa Sharda Barela Temple easy accessibility and affordable pricing makes it a future township and a place to invest in. Economic but impressive.
+              <p>Ayushi Dhara Located 15 km from Sadar, at Barela road on the national highway NH 12A is One Realty Aura. This 4-acre township with all modern amenities consists of 68 plots, a residential apartment. Its unique location, just on the brink of the highway, view of Maa Sharda Barela Temple easy accessibility and affordable pricing makes it a future township and a place to invest in. Economic but impressive.
   
 </p>
              
@@ -75,7 +78,7 @@ function OurProjects() {
           </div>
           <div className="col-lg-6">
             <div className="s-about-img p-relative"data-aos= "fade-down" >
-              <img src= {img1} alt="img" />
+              <img src= {ayushi_home} alt="img" />
          
             </div>
           </div>
@@ -84,7 +87,7 @@ function OurProjects() {
         <div className="row align-items-center mt-5">
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-up">
-              <img src= {img2} alt="img" />
+              <img src= {ayushi_home} alt="img" />
          
             </div>
           </div>
@@ -131,7 +134,7 @@ function OurProjects() {
 
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-down" >
-              <img src= {img3} alt="img" />
+              <img src= {ayushi_palm_green} alt="img" />
          
             </div>
           </div>
@@ -143,7 +146,7 @@ function OurProjects() {
     <div className="row align-items-center mt-5">
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-up">
-              <img src= {img4} alt="img" />
+              <img src= {ayushi_vridavan} alt="img" />
          
             </div>
           </div>
@@ -181,9 +184,9 @@ img{
   width: 100%;
 }
 h2{
-    /* color: #006c28; */
-    color: #01614e;
-    /* color: #d29b33; */
+   
+    color: #f26a20;
+   
     font-family: "Playfair Display";  
   }
 `

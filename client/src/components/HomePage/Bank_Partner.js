@@ -102,11 +102,11 @@ img{
       width: 15rem;
 }
 h2{
-      /* color: #006c28; */
       
       
-      color: #01614e;
-      /* color: #d29b33; */
+      
+      color: #f26a20;
+
       font-family: "Playfair Display";
 
 }

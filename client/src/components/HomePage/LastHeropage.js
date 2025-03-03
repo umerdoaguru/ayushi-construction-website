@@ -25,17 +25,17 @@ function LastHeropage() {
                 }}
               ></div>
 </div>
-<h4>Choose One Realty Developers Today!</h4>
+<h4>Choose Ayushi Construction Today!</h4>
 <div className="content mb-3 mt-4">
 
-  <p>Looking for the top builders in Jabalpur to bring your dreams to life? Your search ends here. One Realty Developers stands as the best construction company in Jabalpur, ensuring quality and innovation in the realm of construction. Whether it’s selling, buying, or renting residential or commercial property in Jabalpur, we’re the best builders and developers in the city, ready to transform your vision into reality.</p>
+  <p>Looking for the top builders in Jabalpur to bring your dreams to life? Your search ends here. Ayushi Construction stands as the best construction company in Jabalpur, ensuring quality and innovation in the realm of construction. Whether it’s selling, buying, or renting residential or commercial property in Jabalpur, we’re the best builders and developers in the city, ready to transform your vision into reality.</p>
 </div>
 
 
 <button
               type="button"
               className="btn   mb-3"
-              style={{ backgroundColor:" #01614e", borderRadius:"1.5rem"  }}
+              style={{ backgroundColor:" #f26a20", borderRadius:"1.5rem"  }}
             >
               <Link
                 to="/contact"
@@ -57,9 +57,9 @@ export default LastHeropage
 
 const Wrapper = styled.div`
 h2{
-    /* color: #006c28; */
-    color: #01614e;
-    /* color: #d29b33; */
+    
+    color: #f26a20;
+ 
     font-family: "Playfair Display";
 }
 `

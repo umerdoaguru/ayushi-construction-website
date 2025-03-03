@@ -15,7 +15,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 
-import img from "../images/company logo.png";
+import img from "../images/ayushi_log.png";
 
 
 
@@ -30,7 +30,7 @@ function Footer_comp() {
     <footer
       style={{
         // backgroundColor:"#006c28"
-        backgroundColor:"#01614e"
+        backgroundColor:"#f26a20"
        
       }}
     >
@@ -45,9 +45,7 @@ function Footer_comp() {
                 </div>
                 <div>
                   <span className="m-1 text-white">
-                  First Floor, Chamber No.: 1 & 2, Datt Residency, <br /> opposite Railway Stadium North, South Civil Lines, <br />Jabalpur, Madhya Pradesh 482001
-                
-                    482002
+                  Ayushi Construction, Infront of Garha Thana, <br /> Tripuri Chowk, Jabalpur,<br /> Madhya Pradesh 482002
                   </span>
                 </div>
               </div>
@@ -340,11 +338,14 @@ const Container = styled.div`
     text-align: center;
     color: #f6f1f1;
     padding: 20px 0;
-    background-color: #01614e;
+    background-color: #f26a20;
   }
 
 .image img {
-  width: 14rem;
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  padding: 0.5rem;
 }
 
 
