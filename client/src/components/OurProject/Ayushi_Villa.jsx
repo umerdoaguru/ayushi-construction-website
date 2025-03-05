@@ -1,60 +1,54 @@
 import React from 'react'
 import styled from 'styled-components'
-import img from '../../images/nirman_nagar.jpeg'
-import photo1 from '../../images/Nirman nagar/Picture1.jpg'
-import photo2 from '../../images/Nirman nagar/Picture2.jpg'
-import photo3 from '../../images/Nirman nagar/Picture3.jpg'
-import photo4 from '../../images/Nirman nagar/Picture4.jpg'
-import photo5 from '../../images/Nirman nagar/Picture5.jpg'
-import photo6 from '../../images/Nirman nagar/Picture6.jpg'
-import photo7 from '../../images/Nirman nagar/Picture7.jpg'
-import photo8 from '../../images/Nirman nagar/Picture8.jpg'
-import FormNirmanNagar from '../contact/FormNirmanNagar'
+import img from '../../images/ayushi-villa.png'
+import photo1 from '../../images/Nirvana city/Picture1.jpg'
+import photo2 from '../../images/Nirvana city/Picture2.jpg'
+import photo3 from '../../images/Nirvana city/Picture3.jpg'
+import photo4 from '../../images/Nirvana city/Picture4.jpg'
+import FormNirvanaCity from '../contact/FormNirvanaCity'
 import { FaWhatsapp } from 'react-icons/fa'
 
-function Nirman_Nagar_Project() {
+
+
+function Ayushi_Villa() {
   const images = [
     { src: photo1, title: 'Entry Gate' },
     { src: photo2, title: 'Garden' },
-    { src: photo3, title: 'Main Road' },
-    { src: photo4, title: 'Construction' },
-    { src: photo5, title: 'Construction' },
-    { src: photo6, title: 'House View' },
-    { src: photo7, title: 'Kid Park' },
-    { src: photo8, title: 'Road' },
+    { src: photo3, title: 'Main road' },
+    { src: photo4, title: 'Plots' },
   ];
   
   return (
-   <Wrapper>
-   
-   <div className="container">
+    <Wrapper>
+    
+    <div className="container">
     <div className="row align-items-center mt-5 g-4 mb-5">
-   
-         
-          <div className="col-lg-6 mt-3">
+    <div className="col-lg-6 mt-3">
             <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Nirman Nagar</h2>
+                <h2>Welcome To Ayushi Villa</h2>
                
               </div>
-              <p>Nirman Nagar Our 4th project with 9 acres of occupancy with 183 units is a stylish home to luxurious and opulent living in duplex, singlex and plots, the interior of the residence is superbly presented providing all the luxury to satisfy ensures to do, the abode is well designed as per the client's requirements and their imagination makes the dream world come true.
+              <p>Ayushi Villa is our second project December 2014 consists 6acers with occupancy 136 units planing with Singlex and plots  a spacious living area for independent and free-living, with all the necessary amenities fulfills your needs. Nirvana city assures you of satisfying your dream home in the fashionable way possible.
 </p>
              
 
-              <p className ="fw-bold">Total 9 Acres</p>
-              <p className ="fw-bold"><span></span>Project Duration 2017 - 2021
+              <p className ="fw-bold"> Total  5.5 Acres
+</p>
+              <p className ="fw-bold"><span></span>Project Duration 2015 - 2017
+
 </p>
             </div>
           </div>
-
           <div className="col-lg-6">
-            <div className="s-about-img p-relative" data-aos= "fade-left" >
+            <div className="s-about-img p-relative"data-aos= "fade-left" >
               <img src= {img} alt="img" />
          
             </div>
           </div>
       
+       
 
     <div className="col-lg-12">
       <h2>
@@ -140,7 +134,7 @@ Soalr Lighting</h6>
     </div>
 
     <div className="container text-center mt-5">
-      <div className="h4" style={{color:"#01614e"}}>Contact Us </div>
+      <div className="h4" style={{color:"#f26a20"}}>Contact Us </div>
       <div
                 className="underline mx-auto"
                 style={{
@@ -152,7 +146,7 @@ Soalr Lighting</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Nirman%20Nagar%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Ayushi%20Villa%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -194,31 +188,26 @@ Soalr Lighting</h6>
         </div>
       ))}
         </div>
-
-
-
-        
     </div>
-   
-   </Wrapper>
+    </Wrapper>
   )
 }
 
-export default Nirman_Nagar_Project
-const Wrapper  =  styled.div`
+export default Ayushi_Villa
+const Wrapper  = styled.div`
+    img{
+      width: 100%;
+    }
     
-img{
-    width: 100%;
-   
-}
-.imgset{
+    .imgset{
     height: 25rem;
 }
-h2{
-    color: #01614e;
+
+    h2{
+    color: #f26a20;
     font-family: "Playfair Display";
 }
 .card-title{
-    color: #01614e;
+    color: #f26a20;
   }
 `

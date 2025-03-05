@@ -15,11 +15,7 @@ import ContactForm from "./pages/ContactForm";
 import Blogs from "./pages/Blogs";
 import Gallery from "./pages/Gallery";
 import Cards from "./components/gallery/Cards";
-import Aura_City_Project from "./components/OurProject/Aura_City_Project";
-import Nirman_Nagar_Project from "./components/OurProject/Nirman_Nagar_Project";
-import Nirvana_City_Project from "./components/OurProject/Nirvana_City_Project";
-import Nirvana_Exoticaa_Project from "./components/OurProject/Nirvana_Exoticaa_Project";
-import Nirvana_Home_Project from "./components/OurProject/Nirvana_Home_Project";
+
 import Blog1 from "./components/blog/subpageblog/Blog1";
 import Blog2 from "./components/blog/subpageblog/Blog2";
 import Blog3 from "./components/blog/subpageblog/Blog3";
@@ -31,6 +27,13 @@ import AdminDashboard from "./pages/AdminDashboard";
 import { useSelector } from "react-redux";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import AdminResetPassword from "./pages/AdminResetPassword";
+import Ayushi_Dhara from "./components/OurProject/Ayushi_Dhara_Project";
+import Ayushi_Home from "./components/OurProject/Ayushi_Home";
+import Ayushi_Villa from "./components/OurProject/Ayushi_Villa";
+import Ayushi_Hari_Vihar from "./components/OurProject/Ayushi_Hari_Vihar";
+import Ayushi_Vrindavan from "./components/OurProject/Ayushi_Vrindavan";
+import Ayushi_Palm_Green from "./components/OurProject/Ayushi_Palm_Green";
+import Rudraksh_Park from "./components/OurProject/Rudraksh_Park";
 
 function App() {
   const user = useSelector(state => state.auth.user);
@@ -52,11 +55,13 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/cards" element={<Cards />} />
-          <Route path="/aura-city" element={<Aura_City_Project />} />
-          <Route path="/nirman-nagar" element={<Nirman_Nagar_Project/>} />
-          <Route path="/nirvana-city" element={<Nirvana_City_Project/>} />
-          <Route path="/nirvana-exoticaa" element={<Nirvana_Exoticaa_Project/>} />
-          <Route path="/nirvana-home" element={<Nirvana_Home_Project/>} />
+          <Route path="/ayushi-dhara" element={<Ayushi_Dhara />} />
+          <Route path="/ayushi-home" element={<Ayushi_Home/>} />
+          <Route path="/ayushi-villa" element={<Ayushi_Villa/>} />
+          <Route path="/ayushi-hari-vihar" element={<Ayushi_Hari_Vihar/>} />
+          <Route path="/ayushi-vrindavan" element={<Ayushi_Vrindavan/>} />
+          <Route path="/ayushi-palm-green" element={<Ayushi_Palm_Green/>} />
+          <Route path="/ayushi-rudraksh-park" element={<Rudraksh_Park/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
         
           <Route path="/blog1" element={<Blog1/>} />

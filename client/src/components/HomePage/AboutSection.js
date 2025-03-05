@@ -30,7 +30,7 @@ const AboutSection = () => {
               ></div>
 </div>
 {/* <div className="col-lg-3 flash-animation">
-<h2 className=' text-center ongoing'><Link to='/nirvana-home' onClick={handleFooterLink}>Ongoing Project</Link></h2>
+<h2 className=' text-center ongoing'><Link to='/ayushi-vrindavan' onClick={handleFooterLink}>Ongoing Project</Link></h2>
 
 </div> */}
 

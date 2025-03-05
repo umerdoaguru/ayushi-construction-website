@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import img from "../../images/nirvana_home.avif";
+import img from "../../images/ayushi-vrindavan.jpg";
 import photo1 from "../../images/Nirvana home/Picture1.jpg";
 import photo2 from "../../images/Nirvana home/Picture2.jpg";
 import photo3 from "../../images/Nirvana home/Picture3.jpg";
@@ -43,7 +43,7 @@ import Forms from "../contact/Forms";
 import FormNirvanaHomes from "../contact/FormNirvanaHomes";
 import { FaWhatsapp } from "react-icons/fa";
 
-function Nirvana_Home_Project() {
+function Ayushi_Vrindavan() {
   const images = [
  
     { src: photo2, title: 'Entry Gate' },
@@ -89,10 +89,10 @@ function Nirvana_Home_Project() {
               data-aos="fade-right"
             >
               <div className="about-title second-atitle">
-                <h2>Welcome To Nirvana Homes</h2>
+                <h2>Welcome To Ayushi Vrindavan</h2>
               </div>
               <p>
-                Nirvana Homes a Luxury Project at Budget Pricing by One Realty
+                Ayushi Vrindavan a Luxury Project at Budget Pricing by One Realty
                 Developers. This 11 Acre Residential Township Consists of 365
                 units. The whole township is Vastu – Compliance in a Clean &
                 Green Environment of Barela 14 KM. from Sadar. The Roads are
@@ -199,7 +199,7 @@ function Nirvana_Home_Project() {
 
           <OurVideo />
           <div className="container text-center">
-            <div className="h4" style={{ color: "#01614e" }}>
+            <div className="h4" style={{ color: "#f26a20" }}>
               Contact Us{" "}
             </div>
             <div
@@ -257,7 +257,7 @@ function Nirvana_Home_Project() {
   );
 }
 
-export default Nirvana_Home_Project;
+export default Ayushi_Vrindavan;
 
 const Wrapper = styled.div`
   img {
@@ -269,10 +269,10 @@ const Wrapper = styled.div`
   }
 
   h2 {
-    color: #01614e;
+    color: #f26a20;
     font-family: "Playfair Display";
   }
   .card-title{
-    color: #01614e;
+    color: #f26a20;
   }
 `;

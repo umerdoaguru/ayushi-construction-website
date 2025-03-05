@@ -163,57 +163,79 @@ function Footer_comp() {
           <div>
             {" "}
             <Link
-              to="/aura-city"
+              to="/ayushi-dhara"
               onClick={handleFooterLink}
              
               className=""
             >
-             Aura City
+             Ayushi Dhara
             </Link>
           </div>
           <div>
             {" "}
             <Link
-              to="/nirvana-city"
+              to="/ayushi-villa"
               onClick={handleFooterLink}
              
               className=""
             >
-              Nirvana City
+              Ayushi Villa 
             </Link>
           </div>
           <div>
             {" "}
             <Link
-              to="/nirvana-exoticaa"
+              to="/ayushi-hari-vihar"
               onClick={handleFooterLink}
              
               className=""
             >
-           Nirvana Exoticaa
+           Ayushi Hari Vihar
             </Link>
           </div>
 
           <div>
             {" "}
             <Link
-              to="/nirman-nagar"
+              to="/ayushi-home"
               onClick={handleFooterLink}
              
               className=""
             >
-              Nirman nagar
+              Ayushi Home
             </Link>
           </div>
           <div>
             {" "}
             <Link
-              to="/nirvana-home"
+              to="/ayushi-vrindavan"
               onClick={handleFooterLink}
              
               className=""
             >
-             Nirvana Homes
+             Ayushi Vrindavan
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-palm-green"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Palm Green
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-rudraksh-park"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Rudraksh Park
             </Link>
           </div>
          
@@ -291,7 +313,7 @@ function Footer_comp() {
         </div>
       </div>
       <div className="bottom">
-          <p><Link to='https://doaguru.com/' target='_blank'>© DOAGuru InfoSystems</Link> || Powered by One Realty</p>
+          <p><Link to='https://doaguru.com/' target='_blank'>© DOAGuru InfoSystems</Link> || Powered by Ayushi Construction</p>
          
         </div>
     </footer>

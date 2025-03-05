@@ -2,13 +2,13 @@ import React from 'react'
 import styled from 'styled-components';
 
 
-import ayushi_dhara from '../../images/ayushi dhara logo png.png'
-import ayushi_home  from '../../images/ayushi homes logo png.png'
-import ayushi_villa from '../../images/ayushi villa logo png.png'
-import ayushi_hari_vihar from '../../images/ayushi hari vihar logo png.png'
-import ayushi_vridavan from '../../images/ayushi vrindavan logo png.png'
-import ayushi_palm_green from '../../images/ayushi palm green logo png.png'
-import ayushi_rudraksha_park from '../../images/rudraksha park logo png.png'
+import ayushi_dhara from '../../images/ayushi-dhara.jpg'
+import ayushi_home  from '../../images/ayushi-home.jpg'
+import ayushi_villa from '../../images/ayushi-villa.png'
+import ayushi_hari_vihar from '../../images/ayushi-hari-vihar.jpg'
+import ayushi_vridavan from '../../images/ayushi-vrindavan.jpg'
+import ayushi_palm_green from '../../images/ayushi-palm-green.jpg'
+import ayushi_rudraksha_park from '../../images/rudraksh-park.jpg'
 
 
 

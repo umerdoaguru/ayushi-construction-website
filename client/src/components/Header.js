@@ -73,16 +73,16 @@ info@ayushiconstruction.com
                     <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     <NavDropdown title="Our Project" id="basic-nav-dropdown" style={{ color: "#f26a20" }}>
                        <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
-                        <NavDropdown.Item as={Link} to="/aura-city">Ayushi Dhara</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirvana-city">Ayushi Home</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirvana-exoticaa">Ayushi Villa</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirman-nagar">Ayushi Hari Vihar</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirman-nagar">Ayushi Vrindavan</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirman-nagar">Ayushi Hari Vihar</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/ayushi-dhara">Ayushi Dhara</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/ayushi-home">Ayushi Home</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/ayushi-villa">Ayushi Villa</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/ayushi-hari-vihar">Ayushi Hari Vihar</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/ayushi-vrindavan">Ayushi Vrindavan</NavDropdown.Item>
+                      
                       </NavDropdown>
                       <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
-                      <NavDropdown.Item as={Link} to="/nirvana-home">Ayushi Palm Green</NavDropdown.Item>
-                      <NavDropdown.Item as={Link} to="/nirvana-home">Rudraksh Park</NavDropdown.Item>
+                      <NavDropdown.Item as={Link} to="/ayushi-palm-green">Ayushi Palm Green</NavDropdown.Item>
+                      <NavDropdown.Item as={Link} to="/ayushi-rudraksh-park">Rudraksh Park</NavDropdown.Item>
                         </NavDropdown>
                     
                       <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">

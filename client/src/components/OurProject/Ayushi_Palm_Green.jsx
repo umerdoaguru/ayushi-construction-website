@@ -1,52 +1,54 @@
 import React from 'react'
 import styled from 'styled-components'
-// import img from '../../../images/aura_city.avif'
-import img from '../../images/aura_city.avif'
-import photo1 from '../../images/Aura City/Picture1.jpg'
-import photo2 from '../../images/Aura City/Picture2.jpg'
-import photo3 from '../../images/Aura City/Picture3.jpg'
-import photo4 from '../../images/Aura City/Picture4.jpg'
-import photo5 from '../../images/Aura City/Picture5.jpg'
-import FormAuraCity from '../contact/FormAuraCity'
+import img from '../../images/ayushi-palm-green.jpg'
+import photo1 from '../../images/Nirvana city/Picture1.jpg'
+import photo2 from '../../images/Nirvana city/Picture2.jpg'
+import photo3 from '../../images/Nirvana city/Picture3.jpg'
+import photo4 from '../../images/Nirvana city/Picture4.jpg'
+import FormNirvanaCity from '../contact/FormNirvanaCity'
 import { FaWhatsapp } from 'react-icons/fa'
 
 
-function Aura_City_Project() {
+
+function Ayushi_Palm_Green() {
   const images = [
-    { src: photo1, title: 'House Side View' },
-    { src: photo2, title: 'Main Gate' },
-    { src: photo3, title: 'House Front View' },
-    { src: photo4, title: 'Temple' },
-    { src: photo5, title: 'Construction' },
+    { src: photo1, title: 'Entry Gate' },
+    { src: photo2, title: 'Garden' },
+    { src: photo3, title: 'Main road' },
+    { src: photo4, title: 'Plots' },
   ];
   
   return (
     <Wrapper>
+    
     <div className="container">
     <div className="row align-items-center mt-5 g-4 mb-5">
     <div className="col-lg-6 mt-3">
             <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Our Aura City</h2>
+                <h2>Welcome To Ayushi Palm Green</h2>
                
               </div>
-              <p>Aura City Located 15 km from Sadar, at Barela road on the national highway NH 12A is One Realty Aura. This 4-acre township with all modern amenities consists of 68 plots, a residential apartment. Its unique location, just on the brink of the highway, view of Maa Sharda Barela Temple easy accessibility and affordable pricing makes it a future township and a place to invest in. Economic but impressive.
-  
+              <p>Ayushi Palm Green is our second project December 2014 consists 6acers with occupancy 136 units planing with Singlex and plots  a spacious living area for independent and free-living, with all the necessary amenities fulfills your needs. Nirvana city assures you of satisfying your dream home in the fashionable way possible.
 </p>
              
 
-              <p className ="fw-bold">Total 3 Acres</p>
-               <p className="fw-bold"><span></span>Project Duration 2011 - 2014
+              <p className ="fw-bold"> Total  5.5 Acres
+</p>
+              <p className ="fw-bold"><span></span>Project Duration 2015 - 2017
+
 </p>
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="s-about-img p-relative" data-aos= "fade-left">
+            <div className="s-about-img p-relative"data-aos= "fade-left" >
               <img src= {img} alt="img" />
          
             </div>
           </div>
+      
+       
 
     <div className="col-lg-12">
       <h2>
@@ -132,7 +134,7 @@ Soalr Lighting</h6>
     </div>
 
     <div className="container text-center mt-5">
-      <div className="h4" style={{color:"#01614e"}}>Contact Us </div>
+      <div className="h4" style={{color:"#f26a20"}}>Contact Us </div>
       <div
                 className="underline mx-auto"
                 style={{
@@ -144,7 +146,7 @@ Soalr Lighting</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Aura%20City%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Ayushi%20Villa%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -168,7 +170,6 @@ Soalr Lighting</h6>
                   marginBottom: 20,
                 }}
               ></div>
-
         <div className="row g-5 mb-5" >
         {images.map((image, index) => (
         <div key={index} className="col-lg-4">
@@ -187,42 +188,26 @@ Soalr Lighting</h6>
         </div>
       ))}
         </div>
-
-
-
-        
     </div>
-    
-    
     </Wrapper>
-
-    
   )
 }
 
-export default Aura_City_Project
-
+export default Ayushi_Palm_Green
 const Wrapper  = styled.div`
     img{
-  width: 100%;
- 
-}
-.imgset{
-    height: 25rem;
+      width: 100%;
+    }
     
+    .imgset{
+    height: 25rem;
 }
 
-h6{
-    /* color: #01614e; */
-    
-}
-h2{
-    color: #01614e;
+    h2{
+    color: #f26a20;
     font-family: "Playfair Display";
 }
 .card-title{
-    color: #01614e;
+    color: #f26a20;
   }
-
-
 `
