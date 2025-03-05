@@ -10,7 +10,7 @@ import {
   AiFillLinkedin,
  
 } from "react-icons/ai";
-import { FaPinterestSquare, FaTwitterSquare, FaWhatsapp } from "react-icons/fa";
+import { FaPinterestSquare, FaTwitterSquare, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
@@ -54,20 +54,20 @@ function Footer_comp() {
               <IoCallOutline />
               <span className="m-2">
                 <Link
-                  to="tel:+91-07614924920"
+                  to="tel:+91-9981268611"
                  
                   className=""
                 >
-                 07614924920 ,</Link>
+                 9981268611 ,</Link>
               
               </span>
               <span className="">
                 <Link
-                  to="tel:+91-7880002259"
+                  to="tel:+91-9575809888"
                  
                   className=""
                 >
-                7880002259
+                9575809888
                 </Link>
               </span>
               <br />
@@ -79,11 +79,11 @@ function Footer_comp() {
               <span className="m-2 ">
                 {" "}
                 <Link
-                  to="mailto:hronerealty@gmail.com"
+                  to="mailto:info@ayushiconstruction.com"
                  
                   className=""
                 >
-                  hronerealty@gmail.com
+                  info@ayushiconstruction.com
                 </Link>
               </span>
             </div>
@@ -233,7 +233,7 @@ function Footer_comp() {
             </div>
             <div className="d-flex justify-content-center" id="logo">
               <Link
-                to="https://www.facebook.com/Onerealty/"
+                to="https://www.facebook.com/AyushiConstructionJabalpur"
                 onClick={handleFooterLink}
                 target="_blank"
                 rel="norefferel"
@@ -251,7 +251,7 @@ function Footer_comp() {
               </Link>
              
               <Link
-                to="https://www.instagram.com/onerealtydevelopers/"
+                to="https://www.instagram.com/ayushiconstruction2/"
                 onClick={handleFooterLink}
                 target="_blank"
                 rel="norefferel"
@@ -268,16 +268,16 @@ function Footer_comp() {
                 />
               </Link>
               <Link
-               to=  "https://wa.me/+917880008031?text=Hello%20there!%20I%20found%20your%20website%20and%20I%20want%20to%20discuss."
+               to=  "https://www.youtube.com/@AyushiConstruction-ig8bv/featured"
                 onClick={handleFooterLink}
                 target="_blank"
                 rel="norefferel"
                 className=" m-2"
               >
-                <FaWhatsapp
+                <FaYoutube
                   size="30px"
                   onMouseOver={({ target }) =>
-                    (target.style.color = "#25D366")
+                    (target.style.color = "#FF0000")
                   }
                   onMouseOut={({ target }) =>
                     (target.style.color = "white")

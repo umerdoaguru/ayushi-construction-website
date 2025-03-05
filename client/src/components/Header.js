@@ -43,8 +43,9 @@ function Header() {
                     <li>
                       <CiMail />
                       <span className="m-2">
-                        <Link to="mailto:hronerealty@gmail.com" className="text-white">
-                        abc@gmail.com
+                        <Link to="mailto:info@ayushiconstruction.com" className="text-white">
+                       
+info@ayushiconstruction.com
                         </Link>
                       </span>
                     </li>
@@ -71,16 +72,19 @@ function Header() {
                     <Nav.Link as={Link} to="/" className="nav-link">Home</Nav.Link>
                     <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     <NavDropdown title="Our Project" id="basic-nav-dropdown" style={{ color: "#f26a20" }}>
-                      <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
-                        <NavDropdown.Item as={Link} to="/aura-city">Aura City</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirvana-city">Nirvana City</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirvana-exoticaa">Nirvana Exoticaa</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/nirman-nagar">Nirman Nagar</NavDropdown.Item>
+                       <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
+                        <NavDropdown.Item as={Link} to="/aura-city">Ayushi Dhara</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/nirvana-city">Ayushi Home</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/nirvana-exoticaa">Ayushi Villa</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/nirman-nagar">Ayushi Hari Vihar</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/nirman-nagar">Ayushi Vrindavan</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/nirman-nagar">Ayushi Hari Vihar</NavDropdown.Item>
                       </NavDropdown>
-                      <NavDropdown title="Ongoing Project" id="ongoing-project-dropdown" drop="end">
-                      <NavDropdown.Item as={Link} to="/nirvana-home">Nirvana Homes</NavDropdown.Item>
+                      <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
+                      <NavDropdown.Item as={Link} to="/nirvana-home">Ayushi Palm Green</NavDropdown.Item>
+                      <NavDropdown.Item as={Link} to="/nirvana-home">Rudraksh Park</NavDropdown.Item>
                         </NavDropdown>
-                      
+                    
                       <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">
                       <NavDropdown.Item as={Link} >Coming Soon</NavDropdown.Item>
                         </NavDropdown>

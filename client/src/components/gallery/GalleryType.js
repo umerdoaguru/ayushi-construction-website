@@ -107,7 +107,7 @@ export default GalleryType;
 const Wrapper  = styled.div`
  .navlink.active {
     /* background-color: #006c28 !important; */
-    background-color: #01614e !important;
+    background-color: #f26a20 !important;
     border-radius: 1rem;
     color: white !important;
   }
@@ -118,9 +118,8 @@ const Wrapper  = styled.div`
     border-radius: 1rem;
   }
   h2{
-    /* color: #006c28; */
-    color: #01614e;
-    /* color: #d29b33; */
+
+    color: #f26a20;
     font-family: "Playfair Display";
   }
   .selectors{

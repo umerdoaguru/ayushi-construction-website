@@ -156,7 +156,7 @@ const Wrapper = styled.div`
     border: none;
   }
   .card-title{
-    color: #01614e;
+    color:#f26a20;
   }
   .img-container {
     position: relative;

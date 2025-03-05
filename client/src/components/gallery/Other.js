@@ -102,6 +102,6 @@ const Wrapper = styled.div`
     opacity: 1;
   }
   .card-title{
-    color: #01614e;
+    color: #f26a20;
   }
 `;

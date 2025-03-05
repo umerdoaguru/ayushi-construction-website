@@ -294,10 +294,10 @@ function Forms() {
                 </div>
                 <h3 className="pt-2">Office Address</h3>
                 <h6>
-                  First Floor, Chamber No. 1 & 2, Datt Residency, opposite
-                  Railway Stadium North, South Civil Lines,
+                Ayushi Construction, Infront of Garha Thana,
+                Tripuri Chowk, Jabalpur,
                 </h6>
-                <h6>Jabalpur, Madhya Pradesh 482001</h6>
+                <h6>Jabalpur, Madhya Pradesh 482002</h6>
               </div>
               <hr />
               <div>
@@ -316,7 +316,7 @@ function Forms() {
                 <h3 className="pt-2">Message Us</h3>
                 <h6>We are always with you to solve your problem</h6>
                 <h6>
-                  mail us: <a href="mailto:hronerealty@gmail.com">hronerealty@gmail.com</a>
+                  mail us: <a href="mailto:info@ayushiconstruction.com">info@ayushiconstruction.com</a>
                 </h6>
               </div>
             </div>
@@ -414,9 +414,9 @@ function Forms() {
                   <button
                     data-mdb-ripple-init
                     type="button"
-                    className="btn btn-primary btn-lg md:fw-bold rounded-pill mb-4 w-25"
+                    className="btn  btn-lg md:fw-bold rounded-pill mb-4 w-25"
                     onClick={handleSubmit}
-                    style={{ backgroundColor: "#01614e", borderRadius: "1.5rem" }}
+                    style={{ backgroundColor: "#f26a20", borderRadius: "1.5rem" }}
                   >
                     Send
                   </button>
@@ -434,7 +434,7 @@ export default Forms;
 
 const Container = styled.div`
   .Address-detail {
-    background-color: #01614e;
+    background-color: #f26a20;
   }
   h3,
   h6 {
@@ -459,10 +459,10 @@ const Container = styled.div`
     right: 20px;
     top: 50%;
     font-size: 1.5rem;
-    color: #01614e;
+    color: #f26a20;
   }
   .form-label {
-    color: #01614e;
+    color: #f26a20;
   }
   .error {
     color: red;

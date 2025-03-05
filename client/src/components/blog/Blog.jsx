@@ -40,7 +40,7 @@ function Blog() {
       <div className="container">
       <div className="heading text-center mt-5">
   
-  <h1>Welcome to One Realty Developer Blogs Page</h1>
+  <h1>Welcome to Ayushi Construction Blogs Page</h1>
   <div
                 className="underline mx-auto"
                 style={{
@@ -336,7 +336,7 @@ const Container = styled.div`
   h2,
   h3 {
     font-family: "Playfair Display";
-    color: #06933d;
+    color: #f26a20;
   }
   h2{
     margin-top: 2rem;
@@ -344,7 +344,7 @@ const Container = styled.div`
     
 h1{
 
-  color: #01614e;
+  color: #f26a20;
   font-family: "Playfair Display";
  
 }
@@ -353,7 +353,7 @@ h1{
     color: black;
   }
   a:hover {
-    color: #06933d;
+    color: #f26a20;
   }
   input {
     height: 50px;

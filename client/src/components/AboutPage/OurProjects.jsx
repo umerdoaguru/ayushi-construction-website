@@ -45,14 +45,12 @@ function OurProjects() {
                 <h2>Welcome To Our Ayushi Dhara</h2>
                
               </div>
-              <p>Ayushi Dhara Located 15 km from Sadar, at Barela road on the national highway NH 12A is One Realty Aura. This 4-acre township with all modern amenities consists of 68 plots, a residential apartment. Its unique location, just on the brink of the highway, view of Maa Sharda Barela Temple easy accessibility and affordable pricing makes it a future township and a place to invest in. Economic but impressive.
+              <p>A ready-to-move 3 BHK villa with a spacious area ranging from 800 to 1000 sq. ft., designed to provide a comfortable and modern living experience. This beautifully constructed villa offers ample space for families, ensuring both privacy and convenience. The interiors are thoughtfully designed, with well-ventilated rooms, elegant flooring, and premium fittings to enhance your lifestyle. The property also features a dedicated parking facility, ensuring the safety and convenience of vehicle owners. Located in a well-connected and serene neighborhood, this villa is perfect for those looking for a peaceful yet accessible living environment. Whether for investment or personal use, this property is an excellent choice for homebuyers seeking quality, comfort, and affordability.
   
 </p>
              
 
-              <p className ="fw-bold">Total 3 Acres</p>
-              <p className ="fw-bold"><span></span>Project Duration 2011 - 2014
-</p>
+            
             </div>
           </div>
         </div>
@@ -62,18 +60,14 @@ function OurProjects() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-up">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Nirvana City</h2>
+                <h2>Welcome To Ayushi Home</h2>
                
               </div>
-              <p>Nirvana city is our second project December 2014 consists 6acers with occupancy 136 units planing with Singlex and plots  a spacious living area for independent and free-living, with all the necessary amenities fulfills your needs. Nirvana city assures you of satisfying your dream home in the fashionable way possible.
+              <p>A ready-to-move duplex offering a well-designed living space of 620 sq. ft., perfect for those seeking comfort and functionality. Situated in the heart of Jabalpur, this property is ideal for families or individuals looking for a modern home in a well-connected location. The thoughtfully planned layout ensures maximum space utilization, with well-ventilated rooms, stylish interiors, and quality finishes that enhance the overall appeal. Additionally, the property comes with a dedicated parking facility, providing convenience and security for vehicle owners. With its prime location, this duplex offers easy access to essential amenities, making it a great choice for homebuyers looking for a blend of comfort, convenience, and affordability.
 </p>
              
 
-              <p className ="fw-bold"> Total  5.5 Acres
-</p>
-              <p className ="fw-bold"><span></span>Project Duration 2015 - 2017
-
-</p>
+              
             </div>
           </div>
           <div className="col-lg-6">
@@ -87,7 +81,7 @@ function OurProjects() {
         <div className="row align-items-center mt-5">
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-up">
-              <img src= {ayushi_home} alt="img" />
+              <img src= {ayushi_villa} alt="img" />
          
             </div>
           </div>
@@ -95,17 +89,14 @@ function OurProjects() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-down">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Nirvana Exoticaa</h2>
+                <h2>Welcome To Ayushi Villa</h2>
                
               </div>
-              <p>Nirvana exotica is our 4th project found in December 2015,consists in4 acers 135 units with Singlex and plots one of the most recent projects to be developed by One Realty Developers. It’s a project consist of Designer Luxury Residential Villa Plots with all standard amenities.
+              <p>A luxurious 4 BHK villa, ready to move in, offering a spacious area ranging from 1000 to 1370 sq. ft., designed to provide an elegant and comfortable lifestyle. This beautifully crafted villa boasts modern architecture, premium-quality interiors, and ample natural light, ensuring a perfect blend of style and functionality. Each room is thoughtfully planned to maximize space and comfort, making it an ideal home for families. Additionally, the property comes with a dedicated parking facility, providing convenience and security for residents. Nestled in a prime location, this villa offers easy access to essential amenities, making it a perfect choice for those seeking a sophisticated and peaceful living environment.
 </p>
              
 
-              <p className ="fw-bold">Total 4.5 Acres 
-</p>
-              <p className ="fw-bold"><span></span>Project Duration 2017 - 2021
-</p>
+             
             </div>
           </div>
         </div>
@@ -119,16 +110,71 @@ function OurProjects() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-up">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Nirman Nagar</h2>
+                <h2>Ayushi Hari Vihar</h2>
                
               </div>
-              <p>Nirman Nagar Our 4th project with 9 acres of occupancy with 183 units is a stylish home to luxurious and opulent living in duplex, singlex and plots, the interior of the residence is superbly presented providing all the luxury to satisfy ensures to do, the abode is well designed as per the client's requirements and their imagination makes the dream world come true.
+              <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these well-crafted flats offer a perfect blend of comfort, style, and functionality. Each unit features thoughtfully planned interiors, ample natural light, and high-quality fittings to ensure a luxurious living experience. Whether you're a small family or need extra space, these flats cater to diverse lifestyle needs. Additionally, the property includes a dedicated parking facility, providing convenience and security. Located in a prime area with easy access to essential amenities, these homes are an excellent choice for those seeking a comfortable and well-connected living environment.
 </p>
              
 
               <p className ="fw-bold">Total 9 Acres</p>
               <p className ="fw-bold"><span></span>Project Duration 2017 - 2021
 </p>
+            </div>
+          </div>
+
+          <div className="col-lg-6">
+            <div className="s-about-img p-relative" data-aos= "fade-down" >
+              <img src= {ayushi_hari_vihar} alt="img" />
+         
+            </div>
+          </div>
+
+
+        </div>
+
+        
+    <div className="row align-items-center mt-5">
+          <div className="col-lg-6">
+            <div className="s-about-img p-relative" data-aos= "fade-up">
+              <img src= {ayushi_vridavan} alt="img" />
+         
+            </div>
+          </div>
+          <div className="col-lg-6 mt-3">
+          <div className="about-content s-about-content pl-30" data-aos= "fade-down">
+              <div className="about-title second-atitle">
+                
+                <h2>Welcome To Ayushi Vrindavan</h2>
+               
+              </div>
+              <p>Choose between elegantly designed 2 BHK or 3 BHK flats, fully ready to move in, with spacious sizes ranging from 1473 to 1759 sq. ft. These modern homes are crafted to offer a perfect balance of comfort and functionality, featuring well-ventilated rooms, stylish interiors, and high-quality fittings. Whether you need a cozy space or a larger home for your growing family, these flats cater to diverse lifestyle needs. Additionally, the property includes a dedicated parking facility, ensuring convenience and security for residents. Located in a well-connected area with easy access to essential amenities, these homes provide a perfect blend of luxury and practicality for a hassle-free living experience.
+</p>
+             
+
+           
+
+            </div>
+          </div>
+    
+        </div>
+        <div className="row align-items-center mt-5">
+      
+
+
+          <div className="col-lg-6 mt-3">
+            <div className="about-content s-about-content pl-30" data-aos= "fade-up">
+              <div className="about-title second-atitle">
+                
+                <h2>Ayushi Palm Green</h2>
+               
+              </div>
+              <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these flats offer a perfect combination of style, comfort, and functionality. Each unit features well-ventilated rooms, contemporary interiors, and premium-quality fittings to ensure a superior living experience. Whether you are looking for a cozy space or a larger home for your family, these flats cater to diverse needs. Additionally, a dedicated parking facility is provided for added convenience and security. Situated in a prime location with easy access to essential amenities, these homes offer a seamless and luxurious lifestyle.
+</p>
+             
+
+
+             
             </div>
           </div>
 
@@ -142,11 +188,11 @@ function OurProjects() {
 
         </div>
 
-        <div className="container">
+        
     <div className="row align-items-center mt-5">
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-up">
-              <img src= {ayushi_vridavan} alt="img" />
+              <img src= {ayushi_rudraksha_park} alt="img" />
          
             </div>
           </div>
@@ -154,24 +200,24 @@ function OurProjects() {
           <div className="about-content s-about-content pl-30" data-aos= "fade-down">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Nirvana Homes</h2>
+                <h2>Welcome To Rudraksh Park</h2>
                
               </div>
-              <p>Nirvana Homes a Luxury Project at Budget Pricing by One Realty Developers. This 11 Acre Residential Township Consists of 365 units. The whole township is Vastu – Compliance in a Clean & Green Environment of Barela 14 KM. from Sadar. The Roads are Concrete with ample space for Recreation and Sports & Lush- Green Gardens comprising, One Fruit Garden, a Garden with a Jogging Track & Children’s Play Area another with a Shiva Temple for those who have utmost faith in the Supreme and to bring vitality and spiritual energy in the township.
+              <p>Spacious 2 BHK flats available, fully ready to move in, offering a generous 1119 sq. ft. of thoughtfully designed living space. These well-planned homes provide a perfect blend of comfort and functionality, featuring modern interiors, ample natural light, and high-quality fittings. Ideal for families and professionals alike, each flat ensures a comfortable and convenient lifestyle. Additionally, the property includes a dedicated parking facility, ensuring ease and security for residents. Located in a prime area with excellent connectivity to essential amenities, these flats offer the perfect combination of luxury and practicality.
 </p>
              
 
-              <p className ="fw-bold">Total 11 Acres</p>
-              <p className ="fw-bold"><span></span>Ongoing Project</p>
+             
 
             </div>
           </div>
+    
         </div>
     </div>
 
 
 
-    </div>
+   
 
   
   </Wrapper>
