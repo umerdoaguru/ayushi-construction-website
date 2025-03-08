@@ -10,7 +10,7 @@ import {
   AiFillLinkedin,
  
 } from "react-icons/ai";
-import { FaPinterestSquare, FaTwitterSquare, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPinterestSquare, FaTwitterSquare, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
@@ -24,7 +24,12 @@ function Footer_comp() {
     const handleFooterLink = () => {
         window.scrollTo(0, 0);
       };
-    
+      const openGoogleMaps = () => {
+        window.open(
+          "https://www.google.com/maps?q=Ayushi+Construction,+Infront+of+Garha+Thana,+Tripuri+Chowk,+Jabalpur,+Madhya+Pradesh+482002",
+          "_blank"
+        );
+      };
   return (
     <Container>
     <footer
@@ -43,9 +48,16 @@ function Footer_comp() {
                 <div>
                 <IoLocationOutline />
                 </div>
-                <div>
+                <div  className='address'>
                   <span className="m-1 text-white">
+                  <Link
+                  to="https://www.google.com/maps?q=Ayushi+Construction,+Infront+of+Garha+Thana,+Tripuri+Chowk,+Jabalpur,+Madhya+Pradesh+482002"
+                 
+                  className=""
+                  target='__blank'
+                >
                   Ayushi Construction, Infront of Garha Thana, <br /> Tripuri Chowk, Jabalpur,<br /> Madhya Pradesh 482002
+                  </Link>
                   </span>
                 </div>
               </div>
@@ -99,7 +111,7 @@ function Footer_comp() {
               className=""
              
             >
-       Home
+       Home <span class="double-arrow">»</span>
             </Link>
           </div>
 
@@ -111,7 +123,7 @@ function Footer_comp() {
               className=""
              
             >
-            About Us
+            About Us <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -121,7 +133,7 @@ function Footer_comp() {
              
               className=""
             >
-             Conatct Us 
+             Conatct Us <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -131,7 +143,7 @@ function Footer_comp() {
              
               className=""
             >
-             Blogs
+             Blogs <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -141,8 +153,8 @@ function Footer_comp() {
               onClick={handleFooterLink}
              
               className=""
-            >
-            Gallery
+            > 
+            Gallery <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -153,7 +165,7 @@ function Footer_comp() {
              
               className=""
             >
-          Privacy Policy
+          Privacy Policy <span class="double-arrow">»</span>
             </Link>
           </div>
         
@@ -168,7 +180,7 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Dhara
+             Ayushi Dhara <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -179,7 +191,7 @@ function Footer_comp() {
              
               className=""
             >
-              Ayushi Villa 
+              Ayushi Villa <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -190,7 +202,7 @@ function Footer_comp() {
              
               className=""
             >
-           Ayushi Hari Vihar
+           Ayushi Hari Vihar <span class="double-arrow">»</span>
             </Link>
           </div>
 
@@ -202,7 +214,7 @@ function Footer_comp() {
              
               className=""
             >
-              Ayushi Home
+              Ayushi Home <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -213,7 +225,7 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Vrindavan
+             Ayushi Vrindavan <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -224,7 +236,7 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Palm Green
+             Ayushi Palm Green <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -235,7 +247,8 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Rudraksh Park
+             Ayushi Rudraksh Park <span class="double-arrow">»</span>
+
             </Link>
           </div>
          
@@ -261,7 +274,7 @@ function Footer_comp() {
                 rel="norefferel"
                 className=" m-2"
               >
-                <AiFillFacebook
+                <FaFacebook
                   size="30px"
                   onMouseOver={({ target }) =>
                     (target.style.color = "#3b5998")
@@ -279,7 +292,7 @@ function Footer_comp() {
                 rel="norefferel"
                 className=" m-2"
               >
-                <AiFillInstagram
+                <FaInstagram
                   size="30px"
                   onMouseOver={({ target }) =>
                     (target.style.color = "#da1e1e")
@@ -327,9 +340,14 @@ const Container = styled.div`
     list-style: none;
   }
   a {
-    text-decoration: none;
-    color: white;
-  }
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #373435;
+}
+
   .span-li {
     padding: 5px;
   }
@@ -369,6 +387,22 @@ const Container = styled.div`
   background-color: white;
   padding: 0.5rem;
 }
+
+
+.double-arrow {
+  /* display: inline-block; */
+  /* position: relative; */
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: white;
+
+  
+}
+.double-arrow:hover {
+  color: #373435;
+}
+
+
 
 
 

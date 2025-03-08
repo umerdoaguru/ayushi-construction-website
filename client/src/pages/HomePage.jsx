@@ -1,6 +1,6 @@
 import React from "react";
 // import img from "../images/slider_img01.webp";
-import img from "../images/ayushi-banner.avif";
+import img from "../images/banner123.jpg";
 
 
 import img1 from "../images/Untitled design (10).png";

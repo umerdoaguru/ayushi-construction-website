@@ -35,7 +35,7 @@ const AboutSection = () => {
 </div> */}
 
 </div>
-<div className="content mb-3" data-aos="fade-down">
+<div className="content mb-3" data-aos="">
 
   <p>Welcome to Ayushi Construction, one of the reputed leading home builders in Jabalpur established in 2006, by Satyendra . We specialize in creating comfortable and affordable residential homes that cater to your needs. Our latest completed project, Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, offers 2/3 BHK Flats/Apartments with state-of-the-art architecture and a wide range of amenities to provide a comfortable living experience. Additionally, we have ongoing projects like Ayushi Homes, Ayushi Dhara, and Ayushi Villa.</p>
 </div>
@@ -103,6 +103,7 @@ h1{
   color: #f26a20;
   
   font-family: "Playfair Display";
+   /* font-family: Figtree, sans-serif; */
 }
 h2{
 

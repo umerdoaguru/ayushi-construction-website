@@ -9,14 +9,20 @@ import { IoMdTime } from "react-icons/io";
 
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 function Header() {
+  
+  const handleFooterLink = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <Wrapper>
       <div className="">
         <div className="container-fluid top-header" style={{ backgroundColor: "#f26a20" }}>
           <div className="container">
-            <div className="row text-white p-2">
+            <div className="row text-white">
               <div className="col-lg-4 mt-3">
                 <div className="mx-3">
                   <p>Welcome to Ayushi Construction</p>
@@ -30,20 +36,20 @@ function Header() {
                       <span>  <Link
                   to="tel:+91- 9981268611"
                  
-                  className="text-white"
+                  className=" hoverlink"
                 >
                 
                  
                 9981268611  </Link></span>,<span><Link
                   to="tel:+91-9575809888"
                  
-                  className="text-white"
+                  className=" hoverlink"
                 >9575809888</Link></span>
                     </li>
                     <li>
                       <CiMail />
-                      <span className="m-2">
-                        <Link to="mailto:info@ayushiconstruction.com" className="text-white">
+                      <span className="">
+                        <Link to="mailto:info@ayushiconstruction.com" className=" hoverlink">
                        
 info@ayushiconstruction.com
                         </Link>
@@ -53,9 +59,64 @@ info@ayushiconstruction.com
                       <IoMdTime />
                       <span>Mon-Sat: 10am - 7pm</span>
                     </li>
+                    <li>
+                    <div className="d-flex justify-content-center gap-3" id="logo">
+                  <Link
+                                to="https://www.facebook.com/Onerealty/"
+                                onClick={handleFooterLink}
+                                target="_blank"
+                                rel="norefferel"
+                                className="text-white "
+                              >
+                               
+                                <FaFacebook  size="25px"
+                                  onMouseOver={({ target }) =>
+                                    (target.style.color = "#3b5998")
+                                  }
+                                  onMouseOut={({ target }) => (target.style.color = "white")}/>
+                              </Link>
+              
+                              <Link
+                                to="https://www.instagram.com/onerealtydevelopers/"
+                                onClick={handleFooterLink}
+                                target="_blank"
+                                rel="norefferel"
+                                className="text-white "
+                              >
+                                <FaInstagram
+                                  size="25px"
+                                  onMouseOver={({ target }) =>
+                                    (target.style.color = "#da1e1e")
+                                  }
+                                  onMouseOut={({ target }) => (target.style.color = "white")}
+
+                                />
+                              </Link>
+                               <Link
+                                             to=  "https://www.youtube.com/@AyushiConstruction-ig8bv/featured"
+                                              onClick={handleFooterLink}
+                                              target="_blank"
+                                              rel="norefferel"
+                                              className=" text-white "
+                                            >
+                                              <FaYoutube
+
+                                                size="30px"
+                                                
+                                                onMouseOver={({ target }) =>
+                                                  (target.style.color = "#FF0000")
+                                                }
+                                                onMouseOut={({ target }) =>
+                                                  (target.style.color = "white")
+                                                }
+                                              />
+                                            </Link>
+                                            </div>
+                    </li>
                   </ul>
                 </div>
               </div>
+        
             </div>
           </div>
         </div>
@@ -131,5 +192,13 @@ const Wrapper = styled.div`
       display: none;
     }
   }
-  
+  a:hover {
+  color: #373435;
+}
+.hoverlink{
+  color: white;
+}
+  .hoverlink:hover{
+    color:  #373435;
+  }
 `;

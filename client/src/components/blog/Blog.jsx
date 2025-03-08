@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import Interior2 from "../../images/Interior2.png";
-import blog1 from "../../images/blog1_image.jpg";
-import blog2 from "../../images/blog2_image.jpg";
-import blog3 from "../../images/blog3_image.jpg";
-import blog4 from "../../images/blog4_image.webp";
-import blog5 from "../../images/blog5_image.jpg";
+import blog1 from "../../images/ayushi-blogs3.jpg";
+import blog2 from "../../images/ayushi-blogs.jpg";
+import blog3 from "../../images/ayushi-blogs (2).jpg";
+import blog4 from "../../images/ayushi-blog4.jpg";
+import blog5 from "../../images/ayushi-blog5.jpg";
 import { CiUser } from "react-icons/ci";
 import { FaRegComments } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
@@ -54,6 +54,77 @@ function Blog() {
 </div>
         <div className="row mt-5">
           <div className="col-md-8 mb-5">
+          <div
+              className="border border-2 mt-3"
+              style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
+                data-aos="fade-up"
+            >
+              <span className="">
+                <img src={blog1} alt="" style={{ width: "100%" }} />
+              </span>
+              <div className=" mx-3 lg:mx-5 mb-5">
+                {/* <div className="d-flex text-secondary mt-3  ">
+                  <span className="d-flex ">
+                    <CiUser className="mt-1" />
+                    <p className="mx-1">Subham soni</p>
+                  </span>
+                  <span className="d-flex mx-4">
+                    <FaRegComments className="mt-1 " />
+                    <p className="mx-1">35 comments</p>
+                  </span>
+                </div> */}
+
+                <h2 className="">
+                 10 Tips for First-Time Home Buyers
+
+                </h2>
+                <br />
+                <p>
+                  Buying your first home is an exciting milestone, but it can also be a daunting process filled with complex decisions and potential pitfalls. To help you navigate this journey, we've compiled ten essential tips for first-time home buyers. Whether you're looking to settle down in Jabalpur or anywhere else, these tips will guide you toward making a sound and satisfying investment.
+
+                </p>
+
+                <button type="button" className="btn fw-bold rounded-pill" onClick={() => { handleLink1(); handleFooterLink(); }}>
+                  Read more...
+                </button>
+              </div>
+            </div>
+
+            <div
+              className="border border-2 mt-3 "
+              style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
+                data-aos="fade-up"
+            >
+              <span className="">
+                <img src={blog3} alt="" style={{ width: "100%" }} />
+              </span>
+              <div className=" mx-3 lg:mx-5 mb-5">
+                {/* <div className="d-flex text-secondary mt-3  ">
+                  <span className="d-flex ">
+                    <CiUser className="mt-1" />
+                    <p className="mx-1">Subham soni</p>
+                  </span>
+                  <span className="d-flex mx-4">
+                    <FaRegComments className="mt-1 " />
+                    <p className="mx-1">35 comments</p>
+                  </span>
+                </div> */}
+
+                <h2 className="">
+                Understanding Real Estate Market Trends in 2025
+
+                </h2>
+                <br />
+                <p>
+                As we move through 2025, the real estate market continues to evolve, influenced by various economic, technological, and social factors. For buyers, sellers, and investors alike, understanding these trends is crucial for making informed decisions. This blog delves into the key real estate market trends of 2025, providing insights into what to expect and how to navigate the changing landscape.
+
+                </p>
+
+                <button type="button" className="btn fw-bold rounded-pill" onClick={() => { handleLink3(); handleFooterLink(); }}>
+                  Read more...
+                </button>
+              </div>
+            </div>
           <div
               className="border border-2 "
               style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
@@ -133,41 +204,7 @@ function Blog() {
 
 
 
-            <div
-              className="border border-2 mt-3 "
-              style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
-                data-aos="fade-up"
-            >
-              <span className="">
-                <img src={blog3} alt="" style={{ width: "100%" }} />
-              </span>
-              <div className=" mx-3 lg:mx-5 mb-5">
-                {/* <div className="d-flex text-secondary mt-3  ">
-                  <span className="d-flex ">
-                    <CiUser className="mt-1" />
-                    <p className="mx-1">Subham soni</p>
-                  </span>
-                  <span className="d-flex mx-4">
-                    <FaRegComments className="mt-1 " />
-                    <p className="mx-1">35 comments</p>
-                  </span>
-                </div> */}
-
-                <h2 className="">
-                Understanding Real Estate Market Trends in 2024
-
-                </h2>
-                <br />
-                <p>
-                As we move through 2024, the real estate market continues to evolve, influenced by various economic, technological, and social factors. For buyers, sellers, and investors alike, understanding these trends is crucial for making informed decisions. This blog delves into the key real estate market trends of 2024, providing insights into what to expect and how to navigate the changing landscape.
-
-                </p>
-
-                <button type="button" className="btn fw-bold rounded-pill" onClick={() => { handleLink3(); handleFooterLink(); }}>
-                  Read more...
-                </button>
-              </div>
-            </div>
+          
 
 
          
@@ -217,41 +254,7 @@ function Blog() {
               </div>
             </div>
 
-            <div
-              className="border border-2 mt-3"
-              style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
-                data-aos="fade-up"
-            >
-              <span className="">
-                <img src={blog1} alt="" style={{ width: "100%" }} />
-              </span>
-              <div className=" mx-3 lg:mx-5 mb-5">
-                {/* <div className="d-flex text-secondary mt-3  ">
-                  <span className="d-flex ">
-                    <CiUser className="mt-1" />
-                    <p className="mx-1">Subham soni</p>
-                  </span>
-                  <span className="d-flex mx-4">
-                    <FaRegComments className="mt-1 " />
-                    <p className="mx-1">35 comments</p>
-                  </span>
-                </div> */}
-
-                <h2 className="">
-                 10 Tips for First-Time Home Buyers
-
-                </h2>
-                <br />
-                <p>
-                  Buying your first home is an exciting milestone, but it can also be a daunting process filled with complex decisions and potential pitfalls. To help you navigate this journey, we've compiled ten essential tips for first-time home buyers. Whether you're looking to settle down in Jabalpur or anywhere else, these tips will guide you toward making a sound and satisfying investment.
-
-                </p>
-
-                <button type="button" className="btn fw-bold rounded-pill" onClick={() => { handleLink1(); handleFooterLink(); }}>
-                  Read more...
-                </button>
-              </div>
-            </div>
+      
 
           </div>
 
@@ -261,11 +264,11 @@ function Blog() {
               <span className="d-flex justify-content-center mb-2">
                 <form className="search-holder">
                   <ul>
+                    <li>    <Link to='/blog1'><h6>10 Tips for First-Time Home Buyers</h6></Link></li>
+                    <li>  <Link to='/blog3'><h6>Understanding Real Estate Market Trends in 2025</h6></Link></li>
                     <li>  <Link to='/blog2'><h6>Home Renovation Ideas to Increase Property Value</h6></Link></li>
                     <li>  <Link to='/blog4'><h6>Essential Checklist for Moving into Your New Home      </h6></Link></li>
-                    <li>  <Link to='/blog3'><h6>Understanding Real Estate Market Trends in 2024</h6></Link></li>
                     <li> <Link to='/blog5'><h6>Green Living: The Benefits of Eco-Friendly Homes and Sustainable Real Estate</h6></Link></li>
-                    <li>    <Link to='/blog1'><h6>10 Tips for First-Time Home Buyers</h6></Link></li>
                   </ul>
     
     

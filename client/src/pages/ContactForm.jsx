@@ -1,6 +1,6 @@
 import React from "react";
 import Heros from "../components/Heros";
-import AboutUs from "../images/contact.webp";
+import AboutUs from "../images/ayushi-contact.jpg";
 import Header from "../components/Header";
 import Forms from "../components/contact/Forms";
 import Footer from "../components/Footer";

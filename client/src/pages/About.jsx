@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUs from "../images/aboutnew1.webp";
+import AboutUs from "../images/ayushi-about.jpg";
 import About1 from "../images/About1.png";
 
 import AboutSection from "../components/AboutPage/AboutSection";

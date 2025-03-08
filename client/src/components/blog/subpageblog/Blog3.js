@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 
-import blog3 from "../../../images/blog3_image.jpg";
+import blog3 from "../../../images/ayushi-blogs (2).jpg";
 
 function Blog3() {
   const handleFooterLink = () => {
@@ -20,7 +20,7 @@ function Blog3() {
         <div className="container">
           <div className="container">
             <h2 className="mt-5 text-center">
-              Understanding Real Estate Market Trends in 2024
+              Understanding Real Estate Market Trends in 2025
             </h2>
             <div
               className="underline mx-auto"
@@ -44,12 +44,12 @@ function Blog3() {
               <div className="col-lg-12  mt-3">
                 <div data-aos="fade-left">
                   <p>
-                    As we move through 2024, the real estate market continues to
+                    As we move through 2025, the real estate market continues to
                     evolve, influenced by various economic, technological, and
                     social factors. For buyers, sellers, and investors alike,
                     understanding these trends is crucial for making informed
                     decisions. This blog delves into the key real estate market
-                    trends of 2024, providing insights into what to expect and
+                    trends of 2025, providing insights into what to expect and
                     how to navigate the changing landscape.
                   </p>
                 </div>
@@ -61,7 +61,7 @@ function Blog3() {
                     <div data-aos="fade-left">
                       <h4>1. Rising Interest Rates</h4>
                       <p>
-                        One of the most significant trends in 2024 is the
+                        One of the most significant trends in 2025 is the
                         increase in interest rates. Central banks worldwide are
                         adjusting rates to combat inflation and stabilize
                         economies. For prospective homebuyers, this means higher
@@ -190,7 +190,7 @@ function Blog3() {
                       <h4>8. Regulatory and Policy Changes</h4>
                       <p>
                         Government policies and regulations continue to impact
-                        the real estate market. In 2024, various measures aimed
+                        the real estate market. In 2025, various measures aimed
                         at promoting affordable housing, controlling rent, and
                         encouraging sustainable development are being
                         implemented worldwide. Staying informed about these
@@ -274,7 +274,7 @@ function Blog3() {
                       </p>
                       <h6>
                         4. What factors should I consider when investing in
-                        commercial real estate in 2024?
+                        commercial real estate in 2025?
                       </h6>
                       <p>
                         When investing in commercial real estate, consider
@@ -332,7 +332,7 @@ const Wrapper = styled.div`
     background-color: #fe7604;
   }
   button:hover {
-    background-color: #fe7604;
+    background-color: #373435;
   }
   .img3 {
     margin-top: 1rem;
@@ -349,7 +349,7 @@ const Wrapper = styled.div`
 
   h2 {
     font-size: 34px;
-    color: #01614e;
+    color: #fe7604;
     font-family: "Playfair Display";
 
     @media screen and (max-width: 768px) {

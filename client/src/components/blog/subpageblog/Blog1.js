@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 
-import blog1 from "../../../images/blog1_image.jpg";
+import blog1 from "../../../images/ayushi-blogs3.jpg";
 
 function Blog1() {
   const handleFooterLink = () => {
@@ -347,7 +347,7 @@ const Wrapper = styled.div`
     background-color: #fe7604;
   }
   button:hover {
-    background-color: #fe7604;
+    background-color:#373435;
   }
   .img3 {
     margin-top: 1rem;
@@ -364,7 +364,7 @@ const Wrapper = styled.div`
 
   h2 {
     font-size: 34px;
-    color: #01614e;
+    color: #fe7604;
     font-family: "Playfair Display";
 
     @media screen and (max-width: 768px) {

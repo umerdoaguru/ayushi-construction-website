@@ -289,13 +289,14 @@ function Forms() {
           <div className="row d-flex align-items-center">
             <div className=" Address-detail col-md-4 fs-bold pt-5" data-aos="fade-right" data-aos-offset="60" data-aos-easing="ease-in-sine">
               <div>
+                
                 <div className="icons d-flex align-items-center justify-content-center">
                   <CiMap className="fs-1" />
                 </div>
                 <h3 className="pt-2">Office Address</h3>
                 <h6>
                 Ayushi Construction, Infront of Garha Thana,
-                Tripuri Chowk, Jabalpur,
+                Tripuri Chowk, 
                 </h6>
                 <h6>Jabalpur, Madhya Pradesh 482002</h6>
               </div>
@@ -469,5 +470,6 @@ const Container = styled.div`
     font-size: 0.8rem;
     margin-top: 0.5rem;
   }
+
 `;
 
