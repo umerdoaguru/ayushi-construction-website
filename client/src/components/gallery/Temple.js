@@ -1,26 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import photo5 from '../../images/photo5.jpg';
-
-import photo16 from '../../images/photo16.jpg';
-
-import photo27 from '../../images/photo27.jpg';
-
-import photo62 from '../../images/photo62.jpeg';
-import photo63 from '../../images/photo63.jpeg';
-import photo64 from '../../images/photo64.jpeg';
-
 
 
 const images = [
- photo5,  photo16,  
-   photo27,
-     
-   
-       photo62,
-       photo63,
-       photo64,
+""
        
       
       

@@ -1,28 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from '../../images/ayushi-home.jpg'
-import photo1 from '../../images/Nirman nagar/Picture1.jpg'
-import photo2 from '../../images/Nirman nagar/Picture2.jpg'
-import photo3 from '../../images/Nirman nagar/Picture3.jpg'
-import photo4 from '../../images/Nirman nagar/Picture4.jpg'
-import photo5 from '../../images/Nirman nagar/Picture5.jpg'
-import photo6 from '../../images/Nirman nagar/Picture6.jpg'
-import photo7 from '../../images/Nirman nagar/Picture7.jpg'
-import photo8 from '../../images/Nirman nagar/Picture8.jpg'
-import FormNirmanNagar from '../contact/FormNirmanNagar'
+
 import { FaWhatsapp } from 'react-icons/fa'
 
 function Ayushi_Home() {
-  const images = [
-    { src: photo1, title: 'Entry Gate' },
-    { src: photo2, title: 'Garden' },
-    { src: photo3, title: 'Main Road' },
-    { src: photo4, title: 'Construction' },
-    { src: photo5, title: 'Construction' },
-    { src: photo6, title: 'House View' },
-    { src: photo7, title: 'Kid Park' },
-    { src: photo8, title: 'Road' },
-  ];
+  
   
   return (
    <Wrapper>
@@ -38,8 +21,8 @@ function Ayushi_Home() {
                 <h2>Welcome To Ayushi Home</h2>
                
               </div>
-              <p>Ayushi Home  Our 4th project with 9 acres of occupancy with 183 units is a stylish home to luxurious and opulent living in duplex, singlex and plots, the interior of the residence is superbly presented providing all the luxury to satisfy ensures to do, the abode is well designed as per the client's requirements and their imagination makes the dream world come true.
-</p>
+              <p>A ready-to-move duplex offering a well-designed living space of 620 sq. ft., perfect for those seeking comfort and functionality. Situated in the heart of Jabalpur, this property is ideal for families or individuals looking for a modern home in a well-connected location. The thoughtfully planned layout ensures maximum space utilization, with well-ventilated rooms, stylish interiors, and quality finishes that enhance the overall appeal. Additionally, the property comes with a dedicated parking facility, providing convenience and security for vehicle owners. With its prime location, this duplex offers easy access to essential amenities, making it a great choice for homebuyers looking for a blend of comfort, convenience, and affordability.
+              </p>
              
 
               <p className ="fw-bold">Total 9 Acres</p>
@@ -165,36 +148,7 @@ Soalr Lighting</h6>
 
     
         </div>
-        <h2 className='text-center'>Actual Images</h2>  
-      <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-        <div className="row g-5 mb-5" >
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
-
+      
 
 
         

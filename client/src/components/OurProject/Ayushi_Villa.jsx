@@ -1,21 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from '../../images/ayushi-villa.png'
-import photo1 from '../../images/Nirvana city/Picture1.jpg'
-import photo2 from '../../images/Nirvana city/Picture2.jpg'
-import photo3 from '../../images/Nirvana city/Picture3.jpg'
-import photo4 from '../../images/Nirvana city/Picture4.jpg'
-import FormNirvanaCity from '../contact/FormNirvanaCity'
+
 import { FaWhatsapp } from 'react-icons/fa'
 
 
 
 function Ayushi_Villa() {
   const images = [
-    { src: photo1, title: 'Entry Gate' },
-    { src: photo2, title: 'Garden' },
-    { src: photo3, title: 'Main road' },
-    { src: photo4, title: 'Plots' },
+    { src: '', title: 'Entry Gate' },
+
   ];
   
   return (
@@ -30,15 +24,11 @@ function Ayushi_Villa() {
                 <h2>Welcome To Ayushi Villa</h2>
                
               </div>
-              <p>Ayushi Villa is our second project December 2014 consists 6acers with occupancy 136 units planing with Singlex and plots  a spacious living area for independent and free-living, with all the necessary amenities fulfills your needs. Nirvana city assures you of satisfying your dream home in the fashionable way possible.
-</p>
+              <p>A luxurious 4 BHK villa, ready to move in, offering a spacious area ranging from 1000 to 1370 sq. ft., designed to provide an elegant and comfortable lifestyle. This beautifully crafted villa boasts modern architecture, premium-quality interiors, and ample natural light, ensuring a perfect blend of style and functionality. Each room is thoughtfully planned to maximize space and comfort, making it an ideal home for families. Additionally, the property comes with a dedicated parking facility, providing convenience and security for residents. Nestled in a prime location, this villa offers easy access to essential amenities, making it a perfect choice for those seeking a sophisticated and peaceful living environment.
+              </p>
              
 
-              <p className ="fw-bold"> Total  5.5 Acres
-</p>
-              <p className ="fw-bold"><span></span>Project Duration 2015 - 2017
-
-</p>
+            
             </div>
           </div>
           <div className="col-lg-6">
@@ -159,35 +149,7 @@ Soalr Lighting</h6>
 
     
         </div>
-        <h2 className='text-center'>Actual Images</h2>  
-      <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-        <div className="row g-5 mb-5" >
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
+        
     </div>
     </Wrapper>
   )

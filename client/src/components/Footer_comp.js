@@ -10,12 +10,13 @@ import {
   AiFillLinkedin,
  
 } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaPinterestSquare, FaTwitterSquare, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPinterestSquare, FaTwitter, FaTwitterSquare, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
-import { CiMail } from "react-icons/ci";
+import { CiMail, CiTwitter } from "react-icons/ci";
 
 import img from "../images/ayushi_log.png";
+import { FaSquareTwitter } from 'react-icons/fa6';
 
 
 
@@ -313,6 +314,23 @@ function Footer_comp() {
                   size="30px"
                   onMouseOver={({ target }) =>
                     (target.style.color = "#FF0000")
+                  }
+                  onMouseOut={({ target }) =>
+                    (target.style.color = "white")
+                  }
+                />
+              </Link>
+              <Link
+               to=  "https://twitter.com/AyushiHomes"
+                onClick={handleFooterLink}
+                target="_blank"
+                rel="norefferel"
+                className=" m-2"
+              >
+                <FaTwitterSquare
+                  size="30px"
+                  onMouseOver={({ target }) =>
+                    (target.style.color = "#1da1f2")
                   }
                   onMouseOut={({ target }) =>
                     (target.style.color = "white")

@@ -1,42 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import img from "../../images/ayushi-vrindavan.jpg";
-import photo1 from "../../images/Nirvana home/Picture1.jpg";
-import photo2 from "../../images/Nirvana home/Picture2.jpg";
-import photo3 from "../../images/Nirvana home/Picture3.jpg";
-import photo4 from "../../images/Nirvana home/Picture4.jpg";
-import photo5 from "../../images/Nirvana home/Picture5.jpg";
-import photo6 from "../../images/Nirvana home/Picture6.jpg";
-import photo7 from "../../images/Nirvana home/Picture7.jpg";
 
-import photo8 from "../../images/photo1.jpg";
-import photo9 from "../../images/photo2.jpg";
-
-import photo10 from "../../images/photo4.jpg";
-import photo11 from "../../images/photo5.jpg";
-import photo12 from "../../images/photo6.jpg";
-import photo13 from "../../images/photo7.jpg";
-import image1 from "../../images/Nirvana home/image1.jpeg";
-import image2 from "../../images/Nirvana home/image2.jpeg";
-import image3 from "../../images/Nirvana home/image3.jpeg";
-import image4 from "../../images/Nirvana home/image4.jpeg";
-import image5 from "../../images/Nirvana home/image5.jpeg";
-import image6 from "../../images/Nirvana home/image6.jpeg";
-import image7 from "../../images/Nirvana home/image7.jpeg";
-import image8 from "../../images/Nirvana home/image8.jpeg";
-import image9 from "../../images/Nirvana home/image9.jpeg";
-import image10 from "../../images/Nirvana home/image10.jpeg";
-import image11 from "../../images/Nirvana home/image11.jpeg";
-import image12 from "../../images/Nirvana home/image12.jpeg";
-import image13 from "../../images/Nirvana home/image13.jpeg";
-import image14 from "../../images/Nirvana home/image14.jpeg";
-import image15 from "../../images/Nirvana home/image15.jpeg";
-import image16 from "../../images/Nirvana home/image16.jpeg";
-import image17 from "../../images/Nirvana home/image17.jpeg";
-import image18 from "../../images/Nirvana home/image18.jpeg";
-import image19 from "../../images/Nirvana home/image19.jpeg";
-import image20 from "../../images/Nirvana home/image20.jpeg";
-import image21 from "../../images/Nirvana home/image21.jpeg";
 
 import OurVideo from "../HomePage/OurVideo";
 import Forms from "../contact/Forms";
@@ -44,41 +9,7 @@ import FormNirvanaHomes from "../contact/FormNirvanaHomes";
 import { FaWhatsapp } from "react-icons/fa";
 
 function Ayushi_Vrindavan() {
-  const images = [
- 
-    { src: photo2, title: 'Entry Gate' },
-    { src: photo3, title: 'Road' },
-    { src: photo4, title: 'Road' },
-  
-    { src: image3, title: 'Car Porch' },
-    { src: image4, title: 'Hall Cum Dining' },
-    { src: image5, title: 'Granite Marble Upstairs' },
-    { src: image6, title: 'Hall Cum Dining' },
-    { src: image7, title: 'Kitchen' },
-    { src: image9, title: 'BedRoom' },
-    { src: image10, title: 'Attached Toilet' },
-    { src: image11, title: 'BedRoom' },
-    { src: image8, title: 'Kitchen' },
-    { src: image12, title: 'Attached Toilet' },
 
-   
-    { src: image15, title: 'Open to Sky' },
-    { src: image16, title: 'Lounge Area' },
-    { src: image17, title: 'BedRoom' },
-    { src: image18, title: 'Balcony' },
-    { src: image19, title: 'Dry Balcony' },
-    { src: image20, title: 'Stairs' },
-    { src: image21, title: 'Dry Balcony' },
-    { src: photo5, title: 'Road' },
-    { src: photo6, title: 'Construction' },
-    { src: photo7, title: 'Road' },
-    { src: photo8, title: '3 BHK Luxury Duplex' },
-    { src: photo9, title: 'Layout Plan' },
-    { src: photo10, title: 'Amenities' },
-    { src: photo11, title: 'Shiva Temple' },
-    { src: photo12, title: 'Garden' },
-  ];
-  
   return (
     <Wrapper>
       <div className="container">
@@ -92,15 +23,8 @@ function Ayushi_Vrindavan() {
                 <h2>Welcome To Ayushi Vrindavan</h2>
               </div>
               <p>
-                Ayushi Vrindavan a Luxury Project at Budget Pricing by One Realty
-                Developers. This 11 Acre Residential Township Consists of 365
-                units. The whole township is Vastu – Compliance in a Clean &
-                Green Environment of Barela 14 KM. from Sadar. The Roads are
-                Concrete with ample space for Recreation and Sports & Lush-
-                Green Gardens comprising, One Fruit Garden, a Garden with a
-                Jogging Track & Children’s Play Area another with a Shiva Temple
-                for those who have utmost faith in the Supreme and to bring
-                vitality and spiritual energy in the township.
+              Choose between elegantly designed 2 BHK or 3 BHK flats, fully ready to move in, with spacious sizes ranging from 1473 to 1759 sq. ft. These modern homes are crafted to offer a perfect balance of comfort and functionality, featuring well-ventilated rooms, stylish interiors, and high-quality fittings. Whether you need a cozy space or a larger home for your growing family, these flats cater to diverse lifestyle needs. Additionally, the property includes a dedicated parking facility, ensuring convenience and security for residents. Located in a well-connected area with easy access to essential amenities, these homes provide a perfect blend of luxury and practicality for a hassle-free living experience.
+      
               </p>
 
               <p className="fw-bold">Total 11 Acres</p>
@@ -197,7 +121,7 @@ function Ayushi_Vrindavan() {
             <h6>Safety Grills</h6>
           </div>
 
-          <OurVideo />
+       
           <div className="container text-center">
             <div className="h4" style={{ color: "#f26a20" }}>
               Contact Us{" "}
@@ -223,35 +147,7 @@ function Ayushi_Vrindavan() {
 
           {/* <FormNirvanaHomes/> */}
         </div>
-        <h2 className="text-center">Actual Images</h2>
-        <div
-          className="underline mx-auto"
-          style={{
-            height: 3,
-            width: "4rem",
-            backgroundColor: "#34495E",
-            marginTop: 20,
-            marginBottom: 20,
-          }}
-        ></div>
-        <div className="row g-5 mb-5">
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
+        
       </div>
     </Wrapper>
   );

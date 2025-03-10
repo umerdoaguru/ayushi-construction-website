@@ -1,23 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-// import img from '../../../images/aura_city.avif'
-import img from '../../images/ayushi-dhara.jpg'
-import photo1 from '../../images/Aura City/Picture1.jpg'
-import photo2 from '../../images/Aura City/Picture2.jpg'
-import photo3 from '../../images/Aura City/Picture3.jpg'
-import photo4 from '../../images/Aura City/Picture4.jpg'
-import photo5 from '../../images/Aura City/Picture5.jpg'
-import FormAuraCity from '../contact/FormAuraCity'
+
+import ayushi_dhara from '../../images/ayushi-dhara.jpg'
+
 import { FaWhatsapp } from 'react-icons/fa'
 
 
 function Ayushi_Dhara() {
   const images = [
-    { src: photo1, title: 'House Side View' },
-    { src: photo2, title: 'Main Gate' },
-    { src: photo3, title: 'House Front View' },
-    { src: photo4, title: 'Temple' },
-    { src: photo5, title: 'Construction' },
+    { src: '', title: 'House Side View' },
+ 
   ];
   
   return (
@@ -31,19 +23,17 @@ function Ayushi_Dhara() {
                 <h2>Welcome To Our Ayushi Dhara</h2>
                
               </div>
-              <p>Ayushi Dhara Located 15 km from Sadar, at Barela road on the national highway NH 12A is One Realty Aura. This 4-acre township with all modern amenities consists of 68 plots, a residential apartment. Its unique location, just on the brink of the highway, view of Maa Sharda Barela Temple easy accessibility and affordable pricing makes it a future township and a place to invest in. Economic but impressive.
-  
+              <p>A ready-to-move 3 BHK villa with a spacious area ranging from 800 to 1000 sq. ft., designed to provide a comfortable and modern living experience. This beautifully constructed villa offers ample space for families, ensuring both privacy and convenience. The interiors are thoughtfully designed, with well-ventilated rooms, elegant flooring, and premium fittings to enhance your lifestyle. The property also features a dedicated parking facility, ensuring the safety and convenience of vehicle owners. Located in a well-connected and serene neighborhood, this villa is perfect for those looking for a peaceful yet accessible living environment. Whether for investment or personal use, this property is an excellent choice for homebuyers seeking quality, comfort, and affordability.
+           
 </p>
              
 
-              <p className ="fw-bold">Total 3 Acres</p>
-               <p className="fw-bold"><span></span>Project Duration 2011 - 2014
-</p>
+            
             </div>
           </div>
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-left">
-              <img src= {img} alt="img" />
+              <img src= {ayushi_dhara} alt="img" />
          
             </div>
           </div>
@@ -157,37 +147,7 @@ Soalr Lighting</h6>
 
     
         </div>
-        <h2 className='text-center'>Actual Images</h2>  
-      <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-
-        <div className="row g-5 mb-5" >
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
-
+      
 
 
         

@@ -18,7 +18,7 @@ function GalleryType() {
     <Wrapper>
     
     <div className="container-fluid" style={{marginTop:"4rem"}}>
-                  <h2 className="text-center">Our Gallery</h2>
+                  <h2 className="text-center">Welcome to Aysuhi Construction Gallery Page</h2>
                   <div
                 className="underline mx-auto"
                 style={{
@@ -30,72 +30,7 @@ function GalleryType() {
                   marginBottom: 20,
                 }}
               ></div>
-                  <div className="container-fluid mt-4  navsect background ">
-                    <Nav
-                      className="d-flex justify-content-center side-cont selectors"
-                      activeKey={selectedTab}
-                      onSelect={(selectedKey) => setSelectedTab(selectedKey)}
-                    >
-                      <div className="d-flex flex-row mx-3 mb-2">
-                        <Nav.Item>
-                          <Nav.Link eventKey="tab1" className="navlink shadow allnav">
-                         All
-                          </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link
-                            eventKey="tab2"
-                            className={`navlink shadow mx-2 `}
-                          >
-                      Housing
-                          </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link
-                            eventKey="tab3"
-                            className={`navlink shadow`}
-                          >
-                        Garden
-                          </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link
-                            eventKey="tab4"
-                            className={`navlink shadow mx-2`}
-                          >
-                          Construction
-                          </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link
-                            eventKey="tab5"
-                            className={`navlink shadow mx-2`}
-                          >
-                      Temple
-                          </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link
-                            eventKey="tab6"
-                            className={`navlink shadow mx-2`}
-                          >
-                          Other
-                          </Nav.Link>
-                        </Nav.Item>
-                      </div>
-                      <div>
-                        {/* <p className="fw-bold">Total Lab - 09</p> */}
-                      </div>
-                    </Nav>
-                    <div className="flex-grow-1 p-3 mainback">
-                      {selectedTab === "tab1" && <All />}
-                      {selectedTab === "tab2" && <Housing />}
-                      {selectedTab === "tab3" && <Garden />}
-                      {selectedTab === "tab4" && <Contruction />}
-                      {selectedTab === "tab5" && <Temple />}
-                      {selectedTab === "tab6" && <Other />}
-                    </div>
-                  </div>
+            <All/>
                 </div>
     
     

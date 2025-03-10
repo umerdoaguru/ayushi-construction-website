@@ -13,7 +13,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 
-import img from "../images/company logo.png";
 
 function Footer() {
   const handleFooterLink = () => {
@@ -156,7 +155,7 @@ function Footer() {
               <Link to="/" onClick={handleFooterLink}>
                 {/* <img src={doaguru} alt="doaguru logo" id="doagurulogo" /> */}
                 <img
-                  src={img}
+                  src={''}
                   alt=""
                   id="doagurulogo"
                   width="200"

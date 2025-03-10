@@ -19,6 +19,7 @@ function Login() {
   const dispatch = useDispatch();
  
   const [showPassword, setShowPassword] = useState(false);
+  const [loading, setLoading] = useState(false);
   
   window.onscroll = () => {
     setIsScrolled(window.pageYOffset === 0 ? false : true);
@@ -30,6 +31,7 @@ function Login() {
   const handleSumbit = async (e) =>{
     console.log(formData);
     e.preventDefault();
+    setLoading(true)
     try{
       const res  = await axios.post("https://one-realty.in/api/login", formData)
       console.log(res)
@@ -41,9 +43,10 @@ function Login() {
       else{
         cogoToast.error(`${res.data.message}`)
       }
-    
+    setLoading(false)
     }
     catch(error){
+      setLoading(false)
       console.log(error?.response?.data?.error)
       cogoToast.error(`${error?.response?.data?.message}`)
     }
@@ -103,7 +106,9 @@ function Login() {
                 </div>
                 <Link to="/admin-reset-password" className="text-blue-500 hover:text-green-600 text-sm "><p className='text-end'>Forgot Password?</p> </Link>
               <div className="d-flex justify-content-center">
-                <button className="btn btn-success" onClick={handleSumbit} >Submit</button>
+                <button className="btn text-white" style={{backgroundColor:"#f26a20"}} onClick={handleSumbit} disabled = {loading}>
+                    {loading ? 'Save...' : 'Save'}
+                  </button>
               </div>
               <p className="mb-2 mt-2" >
                 Don't have an account? {" "}

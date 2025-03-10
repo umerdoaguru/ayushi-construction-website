@@ -1,22 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from '../../images/rudraksh-park.jpg'
-import photo1 from '../../images/Nirvana city/Picture1.jpg'
-import photo2 from '../../images/Nirvana city/Picture2.jpg'
-import photo3 from '../../images/Nirvana city/Picture3.jpg'
-import photo4 from '../../images/Nirvana city/Picture4.jpg'
-import FormNirvanaCity from '../contact/FormNirvanaCity'
+
 import { FaWhatsapp } from 'react-icons/fa'
+import OurVideo from '../HomePage/OurVideo'
 
 
 
 function Rudraksh_Park() {
-  const images = [
-    { src: photo1, title: 'Entry Gate' },
-    { src: photo2, title: 'Garden' },
-    { src: photo3, title: 'Main road' },
-    { src: photo4, title: 'Plots' },
-  ];
+
   
   return (
     <Wrapper>
@@ -30,8 +22,7 @@ function Rudraksh_Park() {
                 <h2>Welcome To Rudraksh Park</h2>
                
               </div>
-              <p>Rudraksh Park is our second project December 2014 consists 6acers with occupancy 136 units planing with Singlex and plots  a spacious living area for independent and free-living, with all the necessary amenities fulfills your needs. Nirvana city assures you of satisfying your dream home in the fashionable way possible.
-</p>
+              <p>Spacious 2 BHK flats available, fully ready to move in, offering a generous 1119 sq. ft. of thoughtfully designed living space. These well-planned homes provide a perfect blend of comfort and functionality, featuring modern interiors, ample natural light, and high-quality fittings. Ideal for families and professionals alike, each flat ensures a comfortable and convenient lifestyle. Additionally, the property includes a dedicated parking facility, ensuring ease and security for residents. Located in a prime area with excellent connectivity to essential amenities, these flats offer the perfect combination of luxury and practicality.</p>
              
 
               <p className ="fw-bold"> Total  5.5 Acres
@@ -157,37 +148,9 @@ Soalr Lighting</h6>
 
     </div>
 
-    
+    <OurVideo/>
         </div>
-        <h2 className='text-center'>Actual Images</h2>  
-      <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-        <div className="row g-5 mb-5" >
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
+        
     </div>
     </Wrapper>
   )

@@ -1,48 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import photo1 from '../../images/photo1.jpg';
-import photo2 from '../../images/photo2.jpg';
 
-import photo4 from '../../images/photo4.jpg';
-
-import photo18 from '../../images/photo18.jpg';
-
-import photo32 from '../../images/photo32.jpg';
-import photo33 from '../../images/photo33.jpg';
-import photo34 from '../../images/photo34.jpg';
-import photo35 from '../../images/photo35.jpg';
-import photo36 from '../../images/photo36.jpg';
-import photo37 from '../../images/photo37.jpg';
-import photo38 from '../../images/photo38.jpg';
-import photo39 from '../../images/photo39.jpg';
-import photo40 from '../../images/photo40.jpg';
-import photo41 from '../../images/photo41.jpg';
-import photo42 from '../../images/photo42.jpg';
-import photo43 from '../../images/photo43.jpg';
-
-import photo47 from '../../images/photo47.jpg';
-import photo48 from '../../images/photo48.jpg';
-import photo49 from '../../images/photo49.jpg';
 
 
 const images = [
-  { src: photo32, title: 'Entry Gate' },
- { src: photo2, title: 'Layout Plan' },
- { src: photo4, title: 'Amenities' },
-
- 
- { src: photo18, title: 'Nirvana Home Entry Gate' },
- { src: photo36, title: 'Nirvana Home Office' },
-  { src: photo37, title: 'Nirvana Home Office View' },
-  { src: photo38, title: 'Nirvana Home Office View' },
-  { src: photo39, title: 'Nirvana Home Office View' },
-  { src: photo40, title: 'Nirvana Home Office View' },
-  { src: photo41, title: 'Nirvana Home Office View' },
-  { src: photo42, title: 'Nirvana Home Office View' },
-  { src: photo43, title: 'Nirvana Home Office View' },
-
-      
-      
+  { src: "", title: 'Entry Gate' },  
 ];
 
 function All() {

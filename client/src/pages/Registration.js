@@ -128,7 +128,7 @@ const Registration = () => {
                   </div>
                 </div>
               <div className="d-flex justify-content-center">
-                <button disabled={loading} className="btn btn-success" >
+                <button disabled={loading} className="btn  text-white w-100" style={{backgroundColor:"#f26a20"}} >
                   {loading ? 'Loading...' : "Submit" }</button>
               </div>
               <p>

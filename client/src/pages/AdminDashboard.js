@@ -12,7 +12,7 @@ const AdminDashboard = () => {
   const user = useSelector((state) => state.auth.user);
   console.log(user);
   
-  const [currentPage, setCurrentPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);       
   const [itemsPerPage] = useState(10);
   const [filterText, setFilterText] = useState("");
   const [dateFilter, setDateFilter] = useState("");
@@ -20,7 +20,7 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchUserdata = async () => {
       try {
-        const response = await axios.get(`https://one-realty.in/api/user-data`, {
+        const response = await axios.get(`https://test.ayushiconstruction/api/user-data`, {
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`
@@ -156,17 +156,18 @@ export default AdminDashboard;
 
 const Wrapper = styled.div`
   h2 {
-    color: #01614e;
+    color: #f26a20;
     font-family: "Playfair Display";
   }
   th {
     color: white;
-    background-color: #01614e;
+    background-color: #f26a20;
+    white-space: nowrap;
   }
   .text-center {
     margin-top: 20px;
     font-size: 18px;
-    color: #01614e;
+    color: #f26a20;
   }
   .dateset{
     @media screen and (max-width: 768px) {

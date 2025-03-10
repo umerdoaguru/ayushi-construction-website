@@ -1,36 +1,13 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import photo6 from '../../images/photo6.jpg';
-import photo7 from '../../images/photo7.jpg';
 
-import photo12 from '../../images/photo12.jpg';
-
-import photo27 from '../../images/photo27.jpg';
-
-import photo31 from '../../images/photo31.jpg';
-
-import photo59 from '../../images/photo59.jpeg';
-
-import photo67 from '../../images/photo67.jpeg';
-import photo68 from '../../images/photo68.jpeg';
-
-import photo70 from '../../images/photo70.jpeg';
 
 
 const images = [
-  photo6,
-  photo7,  photo12,  
-   photo27,
-      photo31, 
-       photo59,
-       
-       photo67,
-       photo68,
-
-       photo70,
+  
       
-      
+    ''  
       
 ];
 

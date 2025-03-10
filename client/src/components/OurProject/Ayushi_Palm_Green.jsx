@@ -1,22 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from '../../images/ayushi-palm-green.jpg'
-import photo1 from '../../images/Nirvana city/Picture1.jpg'
-import photo2 from '../../images/Nirvana city/Picture2.jpg'
-import photo3 from '../../images/Nirvana city/Picture3.jpg'
-import photo4 from '../../images/Nirvana city/Picture4.jpg'
-import FormNirvanaCity from '../contact/FormNirvanaCity'
+
 import { FaWhatsapp } from 'react-icons/fa'
 
 
 
 function Ayushi_Palm_Green() {
-  const images = [
-    { src: photo1, title: 'Entry Gate' },
-    { src: photo2, title: 'Garden' },
-    { src: photo3, title: 'Main road' },
-    { src: photo4, title: 'Plots' },
-  ];
   
   return (
     <Wrapper>
@@ -30,15 +20,10 @@ function Ayushi_Palm_Green() {
                 <h2>Welcome To Ayushi Palm Green</h2>
                
               </div>
-              <p>Ayushi Palm Green is our second project December 2014 consists 6acers with occupancy 136 units planing with Singlex and plots  a spacious living area for independent and free-living, with all the necessary amenities fulfills your needs. Nirvana city assures you of satisfying your dream home in the fashionable way possible.
-</p>
+              <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these flats offer a perfect combination of style, comfort, and functionality. Each unit features well-ventilated rooms, contemporary interiors, and premium-quality fittings to ensure a superior living experience. Whether you are looking for a cozy space or a larger home for your family, these flats cater to diverse needs. Additionally, a dedicated parking facility is provided for added convenience and security. Situated in a prime location with easy access to essential amenities, these homes offer a seamless and luxurious lifestyle.</p>
              
 
-              <p className ="fw-bold"> Total  5.5 Acres
-</p>
-              <p className ="fw-bold"><span></span>Project Duration 2015 - 2017
-
-</p>
+         
             </div>
           </div>
           <div className="col-lg-6">
@@ -159,35 +144,7 @@ Soalr Lighting</h6>
 
     
         </div>
-        <h2 className='text-center'>Actual Images</h2>  
-      <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-        <div className="row g-5 mb-5" >
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
+        
     </div>
     </Wrapper>
   )

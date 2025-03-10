@@ -2,25 +2,12 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 
-import photo48 from '../../images/photo48.jpg';
-import photo49 from '../../images/photo49.jpg';
-import photo50 from '../../images/photo50.jpg';
-import photo51 from '../../images/photo51.jpg';
-
-import photo55 from '../../images/photo55.jpg';
-import photo57 from '../../images/photo57.jpg';
-
 
 
 const images = [
 
-  { src: photo48, title: 'Construction' },
-  { src: photo49, title: 'Construction' },
-  { src: photo50, title: 'Construction' },
-  { src: photo51, title: 'Construction' },
-  { src: photo55, title: 'Construction' },
-  { src: photo57, title: 'Construction' },
-      
+  { src: "", title: 'Construction' },
+
 ];
 
 function Contruction() {

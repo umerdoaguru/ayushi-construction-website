@@ -1,18 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import img from '../../images/ayushi-hari-vihar.jpg'
-import photo1 from '../../images/Nirvana exitocaa/Picture1.jpg'
-import photo2 from '../../images/Nirvana exitocaa/Picture2.jpg'
-import photo3 from '../../images/Nirvana exitocaa/Picture3.jpg'
-import FormNirvanaExoticaa from '../contact/FormNirvanaExoticaa'
+
 import { FaWhatsapp } from 'react-icons/fa'
 
 function Ayushi_Hari_Vihar() {
-  const images = [
-    { src: photo1, title: 'Main Road' },
-    { src: photo2, title: 'House View' },
-    { src: photo3, title: 'Garden' },
-  ];
+  
   
   return (
    <Wrapper>
@@ -153,35 +146,7 @@ Soalr Lighting</h6>
 
     
         </div>
-        <h2 className='text-center'>Actual Images</h2>  
-      <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-        <div className="row g-5 mb-5" >
-        {images.map((image, index) => (
-        <div key={index} className="col-lg-4">
-          <div className="card">
-            <div className="img-container" data-aos="zoom-in">
-              <img
-                src={image.src}
-                className="card-img-top imgset"
-                alt={`Card image ${index + 1}`}
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{image.title}</h5>
-            </div>
-          </div>
-        </div>
-      ))}
-        </div>
+       
         </div>
    </Wrapper>
   )

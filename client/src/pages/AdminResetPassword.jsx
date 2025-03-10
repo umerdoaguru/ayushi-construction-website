@@ -80,7 +80,7 @@ const AdminResetPassword = () => {
                 />
               </div>
               <div className="d-flex justify-content-center">
-                <button type="submit" className="btn btn-success w-100" disabled={loading}>
+                <button type="submit" className="btn  text-white w-100" style={{backgroundColor:"#f26a20"}} disabled={loading}>
                   {loading ? "Sending OTP..." : "Send OTP"}
                 </button>
               </div>
@@ -110,7 +110,7 @@ const AdminResetPassword = () => {
                 />
               </div>
               <div className="d-flex justify-content-center">
-                <button type="submit" className="btn btn-success w-100" disabled={loading}>
+                <button type="submit" className="btn  text-white w-100" style={{backgroundColor:"#f26a20"}} disabled={loading}>
                   {loading ? "Verifying OTP..." : "Verify OTP"}
                 </button>
               </div>
@@ -139,7 +139,7 @@ const AdminResetPassword = () => {
                 </div>
               </div>
               <div className="d-flex justify-content-center">
-                <button type="submit" className="btn btn-success w-100" disabled={loading}>
+                <button type="submit" className="btn text-white w-100" style={{backgroundColor:"#f26a20"}} disabled={loading}>
                   {loading ? "Resetting Password..." : "Reset Password"}
                 </button>
               </div>

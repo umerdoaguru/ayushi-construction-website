@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-import wide from '../../images/wide_range.jpg'
-import comfortable from '../../images/comfortable.jpg'
-import quality from '../../images/quality.jpg'
-import support from '../../images/support.webp'
-import assurance from '../../images/quality_assurance.png'
-import sustainable from '../../images/sustainable.jpg'
+import wide from '../../images/card1.jpg'
+import comfortable from '../../images/card2.jfif'
+import quality from '../../images/card3.png'
+import support from '../../images/card5.png'
+import assurance from '../../images/card6.png'
+import sustainable from '../../images/card4.png'
 
 
 
@@ -40,7 +40,7 @@ function WhyChoose() {
                 <h5>Affordable & Comfortable Homes</h5>
                 <div className="underline"></div>
                 <p>
-                  One Realty Developers focus on creating homes that are not only affordable but also comfortable and stylish. We believe in delivering value for money, ensuring that our properties offer the perfect balance of quality, comfort, and functionality. Our homes are designed to meet your lifestyle needs without breaking the bank.
+                  Ayushi Construction focus on creating homes that are not only affordable but also comfortable and stylish. We believe in delivering value for money, ensuring that our properties offer the perfect balance of quality, comfort, and functionality. Our homes are designed to meet your lifestyle needs without breaking the bank.
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ function WhyChoose() {
                 <h5>Sustainable Practices</h5>
                 <div className="underline"></div>
                 <p>
-                Sustainability is a core value at One Realty Developers. We are committed to environmentally responsible building practices that reduce waste, conserve resources, and promote energy efficiency. By using eco-friendly materials and sustainable construction methods, we aim to create buildings that are not only good for our clients but also for the planet.
+                Sustainability is a core value at Ayushi Construction. We are committed to environmentally responsible building practices that reduce waste, conserve resources, and promote energy efficiency. By using eco-friendly materials and sustainable construction methods, we aim to create buildings that are not only good for our clients but also for the planet.
                 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@ function WhyChoose() {
                 <h5>Quality Assurance</h5>
                 <div className="underline"></div>
                 <p>
-                At One Realty Developers, we uphold the highest standards of quality in every project. Our meticulous attention to detail ensures that each building we construct is not only aesthetically pleasing but also durable and functional. We use top-grade materials and employ rigorous quality control processes to guarantee superior results.
+                At Ayushi Construction, we uphold the highest standards of quality in every project. Our meticulous attention to detail ensures that each building we construct is not only aesthetically pleasing but also durable and functional. We use top-grade materials and employ rigorous quality control processes to guarantee superior results.
 
 
                 </p>
@@ -162,7 +162,7 @@ const Wrapper = styled.div`
     font-size: 15px;
     color:#373435;
     /* color: #01614e; */
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
     @media screen and (max-width: 768px) {
       font-size: 1.2rem;

@@ -10,7 +10,7 @@ import { IoMdTime } from "react-icons/io";
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 
 function Header() {
   
@@ -111,6 +111,23 @@ info@ayushiconstruction.com
                                                 }
                                               />
                                             </Link>
+                                             <Link
+                                                           to=  "https://twitter.com/AyushiHomes"
+                                                            onClick={handleFooterLink}
+                                                            target="_blank"
+                                                            rel="norefferel"
+                                                            className=" text-white"
+                                                          >
+                                                            <FaTwitterSquare
+                                                              size="25px"
+                                                              onMouseOver={({ target }) =>
+                                                                (target.style.color = "#1da1f2")
+                                                              }
+                                                              onMouseOut={({ target }) =>
+                                                                (target.style.color = "white")
+                                                              }
+                                                            />
+                                                          </Link>
                                             </div>
                     </li>
                   </ul>

@@ -10,7 +10,7 @@ import { CiUser } from "react-icons/ci";
 import { FaRegComments } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
 import { CiFacebook } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoTime } from "react-icons/io5";
 import { Link, useNavigate } from "react-router-dom";
@@ -288,7 +288,7 @@ function Blog() {
 
               <div className="  d-flex justify-content-center mb-3 fs-3 mt-3">
               <Link
-                to="https://www.facebook.com/Onerealty/"
+                to="https://www.facebook.com/AyushiConstructionJabalpur"
                 onClick={handleFooterLink}
                 target="_blank"
                 rel="norefferel"
@@ -296,13 +296,30 @@ function Blog() {
               >  <CiFacebook className=" icons mx-3  rounded-circle" /></Link>
                
                <Link
-                to="https://www.instagram.com/onerealtydevelopers/"
+                to="https://www.instagram.com/ayushiconstruction2/"
                 onClick={handleFooterLink}
                 target="_blank"
                 rel="norefferel"
                 className=""
               >
                 <FaInstagram className=" icons mx-3 rounded-circle" /></Link>
+
+               <Link
+                to="https://www.youtube.com/@AyushiConstruction-ig8bv/featured"
+                onClick={handleFooterLink}
+                target="_blank"
+                rel="norefferel"
+                className=""
+              >
+                <FaYoutube className=" icons mx-3 rounded-circle" /></Link>
+               <Link
+                to="https://twitter.com/AyushiHomes"
+                onClick={handleFooterLink}
+                target="_blank"
+                rel="norefferel"
+                className=""
+              >
+                <FaTwitter className=" icons mx-3 rounded-circle" /></Link>
               
               </div>
             </div>

@@ -21,7 +21,7 @@ function Logout() {
   };
   return (
   
-    <button className='btn btn-success' onClick={handleLogout}>Logout</button>
+    <button className="btn  text-white w-100" style={{backgroundColor:"#f26a20"}} onClick={handleLogout}>Logout</button>
   )
 }
 
