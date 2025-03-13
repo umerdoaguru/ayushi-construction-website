@@ -23,10 +23,7 @@ function Ayushi_Hari_Vihar() {
 </p>
              
 
-              <p className ="fw-bold">Total 4.5 Acres 
-</p>
-              <p className ="fw-bold"><span></span>Project Duration 2017 - 2021
-</p>
+              
             </div>
           </div>
 
@@ -164,11 +161,13 @@ img{
 }
 h2{
     color: #f26a20;
-    font-family: "Playfair Display";
+    
 } 
 .card-title{
     color: #f26a20;
   }
 
-
+  .container{
+    margin-top: 6rem;
+  }
 `

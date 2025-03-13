@@ -6,6 +6,7 @@ import UserLogin from './UserLogin';
 import Logout from "./Logout";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
+import {  BsTrash } from "react-icons/bs";
 
 const AdminDashboard = () => {
   const [userData, setUserData] = useState([]);
@@ -18,22 +19,37 @@ const AdminDashboard = () => {
   const [dateFilter, setDateFilter] = useState("");
   const token = user?.token;
   useEffect(() => {
-    const fetchUserdata = async () => {
-      try {
-        const response = await axios.get(`https://test.ayushiconstruction/api/user-data`, {
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`
-        }});
-        setUserData(response.data);
-    
-      } catch (error) {
-        console.error("Error fetching quotations:", error);
-      }
-    };
+  
 
     fetchUserdata();
   }, []);
+  const fetchUserdata = async () => {
+    try {
+      const response = await axios.get(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/user-data`, {
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+      }});
+      setUserData(response.data);
+  
+    } catch (error) {
+      console.error("Error fetching quotations:", error);
+    }
+  };
+  const handleDeleteClick = async (id) => {
+    const isConfirmed = window.confirm(
+      "Are you sure you want to delete this data?"
+    );
+    if (isConfirmed) {
+      try {
+        await axios.delete(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/user-data/${id}`);
+        fetchUserdata(); // Refresh the list after deletion
+      } catch (error) {
+        console.error("Error deleting lead:", error);
+      }
+    }
+  };
+
 
   const handlePageClick = ({ selected }) => {
     setCurrentPage(selected);
@@ -65,12 +81,12 @@ const AdminDashboard = () => {
 
   return (
     <Wrapper>
-      <div className="container-fluid d-flex justify-content-between mt-3">
+      <div className="container-fluid d-flex justify-content-between ">
         <div className="div"><UserLogin/></div>
         <div className="div"><Logout/></div>
       </div>
       <div className="container">
-        <h2>List of User Data One Realty</h2>
+        <h2>List of User Data Ayushi Construction</h2>
       
             <div className="row mb-3">
                 <div className="col-lg-3">  <input
@@ -104,6 +120,7 @@ const AdminDashboard = () => {
                     <th>Address</th>
                     <th>Message</th>
                     <th>Created Date</th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -117,6 +134,12 @@ const AdminDashboard = () => {
                       <td>{userdata.address}</td>
                       <td>{userdata.message}</td>
                       <td>{moment(userdata.created_date).format('DD/MM/YYYY')}</td>
+                      <td> <button
+                          className="text-red-500 hover:text-red-700 mx-2"
+                          onClick={() => handleDeleteClick(userdata.id)}
+                        >
+                          <BsTrash size={20} />
+                        </button></td>
                     </tr>
                   ))}
                 </tbody>
@@ -157,7 +180,7 @@ export default AdminDashboard;
 const Wrapper = styled.div`
   h2 {
     color: #f26a20;
-    font-family: "Playfair Display";
+    
   }
   th {
     color: white;
@@ -173,6 +196,9 @@ const Wrapper = styled.div`
     @media screen and (max-width: 768px) {
       margin-top: 1rem;
     }
+  }
+  .container-fluid{
+margin-top: 7rem;
   }
 `;
 

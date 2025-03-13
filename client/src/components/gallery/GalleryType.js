@@ -17,8 +17,8 @@ function GalleryType() {
   return (
     <Wrapper>
     
-    <div className="container-fluid" style={{marginTop:"4rem"}}>
-                  <h2 className="text-center">Welcome to Aysuhi Construction Gallery Page</h2>
+    <div className="container-fluid " id='about' >
+                  <h1 className="text-center">Welcome to Aysuhi Construction Gallery Page</h1>
                   <div
                 className="underline mx-auto"
                 style={{
@@ -52,10 +52,10 @@ const Wrapper  = styled.div`
     color: black;
     border-radius: 1rem;
   }
-  h2{
+  h1{
 
     color: #f26a20;
-    font-family: "Playfair Display";
+    
   }
   .selectors{
     @media screen and (max-width: 768px) {
@@ -72,4 +72,15 @@ const Wrapper  = styled.div`
      margin-left: 0rem;
     }
   }
+  #about{
+  margin-top: 2.5rem;
+  @media screen and (max-width: 768px) {
+            margin-top:1rem;
+            
+      }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:1rem;
+            
+      }
+}
 `

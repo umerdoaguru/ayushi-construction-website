@@ -37,8 +37,8 @@ function Blog() {
   }
   return (
     <Container>
-      <div className="container">
-      <div className="heading text-center mt-5">
+      <div className="container " id="about">
+      <div className="heading text-center">
   
   <h1>Welcome to Ayushi Construction Blogs Page</h1>
   <div
@@ -126,7 +126,7 @@ function Blog() {
               </div>
             </div>
           <div
-              className="border border-2 "
+              className="border border-2 mt-3 "
               style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
               data-aos="fade-up"
             >
@@ -355,7 +355,7 @@ const Container = styled.div`
   }
   h2,
   h3 {
-    font-family: "Playfair Display";
+    
     color: #f26a20;
   }
   h2{
@@ -365,7 +365,7 @@ const Container = styled.div`
 h1{
 
   color: #f26a20;
-  font-family: "Playfair Display";
+  
  
 }
   a {
@@ -452,4 +452,16 @@ h1{
       padding-bottom: 10px;
     }
   }
+  #about{
+  margin-top: 2.5rem;
+  @media screen and (max-width: 768px) {
+            margin-top:1rem;
+            
+      }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:1rem;
+            
+      }
+}
+  
 `;

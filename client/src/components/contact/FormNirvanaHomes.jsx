@@ -44,7 +44,7 @@ function FormNirvanaHomes() {
   const handleSubmit = async () => {
     if (validateForm()) {
       try {
-        const response = await axios.post(`https://one-realty.in/api/contact`, {
+        const response = await axios.post(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/contact`, {
           name: name,
           email: email,
           mobile_no: mobile_no,
@@ -206,7 +206,7 @@ const Container = styled.div`
   }
   h3,
   h6 {
-    font-family: "Playfair Display";
+    
     color: white;
   }
   hr {

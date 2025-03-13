@@ -38,46 +38,58 @@ Our Banking Partner
 
 <div className="row g-5">
 
-    <div className="col-lg-3 col-md-4 text-center " data-aos="zoom-in"> 
-        <img src={sbi} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
-          <img src={pnb} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
-          <img src={barodra} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
-          <img src={bank_of_india} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
-          <img src={icici} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
-          <img src={lic} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center marginset " data-aos="zoom-in">
-          <img src={indian_bank} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center marginset1 " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center marginset1 " data-aos="zoom-in">
           <img src={iifl_bank} alt="" />
     </div>
+
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center png " data-aos="zoom-in">
+          <img src={pnb} alt="" />
+    </div>
+  <div className="col-xl-3 col-lg-4 col-md-4 text-center hdfc " data-aos="zoom-in">
+          <img src={hdfc} alt="" />
+    </div> 
+       <div className="col-xl-3 col-lg-4 col-md-4 text-center bb  " data-aos="zoom-in">
+          <img src={Bandhan_Bank} alt="" />
+    </div>
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+          <img src={barodra} alt="" />
+    </div>
+ <div className="col-xl-3 col-lg-4 col-md-4 text-center marginset " data-aos="zoom-in">
+          <img src={indian_bank} alt="" />
+    </div>
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center bi " data-aos="zoom-in">
+          <img src={bank_of_india} alt="" />
+    </div>
+ <div className="col-xl-3 col-lg-4 col-md-4 text-center " data-aos="zoom-in"> 
+        <img src={sbi} alt="" />
+    </div>
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+          <img src={icici} alt="" />
+    </div>
+  <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+          <img src={union} alt="" />
+    </div>
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+          <img src={lic} alt="" />
+    </div>
+
+   
+
+   
    
    
 
    
-    <div className="col-lg-3 col-md-4 text-center hdfc " data-aos="zoom-in">
-          <img src={hdfc} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
-          <img src={union} alt="" />
-    </div>
-    <div className="col-lg-3 col-md-4 text-center  " data-aos="zoom-in">
+  
+
+  
+
+    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
           <img src={Axis_Bank} alt="" />
     </div>
-    <div className="col-lg-3 col-md-4 text-center bb  " data-aos="zoom-in">
-          <img src={Bandhan_Bank} alt="" />
-    </div>
+
+
+
     </div>
    
   
@@ -107,7 +119,7 @@ h2{
       
       color: #f26a20;
 
-      font-family: "Playfair Display";
+      
 
 }
 .marginset{
@@ -127,14 +139,44 @@ h2{
 .bb{
      
       @media screen and (max-width: 768px) {
-            margin-top: 4rem;
+            margin-top: 1rem;
+            
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:3rem;
             
       }
 }
 .hdfc{
      
       @media screen and (max-width: 768px) {
-            margin-top: -1rem;
+            margin-top:1rem;
+            
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:3rem;
+            
+      }
+}
+.bi{
+     
+      @media screen and (max-width: 768px) {
+            margin-top:-1rem;
+            
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:3rem;
+            
+      }
+}
+.png{
+     
+      @media screen and (max-width: 768px) {
+            margin-top:-1rem;
+            
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:3rem;
             
       }
 }

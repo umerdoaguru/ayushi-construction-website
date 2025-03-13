@@ -8,7 +8,7 @@ const AboutSection = () => {
   return (
     <>
       <Container>
-      <section id="about" className="mt-5">
+      <section id="about" >
       <div className="container">
 <div className="heading text-center">
   
@@ -30,10 +30,10 @@ const AboutSection = () => {
 
 
         <div className="row align-items-center mt-5">
-        <div className="col-lg-6 mt-2">
+        <div className="col-lg-6 mt-2" id='desktop'>
             <div className="about-content s-about-content pl-30  " data-aos= "fade-right">
               <div className="about-title second-atitle">
-                <span>About Us</span>
+             
                 <h2>Welcome To Ayushi Construction</h2>
                 <p><span></span>We provide an essential support for you</p>
               </div>
@@ -52,14 +52,42 @@ const AboutSection = () => {
               <button  className="btn" style={{color:"white" ,backgroundColor:"  color: #01614e;"}}>Get Started</button>
             </div>
           </div>
-          <div className="col-lg-6">
+       
+          <div className="col-lg-6" id='desktop'>
+            <div className="s-about-img p-relative" data-aos= "fade-left">
+              <img src= {About2} alt="img" />
+              
+            </div>
+          </div>
+          <div className="col-lg-6"  id='mobile'>
             <div className="s-about-img p-relative" data-aos= "fade-left">
               <img src= {About2} alt="img" />
               
             </div>
           </div>
 
-         
+          <div className="col-lg-6 mt-2" id='mobile'>
+            <div className="about-content s-about-content pl-30  " data-aos= "fade-right">
+              <div className="about-title second-atitle">
+                
+                <h2>Welcome To Ayushi Construction</h2>
+                <p><span></span>We provide an essential support for you</p>
+              </div>
+              <p>With extensive expertise in the field of real estate, Ayushi Construction Developers provides top-tier housing solutions and undertakes the construction of residential, commercial, and industrial buildings. Our services extend to comprehensive infrastructural works, ensuring robust and sustainable development.</p>
+              <ul className="list-item">
+                <li><span>Residential Construction</span>: We create beautiful, functional, and durable homes that cater to diverse needs and preferences.</li>
+                <li><span>Commercial Projects</span>: From office spaces to retail establishments, we deliver commercial buildings designed for success and growth.</li>
+                <li>
+                <span>Industrial Buildings</span>: Our industrial construction projects are built to support operational efficiency and long-term resilience.
+
+                </li>
+                <li>
+                <span>Infrastructural Works</span>: We specialize in developing essential infrastructure, including roads, bridges, and utility systems, to support thriving communities.
+                </li>
+              </ul>
+              <button  className="btn" style={{color:"white" ,backgroundColor:"  color: #01614e;"}}>Get Started</button>
+            </div>
+          </div>
           
         </div>
         <div className="row align-items-center mt-5">
@@ -134,13 +162,13 @@ h1{
 
   color: #f26a20;
   /* color: #d29b33; */
-  font-family: "Playfair Display";
+  
 }
 h2{
 
 
   color:#f26a20;
-  font-family: "Playfair Display";
+  
 }
 li{
   margin-top: 1rem;
@@ -152,4 +180,28 @@ p{
   text-align: justify;
   
   }
+  #mobile {
+    display: none;
+
+    @media screen and (min-width: 768px) and (max-width: 1024px)  {
+      display: block;
+    }
+  }
+
+  #desktop {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      display: none;
+    }
+  }
+  #about{
+  margin-top: 2.5rem;
+  @media screen and (max-width: 768px) {
+            margin-top:1rem;
+            
+      }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:1rem;
+            
+      }
+}
 `;

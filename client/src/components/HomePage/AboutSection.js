@@ -11,12 +11,12 @@ const AboutSection = () => {
   return (
     <Wrapper>
     
-       <section id="about" className="mt-5">
+       <section id="about" className="">
       <div className="container">
         <div className="row">
 
 <div className="col-lg-12 heading text-center">
-<h1>Ayushi Construction : The Best Builders in Jabalpur</h1>
+<h1 className="typing-text">Ayushi Construction : The Best Builders in Jabalpur</h1>
  
   <div
                 className="underline mx-auto"
@@ -35,7 +35,7 @@ const AboutSection = () => {
 </div> */}
 
 </div>
-<div className="content mb-3" data-aos="">
+<div className="content mb-3" data-aos="zoom-out">
 
   <p>Welcome to Ayushi Construction, one of the reputed leading home builders in Jabalpur established in 2006, by Satyendra . We specialize in creating comfortable and affordable residential homes that cater to your needs. Our latest completed project, Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, offers 2/3 BHK Flats/Apartments with state-of-the-art architecture and a wide range of amenities to provide a comfortable living experience. Additionally, we have ongoing projects like Ayushi Homes, Ayushi Dhara, and Ayushi Villa.</p>
 </div>
@@ -55,7 +55,7 @@ const AboutSection = () => {
           <div className="col-lg-6 mt-2">
           <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
-                <span>About Us</span>
+                 
                 <h2>Welcome To Ayushi Construction</h2>
                 <p><span></span>We provide an essential support for you</p>
               </div>
@@ -102,15 +102,14 @@ h1{
 
   color: #f26a20;
   
-  font-family: "Playfair Display";
+  
    /* font-family: Figtree, sans-serif; */
+  
 }
 h2{
 
 
   color: #f26a20;
-  font-family: "Playfair Display";
-  
 }
 li{
   margin-top: 1rem;
@@ -119,36 +118,54 @@ span{
   font-weight: bold;
   
 }
-@keyframes flash {
-  0% { 
-    opacity: 1; 
-    transform: scale(1);
-  }
-  50% { 
-    opacity: 0; 
-    transform: scale(1.2); /* Increase size by 20% */
-  }
-  100% { 
-    opacity: 1; 
-    transform: scale(1);
-  }
+
+
+#about{
+  margin-top: 1.5rem;
+  @media screen and (max-width: 768px) {
+            margin-top:1rem;
+            
+      }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+            margin-top:1rem;
+            
+      }
 }
 
-.flash-animation {
-  animation: flash 3s infinite;
-}
 
-.ongoing{
+
+.typing-text {
+
+  color: #f26a20;
+  text-align: center;
   white-space: nowrap;
+  overflow: hidden;
+  /* border-right: 0.2rem solid #f26a20; */
+  margin: 0 auto;
+  width: 0;
+  animation: typing 7s steps(50, end) infinite, blink 0.75s step-end infinite;
+  @media screen and (max-width: 768px) {
+    animation: none;
+    white-space: normal;
+    width: auto;
+
+    }
 }
-a {
-    text-decoration: none;
-    color: #f26a20;
-   
-    
-  }
-/* white-space: nowrap;
-    overflow: hidden;
-    width: 1;
-    animation: typing 3s steps(30,end) infinite; */
+
+/* Typing Animation */
+@keyframes typing {
+  0% { width: 0; }
+  70% { width: 100%; }
+  100% { width: 0; }
+}
+
+/* Blinking Cursor */
+@keyframes blink {
+  0% { border-color: #f26a20; }
+  50% { border-color: transparent; }
+  100% { border-color: #f26a20; }
+}
+
+
+
 `

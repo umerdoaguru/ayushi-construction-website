@@ -18,7 +18,7 @@
 //   const handleSubmit = async () => {
 //     try {
 //       // Submit the patient test details
-//       const response = await axios.post(`https://one-realty.in/api/contact`, {
+//       const response = await axios.post(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/contact`, {
 //         name: name,
 //         email: email,
 //         subject: subject,
@@ -181,7 +181,7 @@
 //   }
 //   h3,
 //   h6 {
-//     font-family: "Playfair Display";
+//     
 //     color: white;
 //   }
 //   hr {
@@ -230,7 +230,7 @@ function Forms() {
   const [subject, setSubject] = useState("Query");
   
   const [message, setMessage] = useState("");
-
+  const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
 
   const validateForm = () => {
@@ -255,8 +255,9 @@ function Forms() {
 
   const handleSubmit = async () => {
     if (validateForm()) {
+      setLoading(true)
       try {
-        const response = await axios.post(`https://one-realty.in/api/contact`, {
+        const response = await axios.post(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/contact`, {
           name: name,
           email: email,
           mobile_no: mobile_no,
@@ -273,10 +274,13 @@ function Forms() {
           setAddress("");
       
           setMessage("");
+          setLoading(false)
         } else {
+          setLoading(false)
           console.error("Error uploading patient test data");
         }
       } catch (error) {
+        setLoading(false)
         console.error("Server Error:", error.message);
       }
     }
@@ -415,11 +419,12 @@ function Forms() {
                   <button
                     data-mdb-ripple-init
                     type="button"
-                    className="btn  btn-lg md:fw-bold rounded-pill mb-4 w-25"
+                    className="btn  btn-lg md:fw-bold rounded-pill mb-4 "
                     onClick={handleSubmit}
-                    style={{ backgroundColor: "#f26a20", borderRadius: "1.5rem" }}
+                    style={{ backgroundColor: "#f26a20", borderRadius: "1.5rem",color:"white" }}
+                    disabled = {loading}
                   >
-                    Send
+                     {loading ? 'Sumbit...' : 'Sumbit'}
                   </button>
                 </div>
               </form>
@@ -439,7 +444,7 @@ const Container = styled.div`
   }
   h3,
   h6 {
-    font-family: "Playfair Display";
+    
     color: white;
   }
   hr {

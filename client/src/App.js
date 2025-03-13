@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
-
+import './App.css'
 import Footer_comp from "./components/Footer_comp";
 
 
@@ -45,7 +45,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/admin" element={<Login />} />
         <Route path="/adminumerdoaguru" element={<Registration />} />
-        <Route path="/useronerealtydata" element={user? <AdminDashboard />:<Login/>} />
+        <Route path="/userayushiconstructiondata" element={user? <AdminDashboard />:<Login/>} />
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About/>} />
           <Route path="/hero" element={<Heros />} />

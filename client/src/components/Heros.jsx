@@ -11,7 +11,9 @@ function Heros(props) {
             backgroundImage: `url("${props.backgroundImage}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
-            height:"30rem"
+            height:"30rem",
+          
+
           }}
         >
           <div className="row ">
@@ -30,7 +32,7 @@ function Heros(props) {
 export default Heros;
 const Container = styled.div`
     h1 {
-    /* font-family: "Playfair Display"; */
+    /*  */
     font-size: 4rem;
     margin-top: 12rem;
      margin-left: 5rem;
@@ -42,6 +44,22 @@ const Container = styled.div`
     }
 
   
+  }
+  .main{
+    margin-top: 6.5rem;
+    @media screen and (max-width: 768px) {
+      margin-top: 4.5rem;
+      
+  }
+  @media screen and (min-width: 768px) and (max-width: 1020px) {
+   
+    margin-top: 5.5rem;
+  }
+  @media screen and (min-width: 1021px) and (max-width: 1400px) {
+    margin-top: 5.5rem;
+    
+  }
+ 
   }
 
 

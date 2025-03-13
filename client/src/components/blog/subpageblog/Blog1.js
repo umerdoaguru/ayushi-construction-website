@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 
 import blog1 from "../../../images/ayushi-blogs3.jpg";
 
 function Blog1() {
+  const navigate =  useNavigate()
   const handleFooterLink = () => {
     window.scrollTo(0, 0);
+    navigate('/blogs')
   };
   const [isShowMore, setIsShowMore] = useState(false);
 
@@ -324,15 +326,12 @@ function Blog1() {
               >
                 {isShowMore ? "Read off" : " Read on"}
               </button>
-              <button className="btn my-3" id="more">
-                <Link
-                  to="/blogs"
-                  onClick={handleFooterLink}
-                  className="text-white text-decoration-none"
-                >
+             
+              
+                <button className="btn my-3" id="more"   onClick={handleFooterLink}>
                   Blogs_Page
-                </Link>
               </button>
+           
             </div>
           </div>
         </div>
@@ -365,7 +364,7 @@ const Wrapper = styled.div`
   h2 {
     font-size: 34px;
     color: #fe7604;
-    font-family: "Playfair Display";
+    
 
     @media screen and (max-width: 768px) {
       font-size: 1.4rem;

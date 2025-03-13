@@ -9,13 +9,14 @@ function OurVideo() {
         <iframe
   width="560"
   height="315"
-  src="https://www.youtube.com/embed/zp8tXO_TOu8?si=xOqW38sf43p8B-w8&autoplay=1&mute=1"
+  src="https://www.youtube.com/embed/zp8tXO_TOu8?si=xOqW38sf43p8B-w8&autoplay=1&mute=1&loop=1&playlist=zp8tXO_TOu8"
   title="YouTube video player"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   referrerPolicy="strict-origin-when-cross-origin"
   allowFullScreen
 ></iframe>
+
 
         </div>
       </div>

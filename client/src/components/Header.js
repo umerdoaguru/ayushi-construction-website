@@ -1,7 +1,7 @@
 
-import React from "react";
+import React, { useState } from "react";
 import img from "../images/ayushi_log.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
@@ -13,172 +13,76 @@ import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 
 function Header() {
-  
-  const handleFooterLink = () => {
+  const [expanded, setExpanded] = useState(false);
+  const navigate = useNavigate();
+  const handleFooterLink = (url) => {
     window.scrollTo(0, 0);
+    setExpanded(false); // Closes the navbar toggle
+    navigate(url);
   };
   return (
     <Wrapper>
-      <div className="">
-        <div className="container-fluid top-header" style={{ backgroundColor: "#f26a20" }}>
-          <div className="container">
-            <div className="row text-white">
-              <div className="col-lg-4 mt-3">
-                <div className="mx-3">
-                  <p>Welcome to Ayushi Construction</p>
-                </div>
-              </div>
-              <div className="col-lg-6 mt-3">
-                <div className="header-cta">
-                  <ul className="d-flex gap-4">
-                    <li>
-                      <IoCallOutline />
-                      <span>  <Link
-                  to="tel:+91- 9981268611"
-                 
-                  className=" hoverlink"
-                >
-                
-                 
-                9981268611  </Link></span>,<span><Link
-                  to="tel:+91-9575809888"
-                 
-                  className=" hoverlink"
-                >9575809888</Link></span>
-                    </li>
-                    <li>
-                      <CiMail />
-                      <span className="">
-                        <Link to="mailto:info@ayushiconstruction.com" className=" hoverlink">
-                       
-info@ayushiconstruction.com
-                        </Link>
-                      </span>
-                    </li>
-                    <li>
-                      <IoMdTime />
-                      <span>Mon-Sat: 10am - 7pm</span>
-                    </li>
-                    <li>
-                    <div className="d-flex justify-content-center gap-3" id="logo">
-                  <Link
-                                to="https://www.facebook.com/Onerealty/"
-                                onClick={handleFooterLink}
-                                target="_blank"
-                                rel="norefferel"
-                                className="text-white "
-                              >
-                               
-                                <FaFacebook  size="25px"
-                                  onMouseOver={({ target }) =>
-                                    (target.style.color = "#3b5998")
-                                  }
-                                  onMouseOut={({ target }) => (target.style.color = "white")}/>
-                              </Link>
-              
-                              <Link
-                                to="https://www.instagram.com/onerealtydevelopers/"
-                                onClick={handleFooterLink}
-                                target="_blank"
-                                rel="norefferel"
-                                className="text-white "
-                              >
-                                <FaInstagram
-                                  size="25px"
-                                  onMouseOver={({ target }) =>
-                                    (target.style.color = "#da1e1e")
-                                  }
-                                  onMouseOut={({ target }) => (target.style.color = "white")}
+  
+       
+       
+  <Navbar expand="lg" expanded={expanded} className="">
+      <Container fluid>
+        <Navbar.Brand as={Link} to="/">
+          <img src={img} alt="Ayushi Construction" width="200" height="60" className="" />
+        </Navbar.Brand>
+        <Navbar.Toggle 
+          aria-controls="navbarNav" 
+          onClick={() => setExpanded(expanded ? false : true)} 
+        />
+        <Navbar.Collapse id="navbarNav">
+          <Nav className="mx-auto gap-3">
+            <Nav.Link as={Link} to="/" onClick={() => handleFooterLink("/")}>Home</Nav.Link>
+            <Nav.Link as={Link} to="/about" onClick={() => handleFooterLink("/about")}>About Us</Nav.Link>
+            
+            <NavDropdown title="Our Project" id="basic-nav-dropdown">
+              <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
+                <NavDropdown.Item as={Link} to="/ayushi-dhara" onClick={() => handleFooterLink("/ayushi-dhara")}>Ayushi Dhara</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-home" onClick={() => handleFooterLink("/ayushi-home")}>Ayushi Home</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-villa" onClick={() => handleFooterLink("/ayushi-villa")}>Ayushi Villa</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-hari-vihar" onClick={() => handleFooterLink("/ayushi-hari-vihar")}>Ayushi Hari Vihar</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-vrindavan" onClick={() => handleFooterLink("/ayushi-vrindavan")}>Ayushi Vrindavan</NavDropdown.Item>
+              </NavDropdown>
 
-                                />
-                              </Link>
-                               <Link
-                                             to=  "https://www.youtube.com/@AyushiConstruction-ig8bv/featured"
-                                              onClick={handleFooterLink}
-                                              target="_blank"
-                                              rel="norefferel"
-                                              className=" text-white "
-                                            >
-                                              <FaYoutube
+              <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
+                <NavDropdown.Item as={Link} to="/ayushi-palm-green" onClick={() => handleFooterLink("/ayushi-palm-green")}>Ayushi Palm Green</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-rudraksh-park" onClick={() => handleFooterLink("/ayushi-rudraksh-park")}>Rudraksh Park</NavDropdown.Item>
+              </NavDropdown>
 
-                                                size="30px"
-                                                
-                                                onMouseOver={({ target }) =>
-                                                  (target.style.color = "#FF0000")
-                                                }
-                                                onMouseOut={({ target }) =>
-                                                  (target.style.color = "white")
-                                                }
-                                              />
-                                            </Link>
-                                             <Link
-                                                           to=  "https://twitter.com/AyushiHomes"
-                                                            onClick={handleFooterLink}
-                                                            target="_blank"
-                                                            rel="norefferel"
-                                                            className=" text-white"
-                                                          >
-                                                            <FaTwitterSquare
-                                                              size="25px"
-                                                              onMouseOver={({ target }) =>
-                                                                (target.style.color = "#1da1f2")
-                                                              }
-                                                              onMouseOut={({ target }) =>
-                                                                (target.style.color = "white")
-                                                              }
-                                                            />
-                                                          </Link>
-                                            </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">
+                <NavDropdown.Item>Coming Soon</NavDropdown.Item>
+              </NavDropdown>
+            </NavDropdown>
+
+            <Nav.Link as={Link} to="/gallery" onClick={() => handleFooterLink("/gallery")}>Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/blogs" onClick={() => handleFooterLink("/blogs")}>Blogs</Nav.Link>
+            <Nav.Link as={Link} to="/contact" onClick={() => handleFooterLink("/contact")}>Contact Us</Nav.Link>
+          </Nav>
+
+          <div className="d-flex justify-content-center gap-3" id="logo">
+            <a href="https://www.facebook.com/Onerealty/" target="_blank" rel="noreferrer">
+              <FaFacebook size="25px" />
+            </a>
+            <a href="https://www.instagram.com/onerealtydevelopers/" target="_blank" rel="noreferrer">
+              <FaInstagram size="25px" />
+            </a>
+            <a href="https://www.youtube.com/@AyushiConstruction-ig8bv/featured" target="_blank" rel="noreferrer">
+              <FaYoutube size="30px" />
+            </a>
+            <a href="https://twitter.com/AyushiHomes" target="_blank" rel="noreferrer">
+              <FaTwitterSquare size="25px" />
+            </a>
+          </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
         
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid bg-light">
-          <div className="container">
-            <Navbar expand="lg" className="navbar-light py-2">
-              <Container fluid>
-                <Navbar.Brand href="/">
-                  <img src={img} alt="" width="200" height="60" />
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarNav" />
-                <Navbar.Collapse id="navbarNav">
-                  <Nav className="mx-auto gap-3">
-                    <Nav.Link as={Link} to="/" className="nav-link">Home</Nav.Link>
-                    <Nav.Link as={Link} to="/about">About Us</Nav.Link>
-                    <NavDropdown title="Our Project" id="basic-nav-dropdown" style={{ color: "#f26a20" }}>
-                       <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
-                        <NavDropdown.Item as={Link} to="/ayushi-dhara">Ayushi Dhara</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/ayushi-home">Ayushi Home</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/ayushi-villa">Ayushi Villa</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/ayushi-hari-vihar">Ayushi Hari Vihar</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/ayushi-vrindavan">Ayushi Vrindavan</NavDropdown.Item>
-                      
-                      </NavDropdown>
-                      <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
-                      <NavDropdown.Item as={Link} to="/ayushi-palm-green">Ayushi Palm Green</NavDropdown.Item>
-                      <NavDropdown.Item as={Link} to="/ayushi-rudraksh-park">Rudraksh Park</NavDropdown.Item>
-                        </NavDropdown>
-                    
-                      <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">
-                      <NavDropdown.Item as={Link} >Coming Soon</NavDropdown.Item>
-                        </NavDropdown>
-                      
-                      
-                    </NavDropdown>
-                    <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
-                    <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-                    <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
-                  </Nav>
-                </Navbar.Collapse>
-              </Container>
-            </Navbar>
-          </div>
-        </div>
-      </div>
+     
+
     </Wrapper>
   );
 }
@@ -218,4 +122,35 @@ const Wrapper = styled.div`
   .hoverlink:hover{
     color:  #373435;
   }
+ .container-fluid{
+  padding: 1.5rem;
+
+
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem;
+      
+  }
+  @media screen and (min-width: 768px) and (max-width: 1020px) {
+    padding: 1rem;
+    
+  }
+  @media screen and (min-width: 1021px) and (max-width: 1400px) {
+  
+    padding: 1rem;
+  }
+  
+ }
+ #logo{
+  @media screen and (max-width: 768px) {
+     margin-right: 12rem;
+     margin-top:1rem;
+    }
+ }
 `;

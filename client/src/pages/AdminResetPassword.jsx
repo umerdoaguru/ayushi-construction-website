@@ -3,6 +3,7 @@ import cogoToast from "cogo-toast";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
+import styled from "styled-components";
 
 const AdminResetPassword = () => {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ const AdminResetPassword = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      await axios.post("https://one-realty.in/api/sendOtp-superadmin", { email });
+      await axios.post("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/sendOtp-superadmin", { email });
       cogoToast.success("OTP sent to your email");
       setShowOtp(false);
       setShowVerify(true);
@@ -38,7 +39,7 @@ const AdminResetPassword = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      await axios.post("https://one-realty.in/api/verifyOtp-superadmin", { email, otp });
+      await axios.post("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/verifyOtp-superadmin", { email, otp });
       setShowOtp(false);
       setShowVerify(false);
       setShowReset(true);
@@ -52,7 +53,7 @@ const AdminResetPassword = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      await axios.put("https://one-realty.in/api/resetPassword-superadmin", { email, password: newPassword });
+      await axios.put("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/resetPassword-superadmin", { email, password: newPassword });
       cogoToast.success("Password updated successfully");
       navigate("/admin");
     } catch (error) {
@@ -62,7 +63,9 @@ const AdminResetPassword = () => {
   };
 
   return (
-    <div className="container my-4">
+    <Wrapper>
+    <div className="container " 
+    >
       <div className="row justify-content-center mx-2">
         <div className="col-lg-4 border rounded-4 mb-2 p-4 ">
           <h1 className="text-center">Reset Password</h1>
@@ -147,8 +150,14 @@ const AdminResetPassword = () => {
           )}
         </div>
       </div>
-    </div>
+    </div></Wrapper>
   );
 };
 
 export default AdminResetPassword;
+const Wrapper = styled.div`
+.container{
+margin-top: 8rem;
+}
+
+`

@@ -2,7 +2,7 @@ const express = require("express");
 const { db } = require("../db");
 const bcrypt = require("bcrypt");
 const JWT = require('jsonwebtoken');
-
+const nodemailer = require("nodemailer");
 
 const register = async (req, res) => {
   try {
@@ -153,76 +153,78 @@ const getuserdata = async (req, res) => {
 };
 
 
-const user_data = async (req, res) => {
+// const user_data = async (req, res) => {
   
-    const {
+//     const {
     
-    		name,	email, mobile_no,	subject,address,	message	
+//     		name,	email, mobile_no,	subject,address,	message	
 
-    } = req.body;
+//     } = req.body;
+//     console.log(	name,	email, mobile_no,	subject,address,	message	);
+    
     
   
-    const sql = `INSERT INTO contact (name,email,mobile_no,subject,address,message) VALUES (?,?,?,?,?,?)`;
-    db.query(
-      sql,
-      [
-        name,	email,	mobile_no,subject,address,	message	
+//     const sql = `INSERT INTO contact (name,email,mobile_no,subject,address,message) VALUES (?,?,?,?,?,?)`;
+//     db.query(
+//       sql,
+//       [
+//         name,	email,	mobile_no,subject,address,	message	
   
-      ],
-      (err, results) => {
-        if (err) {
-          res.status(500).json({ error: "Error of Data" });
-        } else {
-          res.status(201).json({
-            success: true,
-            message: "Thank you for submitting the form! Our team will connect with you as soon as possible. ",
-          });
-        }
-      }
-    );
-  };
+//       ],
+//       (err, results) => {
+//         if (err) {
+//           res.status(500).json({ error: "Error of Data" });
+//         } else {
+//           res.status(201).json({
+//             success: true,
+//             message: "Thank you for submitting the form! Our team will connect with you as soon as possible. ",
+//           });
+//         }
+//       }
+//     );
+//   };
 
   // smtp code 
-  // const user_data = async (req, res) => {
-  //   const { name, email, mobile_no, subject, message } = req.body;
+  const user_data = async (req, res) => {
+    const { name, email, mobile_no, subject, message } = req.body;
   
-  //   const sql = `INSERT INTO contact (name, email, mobile_no, subject, message) VALUES (?, ?, ?, ?, ?)`;
-  //   db.query(sql, [name, email, mobile_no, subject, message], (err, results) => {
-  //     if (err) {
-  //       return res.status(500).json({ error: "Error of Data" });
-  //     }
+    const sql = `INSERT INTO contact (name, email, mobile_no, subject, message) VALUES (?, ?, ?, ?, ?)`;
+    db.query(sql, [name, email, mobile_no, subject, message], (err, results) => {
+      if (err) {
+        return res.status(500).json({ error: "Error of Data" });
+      }
   
-  //     res.status(201).json({
-  //       success: true,
-  //       message: "Thank you for submitting the form! Our team will connect with you as soon as possible.",
-  //     });
+      res.status(201).json({
+        success: true,
+        message: "Thank you for submitting the form! Our team will connect with you as soon as possible.",
+      });
   
-  //     const transporter = nodemailer.createTransport({
-  //       host: 'mail.one-realty.in',
-  //       port: 465,
-  //       secure: true, // Use SSL
-  //       auth: {
-  //         user: 'info@one-realty.in',
-  //         pass: 'onerealty@123',
-  //       },
-  //     });
+      const transporter = nodemailer.createTransport({
+        host: 'mail.one-realty.in',
+        port: 465,
+        secure: true, // Use SSL
+        auth: {
+          user: 'info@one-realty.in',
+          pass: 'onerealty@123',
+        },
+      });
   
-  //     const mailOptions = {
-  //       from: 'info@one-realty.in',
-  //       to: 'umerqureshi786786@gmail.com',
-  //       subject: 'One Realty Website Query/Contact Detailed From one-realty.in',
-  //       text: `Name: ${name}\nEmail: ${email}\nMobile No.: ${mobile_no}\nSubject: ${subject}\nMessage: ${message}`,
-  //     };
+      const mailOptions = {
+        from: 'info@one-realty.in',
+        to: 'umerqureshi786786@gmail.com',
+        subject: 'One Realty Website Query/Contact Detailed From one-realty.in',
+        text: `Name: ${name}\nEmail: ${email}\nMobile No.: ${mobile_no}\nSubject: ${subject}\nMessage: ${message}`,
+      };
   
-  //     transporter.sendMail(mailOptions, (error, info) => {
-  //       if (error) {
-  //         console.log(error);
-  //       } else {
-  //         console.log('Email sent: ' + info.response);
-  //       }
-  //     });
-  //   });
-  // };
+      transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log('Email sent: ' + info.response);
+        }
+      });
+    });
+  };
 
   
 const sendOtpSuperAdmin = (req, res) => {
@@ -257,83 +259,84 @@ const sendOtpSuperAdmin = (req, res) => {
 
         const OTP = generateOTP(6);
 
-        // try {
-        //   const transporter = nodemailer.createTransport({
-        //     service: "Gmail",
-        //     auth: {
-        //       user: process.env.EMAILSENDER,
-        //       pass: process.env.EMAILPASSWORD,
-        //     },
-        //   });
+        try {
+          const transporter = nodemailer.createTransport({
+            service: "Gmail",
+            auth: {
+              user: process.env.EMAILSENDER,
+              pass: process.env.EMAILPASSWORD,
+            },
+          });
           
 
-        //   const mailOptions = {
-        //     from: process.env.EMAILSENDER,
-        //     to: email,
-        //     subject: "Password Reset OTP",
-        //     text: `Your OTP for password reset is: ${OTP}`,
-        //   };
+          const mailOptions = {
+            from: process.env.EMAILSENDER,
+            to: email,
+            subject: "Password Reset OTP",
+            text: `Your OTP for password reset is: ${OTP}`,
+          };
 
-        //   transporter.sendMail(mailOptions, (error, info) => {
-        //     if (error) {
-        //       console.error(error);
-        //       return res.status(500).json("An error occurred while sending the email.");
-        //     } else {
-        //       console.log("OTP sent:", info.response);
+          transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+              console.error(error);
+              return res.status(500).json("An error occurred while sending the email.");
+            } else {
+              console.log("OTP sent:", info.response);
 
-        //       const updateQuery = "INSERT INTO otpcollections (email, code) VALUES (?, ?) ON DUPLICATE KEY UPDATE code = VALUES(code)";
-        //       db.query(updateQuery, [email, OTP], (upErr, upResult) => {
-        //         if (upErr) {
-        //           return res.status(400).json({ success: false, message: upErr.message });
-        //         }
-        //         return res.status(200).json({ message: "OTP sent successfully" });
-        //       });
-        //     }
-        //   });
-        // } catch (error) {
-        //   console.log(error);
-        //   return res.status(500).json("An error occurred.");
-        // }
-        try {
+              const updateQuery = "INSERT INTO otpcollections (email, code) VALUES (?, ?) ON DUPLICATE KEY UPDATE code = VALUES(code)";
+              db.query(updateQuery, [email, OTP], (upErr, upResult) => {
+                if (upErr) {
+                  return res.status(400).json({ success: false, message: upErr.message });
+                }
+                return res.status(200).json({ message: "OTP sent successfully" });
+              });
+            }
+          });
+        } catch (error) {
+          console.log(error);
+          return res.status(500).json("An error occurred.");
+        }
+
+        // try {
             
-          const transporter = nodemailer.createTransport({
-           host: 'mail.one-realty.in',
-           port: 465,
-           secure: true, // Use SSL
-           auth: {
-            user: 'info@one-realty.in',
-            pass: 'onerealty@123',
-           },
-         });
+        //   const transporter = nodemailer.createTransport({
+        //    host: 'mail.one-realty.in',
+        //    port: 465,
+        //    secure: true, // Use SSL
+        //    auth: {
+        //     user: 'info@one-realty.in',
+        //     pass: 'onerealty@123',
+        //    },
+        //  });
             
       
-            const mailOptions = {
-              from: 'info@one-realty.in',
-              to: email,
-              subject: "Admin Password Reset OTP",
-              text: `Your OTP for password reset is: ${OTP}`,
-            };
+        //     const mailOptions = {
+        //       from: 'info@one-realty.in',
+        //       to: email,
+        //       subject: "Admin Password Reset OTP",
+        //       text: `Your OTP for password reset is: ${OTP}`,
+        //     };
       
-            transporter.sendMail(mailOptions, (error, info) => {
-              if (error) {
-                console.error(error);
-                return res.status(500).json("An error occurred while sending the email.");
-              } else {
-                console.log("OTP sent:", info.response);
+        //     transporter.sendMail(mailOptions, (error, info) => {
+        //       if (error) {
+        //         console.error(error);
+        //         return res.status(500).json("An error occurred while sending the email.");
+        //       } else {
+        //         console.log("OTP sent:", info.response);
       
-                const updateQuery = "INSERT INTO otpcollections (email, code) VALUES (?, ?) ON DUPLICATE KEY UPDATE code = VALUES(code)";
-                db.query(updateQuery, [email, OTP], (upErr, upResult) => {
-                  if (upErr) {
-                    return res.status(400).json({ success: false, message: upErr.message });
-                  }
-                  return res.status(200).json({ message: "OTP sent successfully" });
-                });
-              }
-            });
-          } catch (error) {
-            console.log(error);
-            return res.status(500).json("An error occurred.");
-          }
+        //         const updateQuery = "INSERT INTO otpcollections (email, code) VALUES (?, ?) ON DUPLICATE KEY UPDATE code = VALUES(code)";
+        //         db.query(updateQuery, [email, OTP], (upErr, upResult) => {
+        //           if (upErr) {
+        //             return res.status(400).json({ success: false, message: upErr.message });
+        //           }
+        //           return res.status(200).json({ message: "OTP sent successfully" });
+        //         });
+        //       }
+        //     });
+        //   } catch (error) {
+        //     console.log(error);
+        //     return res.status(500).json("An error occurred.");
+        //   }
      
     }
     }
@@ -407,6 +410,28 @@ const resetPasswordSuperAdmin = (req, res) => {
     res.status(500).send({ success: false, message: "Internal server error" });
   }
 };
+const deleteContatct = (req, res) => {
+  const { id } = req.params;
+
+  // Basic validation
+  if (!id) {
+    return res.status(400).json({ error: "ID is required" });
+  }
+
+  const sql = `DELETE FROM contact WHERE id = ?`;
+
+  db.query(sql, [id], (err, results) => {
+    if (err) {
+      res.status(500).json({ error: "Error deleting contact data" });
+    } else if (results.affectedRows === 0) {
+      res.status(404).json({ error: "Conatct Data not found" });
+    } else {
+      res
+        .status(200)
+        .json({ success: true, message: "Conatct Data deleted successfully" });
+    }
+  });
+};
 
   
-  module.exports = {user_data,getuserdata,register,login,sendOtpSuperAdmin,verifyOtpSuperAdmin,resetPasswordSuperAdmin};
+  module.exports = {user_data,getuserdata,register,login,sendOtpSuperAdmin,verifyOtpSuperAdmin,resetPasswordSuperAdmin,deleteContatct};

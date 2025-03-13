@@ -27,6 +27,6 @@ const Container = styled.div`
   }
 
   h3 {
-    font-family: "Playfair Display";
+    
   }
 `;

@@ -178,10 +178,13 @@ h6{
 }
 h2{
     color:  #f26a20;
-    font-family: "Playfair Display";
+    
 }
 .card-title{
     color:  #f26a20;
+  }
+  .container{
+    margin-top: 6rem;
   }
 
 

@@ -90,6 +90,6 @@ const Container = styled.div`
     }
   }
   h2,h6{
-    font-family: "Playfair Display";
+    
   }
 `;

@@ -24,7 +24,7 @@ const Registration = () => {
     e.preventDefault();
     try{
       setLoading(true);
-      const res = await axios.post("https://one-realty.in/api/register" , formData)
+      const res = await axios.post("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/register" , formData)
       setLoading(false)
       console.log(res)
       if(res.data.success === true){
@@ -190,7 +190,7 @@ const Container = styled.div`
   }  
   .container{
     height:36rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
 label{
   font-weight: 800;

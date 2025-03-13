@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import wide from '../../images/card1.jpg'
 import comfortable from '../../images/card2.jfif'
 import quality from '../../images/card3.png'
@@ -20,78 +20,79 @@ function WhyChoose() {
             <div className="underline mx-auto"></div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mt-2"  data-aos="flip-left">
+          <div className="col-lg-4 col-md-6 mt-2 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={wide} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
-                <h5>Wide Range of Projects</h5>
+                <h5>Expertise & Experience</h5>
                 <div className="underline"></div>
                 <p>
-                  We boast a diverse portfolio of successful residential properties in Jabalpur. Each project is a testament to our commitment to excellence and our ability to meet varying customer needs and preferences.
-                </p>
+                With years of experience in the real estate industry, we have established ourselves as one of the most reliable and efficient builders in Jabalpur. Our expertise spans across residential and commercial projects, ensuring we meet diverse needs with excellence.     </p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mt-2"  data-aos="flip-left">
+          <div className="col-lg-4 col-md-6 mt-2 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={comfortable} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
-                <h5>Affordable & Comfortable Homes</h5>
+                <h5>Quality Construction:
+                </h5>
                 <div className="underline"></div>
                 <p>
-                  Ayushi Construction focus on creating homes that are not only affordable but also comfortable and stylish. We believe in delivering value for money, ensuring that our properties offer the perfect balance of quality, comfort, and functionality. Our homes are designed to meet your lifestyle needs without breaking the bank.
+                We are known for our uncompromising approach to quality. Every project is built with top-grade materials, advanced engineering techniques, and meticulous attention to detail, ensuring durability and elegance.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mt-4"  data-aos="flip-left">
+          <div className="col-lg-4 col-md-6 mt-4 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={quality} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
-                <h5>Innovative Design & Quality Construction</h5>
+                <h5>Innovative Design:</h5>
                 <div className="underline"></div>
                 <p>
-                  Innovation and quality are at the heart of our projects. Our skilled architects and engineers use the latest construction techniques and high-quality materials to create homes that are not only aesthetically pleasing but also durable and sustainable. We strive to exceed industry standards in every project we undertake.
+                Our projects are thoughtfully designed to offer contemporary living spaces that are not only beautiful but also functional. From luxurious villas to stylish apartments, each property reflects superior craftsmanship.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mt-4"  data-aos="flip-left">
+          <div className="col-lg-4 col-md-6 mt-4 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={sustainable} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
                 
-                <h5>Sustainable Practices</h5>
+                <h5>Timely Delivery:</h5>
                 <div className="underline"></div>
                 <p>
-                Sustainability is a core value at Ayushi Construction. We are committed to environmentally responsible building practices that reduce waste, conserve resources, and promote energy efficiency. By using eco-friendly materials and sustainable construction methods, we aim to create buildings that are not only good for our clients but also for the planet.
+                At Ayushi Construction, we value your time. We adhere to strict timelines and ensure projects are completed and delivered as promised, without compromising on quality.
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mt-4"  data-aos="flip-left">
+          <div className="col-lg-4 col-md-6 mt-4 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={support} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
-                <h5>Comprehensive After-Sales Support</h5>
+                <h5>After-Sales Support:</h5>
                 <div className="underline"></div>
                 <p>
-                  Our commitment to you doesn't end at the point of sale. We offer comprehensive after-sales support to ensure that any issues or concerns are promptly addressed. Our dedicated customer service team is always available to assist you, ensuring your complete satisfaction and peace of mind.
+                Our commitment doesn’t end at handing over the keys. We provide excellent after-sales support, making sure you are completely satisfied with your new home or office.
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 mt-4"  data-aos="flip-left">
+          <div className="col-lg-4 col-md-6 mt-4 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={assurance} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
-                <h5>Quality Assurance</h5>
+                <h5>Affordable Pricing:</h5>
                 <div className="underline"></div>
                 <p>
-                At Ayushi Construction, we uphold the highest standards of quality in every project. Our meticulous attention to detail ensures that each building we construct is not only aesthetically pleasing but also durable and functional. We use top-grade materials and employ rigorous quality control processes to guarantee superior results.
+                Quality construction doesn’t have to be expensive. We offer competitive pricing without compromising on the standards you deserve.
+
 
 
                 </p>
@@ -105,6 +106,21 @@ function WhyChoose() {
 }
 
 export default WhyChoose;
+const moveIn = keyframes`
+0% {
+  opacity: 1;
+  transform: rotate(5deg); /* Rotate to the right */
+}
+50% {
+  opacity: 1;
+  transform: rotate(0deg); /* Return to normal */
+}
+100% {
+  opacity: 1;
+  transform: rotate(-5deg); /* Rotate to the left */
+}
+`;
+
 
 const Wrapper = styled.div`
   .underline {
@@ -140,13 +156,13 @@ const Wrapper = styled.div`
     border: none;
     padding: 15px;
     @media screen and (max-width: 768px) {
-      height: 22rem;
+      height: 18rem;
     }
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-      height: 27rem;
+      height: 15rem;
     }
     @media screen and (min-width: 1024px) and (max-width: 1400px) {
-      height: 27rem;
+      height: 20rem;
     }
   }
 
@@ -174,7 +190,7 @@ const Wrapper = styled.div`
     /* color: #006c28; */
     color: #f26a20;
     /* color: #d29b33; */
-    font-family: "Playfair Display";
+    
     @media screen and (max-width: 768px) {
       font-size: 1.5rem;
     }
@@ -189,4 +205,15 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+
+
+.flash-animation {
+  display: inline-block;
+  margin-top: 20px;
+  &:hover {
+    animation: ${moveIn} 2s ease-out;
+  }
+}
+
 `

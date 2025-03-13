@@ -60,6 +60,6 @@ h2{
     
     color: #f26a20;
  
-    font-family: "Playfair Display";
+    
 }
 `

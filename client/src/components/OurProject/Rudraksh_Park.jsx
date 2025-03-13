@@ -25,11 +25,7 @@ function Rudraksh_Park() {
               <p>Spacious 2 BHK flats available, fully ready to move in, offering a generous 1119 sq. ft. of thoughtfully designed living space. These well-planned homes provide a perfect blend of comfort and functionality, featuring modern interiors, ample natural light, and high-quality fittings. Ideal for families and professionals alike, each flat ensures a comfortable and convenient lifestyle. Additionally, the property includes a dedicated parking facility, ensuring ease and security for residents. Located in a prime area with excellent connectivity to essential amenities, these flats offer the perfect combination of luxury and practicality.</p>
              
 
-              <p className ="fw-bold"> Total  5.5 Acres
-</p>
-              <p className ="fw-bold"><span></span>Project Duration 2015 - 2017
-
-</p>
+             
             </div>
           </div>
           <div className="col-lg-6">
@@ -168,9 +164,12 @@ const Wrapper  = styled.div`
 
     h2{
     color: #f26a20;
-    font-family: "Playfair Display";
+    
 }
 .card-title{
     color: #f26a20;
+  }
+  .container{
+    margin-top: 6rem;
   }
 `
