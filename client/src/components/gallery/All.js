@@ -106,19 +106,26 @@ function All() {
 
 export default All;
 
+
 const Wrapper = styled.div`
   img {
     height: 25rem;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    width: 100%;
   }
   .card {
     position: relative;
     border: none;
+    overflow: hidden; 
   }
-  .card-title{
-    color:#f26a20;
+  .card-title {
+    color: #f26a20;
   }
   .img-container {
     position: relative;
+  }
+  .img-container img:hover {
+    transform: scale(1.1); 
   }
   .hover-title {
     position: absolute;

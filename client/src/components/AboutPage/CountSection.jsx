@@ -12,7 +12,7 @@ function CountSection() {
           <div className="col-lg-3 col-md-6 text-center mb-4">
             <div>
               <FaPencilRuler className="CountIcons rounded-circle p-3" color="#f26a20"/>
-              <h2><CountUp start={0} end={2500} duration={10} delay={3} />+</h2>
+              <h2><CountUp start={0} end={1500} duration={10} delay={3} />+</h2>
 
               <h6>Square Feet</h6>
             </div>
@@ -20,21 +20,21 @@ function CountSection() {
           <div className="col-lg-3 col-md-6 text-center mb-4">
             <div>
               <FaBed  className="CountIcons rounded-circle p-3" />
-              <h2><CountUp start={0} end={70} duration={10} delay={3} />+</h2>
+              <h2><CountUp start={0} end={50} duration={10} delay={3} />+</h2>
               <h6>Bedrooms</h6>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center mb-4">
             <div>
               <FaBath className="CountIcons rounded-circle p-3" />
-              <h2><CountUp start={0} end={90} duration={10} delay={3} />+</h2>
+              <h2><CountUp start={0} end={30} duration={10} delay={3} />+</h2>
               <h6>Bathrooms</h6>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center mb-4">
             <div>
               <FaCar className="CountIcons rounded-circle p-3" />
-              <h2><CountUp start={0} end={40} duration={10} delay={3} />+</h2>
+              <h2><CountUp start={0} end={10} duration={10} delay={3} />+</h2>
               <h6>Car Parkings</h6>
             </div>
           </div>

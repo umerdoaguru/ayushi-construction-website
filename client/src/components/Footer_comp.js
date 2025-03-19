@@ -65,13 +65,12 @@ function Footer_comp() {
 
               <br />
               <IoCallOutline />
-              <span className="m-2">
+              <span className="ms-2">
                 <Link
                   to="tel:+91-9981268611"
                  
                   className=""
-                >
-                 9981268611 ,</Link>
+                >9981268611 ,</Link>
               
               </span>
               <span className="">
@@ -79,10 +78,29 @@ function Footer_comp() {
                   to="tel:+91-9575809888"
                  
                   className=""
-                >
-                9575809888
+                > 9575809888,  
                 </Link>
               </span>
+              <br />
+              <span className="ms-4">
+                <Link
+                  to="tel:+91-07612672772"
+                 
+                  className=""
+                >
+                07612672772 ,
+                </Link>
+              </span>
+              <span className="">
+                <Link
+                  to="tel:+91-07612672772"
+                 
+                  className=""
+                >
+                 07612672772
+                </Link>
+              </span>
+
               <br />
          
               
@@ -171,17 +189,30 @@ function Footer_comp() {
           </div>
         
         </div>
+
         <div className="middle box">
           <div className="topic mt-4">Our Projects</div>
           <div>
             {" "}
             <Link
-              to="/ayushi-dhara"
+              to="/ayushi-rudraksh-park"
               onClick={handleFooterLink}
              
               className=""
             >
-             Ayushi Dhara <span class="double-arrow">»</span>
+             Ayushi Rudraksh Park <span class="double-arrow">»</span>
+
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-palm-green"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Palm Green <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -198,6 +229,30 @@ function Footer_comp() {
           <div>
             {" "}
             <Link
+              to="/ayushi-home"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+              Ayushi Home <span class="double-arrow">»</span>
+            </Link>
+          </div>
+
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-dhara"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Dhara <span class="double-arrow">»</span>
+            </Link>
+          </div>
+
+          <div>
+            {" "}
+            <Link
               to="/ayushi-hari-vihar"
               onClick={handleFooterLink}
              
@@ -207,17 +262,7 @@ function Footer_comp() {
             </Link>
           </div>
 
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-home"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-              Ayushi Home <span class="double-arrow">»</span>
-            </Link>
-          </div>
+
           <div>
             {" "}
             <Link
@@ -237,21 +282,10 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Palm Green <span class="double-arrow">»</span>
+             Ayushi Awadh <span class="double-arrow">»</span>
             </Link>
           </div>
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-rudraksh-park"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-             Ayushi Rudraksh Park <span class="double-arrow">»</span>
-
-            </Link>
-          </div>
+          
          
         </div>
 

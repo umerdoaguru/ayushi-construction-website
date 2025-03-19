@@ -275,7 +275,7 @@ function OurProjects() {
                      <div className="about-content s-about-content pl-30" data-aos= "fade-up">
                        <div className="about-title second-atitle">
                          
-                         <h2>Ayushi Hari Vihar</h2>
+                         <h2>Welcome to Ayushi Hari Vihar</h2>
                         
                        </div>
                        <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these well-crafted flats offer a perfect blend of comfort, style, and functionality. Each unit features thoughtfully planned interiors, ample natural light, and high-quality fittings to ensure a luxurious living experience. Whether you're a small family or need extra space, these flats cater to diverse lifestyle needs. Additionally, the property includes a dedicated parking facility, providing convenience and security. Located in a prime area with easy access to essential amenities, these homes are an excellent choice for those seeking a comfortable and well-connected living environment.
@@ -319,7 +319,7 @@ function OurProjects() {
                      <div className="about-content s-about-content pl-30" data-aos= "fade-up">
                        <div className="about-title second-atitle">
                          
-                         <h2>Ayushi Hari Vihar</h2>
+                         <h2>Welcome to Ayushi Hari Vihar</h2>
                         
                        </div>
                        <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these well-crafted flats offer a perfect blend of comfort, style, and functionality. Each unit features thoughtfully planned interiors, ample natural light, and high-quality fittings to ensure a luxurious living experience. Whether you're a small family or need extra space, these flats cater to diverse lifestyle needs. Additionally, the property includes a dedicated parking facility, providing convenience and security. Located in a prime area with easy access to essential amenities, these homes are an excellent choice for those seeking a comfortable and well-connected living environment.
@@ -432,7 +432,7 @@ function OurProjects() {
                      <div className="about-content s-about-content pl-30" data-aos= "fade-up">
                        <div className="about-title second-atitle">
                          
-                         <h2>Ayushi Palm Green</h2>
+                         <h2>Welcome to Ayushi Palm Green</h2>
                         
                        </div>
                        <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these flats offer a perfect combination of style, comfort, and functionality. Each unit features well-ventilated rooms, contemporary interiors, and premium-quality fittings to ensure a superior living experience. Whether you are looking for a cozy space or a larger home for your family, these flats cater to diverse needs. Additionally, a dedicated parking facility is provided for added convenience and security. Situated in a prime location with easy access to essential amenities, these homes offer a seamless and luxurious lifestyle.
@@ -479,7 +479,7 @@ function OurProjects() {
                      <div className="about-content s-about-content pl-30" data-aos= "fade-up">
                        <div className="about-title second-atitle">
                          
-                         <h2>Ayushi Palm Green</h2>
+                         <h2>Welcome to Ayushi Palm Green</h2>
                         
                        </div>
                        <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these flats offer a perfect combination of style, comfort, and functionality. Each unit features well-ventilated rooms, contemporary interiors, and premium-quality fittings to ensure a superior living experience. Whether you are looking for a cozy space or a larger home for your family, these flats cater to diverse needs. Additionally, a dedicated parking facility is provided for added convenience and security. Situated in a prime location with easy access to essential amenities, these homes offer a seamless and luxurious lifestyle.

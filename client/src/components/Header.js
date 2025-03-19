@@ -41,20 +41,26 @@ function Header() {
             
             <NavDropdown title="Our Project" id="basic-nav-dropdown">
               <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
-                <NavDropdown.Item as={Link} to="/ayushi-dhara" onClick={() => handleFooterLink("/ayushi-dhara")}>Ayushi Dhara</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/ayushi-home" onClick={() => handleFooterLink("/ayushi-home")}>Ayushi Home</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-villa" onClick={() => handleFooterLink("/ayushi-villa")}>Ayushi Villa</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/ayushi-hari-vihar" onClick={() => handleFooterLink("/ayushi-hari-vihar")}>Ayushi Hari Vihar</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/ayushi-vrindavan" onClick={() => handleFooterLink("/ayushi-vrindavan")}>Ayushi Vrindavan</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-home" onClick={() => handleFooterLink("/ayushi-home")}>Ayushi Home</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-dhara" onClick={() => handleFooterLink("/ayushi-dhara")}>Ayushi Dhara</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="#" onClick={() => handleFooterLink("#")}>Ayushi Hari Vihar Phase-II</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="#" onClick={() => handleFooterLink("#")}>Ayushi Vrindavan Phase-II</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
-                <NavDropdown.Item as={Link} to="/ayushi-palm-green" onClick={() => handleFooterLink("/ayushi-palm-green")}>Ayushi Palm Green</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-rudraksh-park" onClick={() => handleFooterLink("/ayushi-rudraksh-park")}>Rudraksh Park</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-palm-green" onClick={() => handleFooterLink("/ayushi-palm-green")}>Ayushi Palm Green</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-villa" onClick={() => handleFooterLink("/ayushi-villa")}>Ayushi Villa</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-hari-vihar" onClick={() => handleFooterLink("/ayushi-hari-vihar")}>Ayushi Hari Vihar Phase-I</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-vrindavan" onClick={() => handleFooterLink("/ayushi-vrindavan")}>Ayushi Vrindavan Phase-I</NavDropdown.Item>
+
               </NavDropdown>
 
               <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">
-                <NavDropdown.Item>Coming Soon</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="#" onClick={() => handleFooterLink("#")}>Ayushi Awedh</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="#" onClick={() => handleFooterLink("#")}>Ayushi Lotus View </NavDropdown.Item>
+
               </NavDropdown>
             </NavDropdown>
 
@@ -64,10 +70,10 @@ function Header() {
           </Nav>
 
           <div className="d-flex justify-content-center gap-3" id="logo">
-            <a href="https://www.facebook.com/Onerealty/" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/AyushiConstructionJabalpur" target="_blank" rel="noreferrer">
               <FaFacebook size="25px" />
             </a>
-            <a href="https://www.instagram.com/onerealtydevelopers/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/ayushiconstruction2/" target="_blank" rel="noreferrer">
               <FaInstagram size="25px" />
             </a>
             <a href="https://www.youtube.com/@AyushiConstruction-ig8bv/featured" target="_blank" rel="noreferrer">
@@ -93,7 +99,8 @@ const Wrapper = styled.div`
   a {
     text-decoration: none;
     color: #f26a20;
-    font-size: 1.05rem;
+    font-size: 1.07rem;
+    font-weight: 500;
     
   }
   li {
@@ -149,8 +156,13 @@ const Wrapper = styled.div`
  }
  #logo{
   @media screen and (max-width: 768px) {
-     margin-right: 12rem;
+     margin-right: 23rem;
      margin-top:1rem;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1020px) {
+    margin-right: 46rem;
+     margin-top:1rem;
+      
     }
  }
 `;
