@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 import ayushi_dhara from '../../images/ayushi-dhara.jpg'
 
 import { FaWhatsapp } from 'react-icons/fa'
 import GoogleMapCom from '../../pages/GoogleMapCom';
-
+import video from '../../video/ayushidhara.mp4'
+import { Spinner } from 'react-bootstrap';
 
 function Ayushi_Dhara() {
-  const images = [
-    { src: '', title: 'House Side View' },
- 
-  ];
+
+  const [loading, setLoading] = useState(true);
+  
+      const handleLoadedData = () => {
+        setLoading(false);
+      };
   
   return (
     <Wrapper>
@@ -146,7 +149,53 @@ double coat glossy paint/normal paint.</h6>
     <div className="col-lg-3 ">
 <h6>Tukdi Roof protection/KOWA for water leakage.</h6>
     </div>
-    
+    <div className="position-relative" id="cont">
+    <h2 className='text-center'>
+    Video</h2>
+    <div
+                className="underline mx-auto"
+                style={{
+                  height: 3,
+                  width: "3rem",
+                  backgroundColor: "#34495E",
+                  marginTop: 20,
+                  marginBottom: 20,
+                }}
+              ></div>
+<div className="mt-4">
+      {loading && (
+        <div
+          className="d-flex justify-content-center align-items-center"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "black",
+            zIndex: 10,
+          }}
+        >
+          <Spinner animation="border" variant="light" /> {/* Change this to your preferred loader */}
+        </div>
+      )}
+<div className="text-center">
+      <video
+        src={video}
+        autoPlay
+        loop
+        muted
+        onLoadedData={handleLoadedData}
+        style={{
+          
+          
+          objectFit: "cover",
+          
+        }}
+      />
+      </div>
+</div>
+    </div>
 
     <GoogleMapCom
                 locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.9709326397283!2d79.86601557603863!3d23.134737712131795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b37bf7c868c9%3A0xb7bbcfdd18689f62!2sAyushi%20Dhara!5e0!3m2!1sen!2sin!4v1742816322465!5m2!1sen!2sin" />
@@ -216,6 +265,12 @@ h2{
   .container{
     margin-top: 6rem;
   }
-
+  
+video{
+    width: 25%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
 
 `

@@ -35,6 +35,7 @@ import Ayushi_Vrindavan from "./components/OurProject/Ayushi_Vrindavan";
 import Ayushi_Palm_Green from "./components/OurProject/Ayushi_Palm_Green";
 import Rudraksh_Park from "./components/OurProject/Rudraksh_Park";
 import Whatsappicon from "./pages/Whatsappicon";
+import ProjectWiseImage from "./components/gallery/ProjectWiseImage";
 
 function App() {
   const user = useSelector(state => state.auth.user);
@@ -71,6 +72,7 @@ function App() {
           <Route path="/blog4" element={<Blog4/>} />
           <Route path="/blog5" element={<Blog5/>} />
         <Route path="/admin-reset-password" element={<AdminResetPassword />} />
+        <Route path="/projects-image/:projectId" element={<ProjectWiseImage/>} />
 
       </Routes>
       <Footer_comp/>
