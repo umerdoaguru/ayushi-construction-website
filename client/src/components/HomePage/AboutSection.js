@@ -1,6 +1,6 @@
 import React from 'react';
 // import img from '../../images/about_img02.png'
-import img from '../../images/about-us.jpeg'
+import img from '../../images/banner123.jpg'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -29,7 +29,7 @@ const AboutSection = () => {
                 }}
               ></div>
 </div>
-{/* <div className="col-lg-3 flash-animation">
+{/* <div clssName="acol-lg-3 flash-animation">
 <h2 className=' text-center ongoing'><Link to='/ayushi-vrindavan' onClick={handleFooterLink}>Ongoing Project</Link></h2>
 
 </div> */}
@@ -37,21 +37,15 @@ const AboutSection = () => {
 </div>
 <div className="content mb-3" data-aos="zoom-out">
 
-  <p>Welcome to Ayushi Construction, one of the reputed leading home builders in Jabalpur established in 2006, by Satyendra . We specialize in creating comfortable and affordable residential homes that cater to your needs. Our latest completed project, Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, offers 2/3 BHK Flats/Apartments with state-of-the-art architecture and a wide range of amenities to provide a comfortable living experience. Additionally, we have ongoing projects like Ayushi Homes, Ayushi Dhara, and Ayushi Villa.</p>
+  <p>Welcome to Ayushi Construction, one of the reputed leading home builders in Jabalpur established in 2006, by Satyendra . We specialize in creating comfortable and affordable residential homes that cater to your needs. Our latest completed project, Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, offers 2/3 BHK Flats/Apartments with state-of-the-art architecture and a wide range of amenities to provide a comfortable living experience. Additionally, we have ongoing projects like Ayushi Homess, Ayushi Dhara, and Ayushi Villa.</p>
 </div>
 
 
 
 
         <div className="row align-items-center mt-5">
-          <div className="col-lg-6">
-            <div className="s-about-img p-relative" data-aos= "fade-right"  
-     >
-              <img src= {img} alt="img" />
-              
-            </div>
-          </div>
 
+          
           <div className="col-lg-6 mt-2">
           <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
@@ -74,6 +68,14 @@ const AboutSection = () => {
               <button  className="btn" style={{color:"white" ,backgroundColor:"  color: #01614e;"}}>Get Started</button>
             </div>
           </div>
+          <div className="col-lg-6">
+            <div className="s-about-img p-relative" data-aos= "fade-left"  
+     >
+              <img src= {img} alt="img" />
+              
+            </div>
+          </div>
+
           
         </div>
       </div>

@@ -34,6 +34,7 @@ import Ayushi_Hari_Vihar from "./components/OurProject/Ayushi_Hari_Vihar";
 import Ayushi_Vrindavan from "./components/OurProject/Ayushi_Vrindavan";
 import Ayushi_Palm_Green from "./components/OurProject/Ayushi_Palm_Green";
 import Rudraksh_Park from "./components/OurProject/Rudraksh_Park";
+import Whatsappicon from "./pages/Whatsappicon";
 
 function App() {
   const user = useSelector(state => state.auth.user);
@@ -73,6 +74,7 @@ function App() {
 
       </Routes>
       <Footer_comp/>
+      <Whatsappicon/>
       </div>
     </>
   );

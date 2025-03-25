@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import img from "../images/slider_img01.webp";
 import img from "../images/banner123.jpg";
-import video from '../images/ayushi_video.mp4'
+import video from '../video/ayushi_video.mp4'
 
 
 import img1 from "../images/Untitled design (10).png";
@@ -16,6 +16,7 @@ import LastHeropage from "../components/HomePage/LastHeropage";
 import OurVideo from "../components/HomePage/OurVideo";
 import styled from "styled-components";
 import { Spinner } from "react-bootstrap";
+import GoogleReview from "./GoogleReview";
 
 function HomePage() {
   const [loading, setLoading] = useState(true);
@@ -77,6 +78,7 @@ function HomePage() {
       <Bank_Partner/>
       <OurVideo/>
       <LastHeropage/>
+      <GoogleReview/>
      
 
 

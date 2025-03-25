@@ -7,6 +7,7 @@ import OurVideo from "../HomePage/OurVideo";
 import Forms from "../contact/Forms";
 import FormNirvanaHomes from "../contact/FormNirvanaHomes";
 import { FaWhatsapp } from "react-icons/fa";
+import GoogleMapCom from "../../pages/GoogleMapCom";
 
 function Ayushi_Vrindavan() {
 
@@ -27,10 +28,7 @@ function Ayushi_Vrindavan() {
       
               </p>
 
-              <p className="fw-bold">Total 11 Acres</p>
-              <p className="fw-bold">
-                <span></span>Ongoing Project
-              </p>
+             
             </div>
           </div>
 
@@ -45,84 +43,36 @@ function Ayushi_Vrindavan() {
             <h2>AMENITIES</h2>
           </div>
           <div className="col-lg-3">
-            <h6>Grand Gentry Enterance</h6>
+            <h6>Grand Enterance Gate</h6>
           </div>
           <div className="col-lg-3">
-            <h6>Commercial Units/Shops</h6>
+            <h6>Covered Campus</h6>
           </div>
           <div className="col-lg-3">
-            <h6>Water Supply</h6>
+            <h6>Beautiful Garden</h6>
           </div>
           <div className="col-lg-3">
-            <h6>Kids Play Area</h6>
+            <h6>RCC Wide Road</h6>
           </div>
 
           <div className="col-lg-3">
-            <h6>Soalr Lighting</h6>
+            <h6>Electricity Supply</h6>
           </div>
           <div className="col-lg-3">
-            <h6>Open Air Gym</h6>
+            <h6>Draines System</h6>
           </div>
           <div className="col-lg-3">
-            <h6>24 Hours Water Supply</h6>
+            <h6>Children Play Area</h6>
           </div>
           <div className="col-lg-3">
-            <h6>Jogging Track- Footpath</h6>
+            <h6>Radha Krishna sculpture</h6>
           </div>
 
-          <div className="col-lg-12 mt-4">
-            <h2>SPECIFICATIONS</h2>
-          </div>
-          <div className="col-lg-3">
-            <h6>R.C.C.. Framed Structure</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>AAC Blocks Walls</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Teak Entry Door</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Vitrified Tiled</h6>
-          </div>
+          <GoogleMapCom 
+                locationUrl="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1834.5566840595739!2d79.8523463786097!3d23.1295310704706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA3JzQ2LjMiTiA3OcKwNTEnMTIuMyJF!5e0!3m2!1sen!2sin!4v1742799997431!5m2!1sen!2sin"
+            />
 
-          <div className="col-lg-3">
-            <h6>Modular Kitchen Platform</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Branded Bath Fitting </h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>ISI Electrical Goods </h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Internal Flush Door </h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Branded Putty And Painting </h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>S.S.. Stair Railing </h6>
-          </div>
-
-          <div className="col-lg-3">
-            <h6>UPVC / Aluminium Windows</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Glass & Stainless Steel Railing At Elevation</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Testure At Elevation</h6>
-          </div>
-          <div className="col-lg-3">
-            <h6>Stair Floor of Green Marble</h6>
-          </div>
-          <div className="col-lg-3 ">
-            <h6>Safety Grills</h6>
-          </div>
-
-       
-          <div className="container text-center">
+       <div className="container text-center">
             <div className="h4" style={{ color: "#f26a20" }}>
               Contact Us{" "}
             </div>

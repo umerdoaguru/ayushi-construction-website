@@ -4,6 +4,7 @@ import img from '../../images/rudraksh-park.jpg'
 
 import { FaWhatsapp } from 'react-icons/fa'
 import OurVideo from '../HomePage/OurVideo'
+import GoogleMapCom from '../../pages/GoogleMapCom'
 
 
 
@@ -119,8 +120,22 @@ Soalr Lighting</h6>
     <div className="col-lg-3 ">
 <h6>Safety Grills</h6>
     </div>
-
-    <div className="container text-center mt-5">
+    <h2 className='text-center'>
+    Video</h2>
+    <div
+                className="underline mx-auto"
+                style={{
+                  height: 3,
+                  width: "3rem",
+                  backgroundColor: "#34495E",
+                  marginTop: 20,
+                  marginBottom: 20,
+                }}
+              ></div>
+    <OurVideo/>
+    <GoogleMapCom
+                locationUrl= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14675.247307074349!2d79.86035136439021!3d23.140552420652917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b3139133dae3%3A0xb17dd5810d162f4d!2sRudraksh%20park!5e0!3m2!1sen!2sin!4v1742808696852!5m2!1sen!2sin"    />
+    <div className="container text-center mt-2">
       <div className="h4" style={{color:"#f26a20"}}>Contact Us </div>
       <div
                 className="underline mx-auto"
@@ -144,7 +159,7 @@ Soalr Lighting</h6>
 
     </div>
 
-    <OurVideo/>
+
         </div>
         
     </div>

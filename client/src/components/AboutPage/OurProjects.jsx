@@ -122,7 +122,7 @@ function OurProjects() {
                            <div className="about-content s-about-content pl-30" data-aos= "fade-up">
                              <div className="about-title second-atitle">
                                
-                               <h2>Welcome To Ayushi Home</h2>
+                               <h2>Welcome To Ayushi Homes</h2>
                               
                              </div>
                              <p>A ready-to-move duplex offering a well-designed living space of 620 sq. ft., perfect for those seeking comfort and functionality. Situated in the heart of Jabalpur, this property is ideal for families or individuals looking for a modern home in a well-connected location. The thoughtfully planned layout ensures maximum space utilization, with well-ventilated rooms, stylish interiors, and quality finishes that enhance the overall appeal. Additionally, the property comes with a dedicated parking facility, providing convenience and security for vehicle owners. With its prime location, this duplex offers easy access to essential amenities, making it a great choice for homebuyers looking for a blend of comfort, convenience, and affordability.
@@ -166,7 +166,7 @@ function OurProjects() {
                            <div className="about-content s-about-content pl-30" data-aos= "fade-up" >
                              <div className="about-title second-atitle">
                                
-                               <h2>Welcome To Ayushi Home</h2>
+                               <h2>Welcome To Ayushi Homes</h2>
                               
                              </div>
                              <p>A ready-to-move duplex offering a well-designed living space of 620 sq. ft., perfect for those seeking comfort and functionality. Situated in the heart of Jabalpur, this property is ideal for families or individuals looking for a modern home in a well-connected location. The thoughtfully planned layout ensures maximum space utilization, with well-ventilated rooms, stylish interiors, and quality finishes that enhance the overall appeal. Additionally, the property comes with a dedicated parking facility, providing convenience and security for vehicle owners. With its prime location, this duplex offers easy access to essential amenities, making it a great choice for homebuyers looking for a blend of comfort, convenience, and affordability.

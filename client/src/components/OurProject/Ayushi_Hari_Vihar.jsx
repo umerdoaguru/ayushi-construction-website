@@ -3,9 +3,16 @@ import styled from 'styled-components'
 import img from '../../images/ayushi-hari-vihar.jpg'
 
 import { FaWhatsapp } from 'react-icons/fa'
+import { Button } from 'react-bootstrap';
+import GoogleMapCom from '../../pages/GoogleMapCom';
 
 function Ayushi_Hari_Vihar() {
   
+    const whatsappNumber = "+919575809888"; // Your WhatsApp number
+    const defaultMessage = "Hi! I came across the Ayushi Hari Vihar project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
+  
+    // Constructing WhatsApp URL
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
   
   return (
    <Wrapper>
@@ -55,67 +62,20 @@ function Ayushi_Hari_Vihar() {
 <h6>
 Soalr Lighting</h6>
     </div>
-    <div className="col-lg-3">
-<h6>Open Air Gym</h6>
-    </div>
+   
     <div className="col-lg-3">
 <h6>24 Hours Water Supply</h6>
     </div>
     <div className="col-lg-3">
 <h6>Jogging Track- Footpath</h6>
     </div>
-
-    <div className="col-lg-12 mt-4">
-      <h2>
-      SPECIFICATIONS</h2>
-    </div>
     <div className="col-lg-3">
-<h6>R.C.C.. Framed Structure</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>AAC Blocks Walls</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Teak Entry Door</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Vitrified Tiled</h6>
-    </div>
- 
-    <div className="col-lg-3">
-<h6>Modular Kitchen Platform</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Branded Bath Fitting </h6>
-    </div>
-    <div className="col-lg-3">
-<h6>ISI Electrical Goods </h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Internal Flush Door  </h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Branded Putty And Painting  </h6>
-    </div>
-    <div className="col-lg-3">
-<h6>S.S.. Stair Railing  </h6>
+<h6>Beautiful garden</h6>
     </div>
 
-    <div className="col-lg-3">
-<h6>UPVC / Aluminium Windows</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Glass & Stainless Steel Railing At Elevation</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Testure At Elevation</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Stair Floor of Green Marble</h6>
-    </div>
-    <div className="col-lg-3 ">
-<h6>Safety Grills</h6>
-    </div>
+    <GoogleMapCom
+                locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.0579516827493!2d79.87518507603933!3d23.168084910881046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b18fb38602d3%3A0x91e0a14a3d0fa692!2sAyushi%20Hari%20vihar!5e0!3m2!1sen!2sin!4v1742816968619!5m2!1sen!2sin"
+            />
 
     <div className="container text-center mt-5">
       <div className="h4" style={{color:"#f26a20"}}>Contact Us </div>
@@ -140,6 +100,7 @@ Soalr Lighting</h6>
 
 
     </div>
+
 
     
         </div>

@@ -110,11 +110,11 @@ function Footer_comp() {
               <span className="m-2 ">
                 {" "}
                 <Link
-                  to="mailto:info@ayushiconstruction.com"
+                  to="mailto:infoayushiconstruction@gmail.com"
                  
                   className=""
                 >
-                  info@ayushiconstruction.com
+                  infoayushiconstruction@gmail.com
                 </Link>
               </span>
             </div>
@@ -234,7 +234,7 @@ function Footer_comp() {
              
               className=""
             >
-              Ayushi Home <span class="double-arrow">»</span>
+              Ayushi Homes <span class="double-arrow">»</span>
             </Link>
           </div>
 
@@ -258,7 +258,7 @@ function Footer_comp() {
              
               className=""
             >
-           Ayushi Hari Vihar <span class="double-arrow">»</span>
+           Ayushi Hari Vihar Phase-I<span class="double-arrow">»</span>
             </Link>
           </div>
 
@@ -271,7 +271,7 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Vrindavan <span class="double-arrow">»</span>
+             Ayushi Vrindavan Phase-I<span class="double-arrow">»</span>
             </Link>
           </div>
           <div>

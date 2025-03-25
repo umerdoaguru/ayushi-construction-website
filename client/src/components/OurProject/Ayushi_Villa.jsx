@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import img from '../../images/ayushi-villa.png'
 
 import { FaWhatsapp } from 'react-icons/fa'
+import GoogleMapCom from '../../pages/GoogleMapCom';
 
 
 
@@ -61,14 +62,15 @@ function Ayushi_Villa() {
 <h6>
 Soalr Lighting</h6>
     </div>
-    <div className="col-lg-3">
-<h6>Open Air Gym</h6>
-    </div>
+   
     <div className="col-lg-3">
 <h6>24 Hours Water Supply</h6>
     </div>
     <div className="col-lg-3">
 <h6>Jogging Track- Footpath</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Beautiful garden</h6>
     </div>
 
     <div className="col-lg-12 mt-4">
@@ -76,53 +78,67 @@ Soalr Lighting</h6>
       SPECIFICATIONS</h2>
     </div>
     <div className="col-lg-3">
-<h6>R.C.C.. Framed Structure</h6>
+<h6>Construction with fly ash bricks and M send</h6>
     </div>
     <div className="col-lg-3">
-<h6>AAC Blocks Walls</h6>
+<h6>ISI TMT iron Saria</h6>
     </div>
     <div className="col-lg-3">
-<h6>Teak Entry Door</h6>
+<h6>Flush Door</h6>
     </div>
     <div className="col-lg-3">
-<h6>Vitrified Tiled</h6>
+<h6>Personal water tank 1000 ltr capacity.</h6>
     </div>
  
     <div className="col-lg-3">
-<h6>Modular Kitchen Platform</h6>
+<h6>Vitrified tiles</h6>
     </div>
     <div className="col-lg-3">
-<h6>Branded Bath Fitting </h6>
+<h6>Window ms steel grill with three track UPVC section tuffan glass.</h6>
     </div>
     <div className="col-lg-3">
-<h6>ISI Electrical Goods </h6>
+<h6>Wooden panelling or granite panelling on doors.</h6>
     </div>
     <div className="col-lg-3">
-<h6>Internal Flush Door  </h6>
+<h6>Double coat putty finish one coat primer and double coat paint.</h6>
     </div>
     <div className="col-lg-3">
-<h6>Branded Putty And Painting  </h6>
+<h6>Wiring and modular switch Anchor/CPL.</h6>
     </div>
     <div className="col-lg-3">
-<h6>S.S.. Stair Railing  </h6>
+<h6>Modular kitchen with chimney</h6>
     </div>
 
     <div className="col-lg-3">
-<h6>UPVC / Aluminium Windows</h6>
+<h6>Green Marble Kitchen Top</h6>
     </div>
     <div className="col-lg-3">
-<h6>Glass & Stainless Steel Railing At Elevation</h6>
+<h6>Green Marble on Stairs</h6>
     </div>
     <div className="col-lg-3">
-<h6>Testure At Elevation</h6>
+<h6>Quba locks</h6>
     </div>
     <div className="col-lg-3">
-<h6>Stair Floor of Green Marble</h6>
+<h6>SS Grill on balcony</h6>
     </div>
     <div className="col-lg-3 ">
-<h6>Safety Grills</h6>
+<h6>MS and SS Grill on balcony</h6>
     </div>
-
+    <div className="col-lg-3 ">
+<h6>Anit skid tiles on washroom 12"X18"</h6>
+    </div>
+    <div className="col-lg-3 ">
+<h6>Parking tiles 12mm 16"X16"</h6>
+    </div>
+    <div className="col-lg-3 ">
+<h6>MS Gate</h6>
+</div>
+    <div className="col-lg-3 ">
+<h6>Tukdi Roof protection for water leakage</h6>
+    </div>
+    <GoogleMapCom
+                locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.2875157258477!2d79.88418817603912!3d23.159704211195507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b10015d32a01%3A0xd6a44bad73607f0!2sAyushi%20Villa!5e0!3m2!1sen!2sin!4v1742814300670!5m2!1sen!2sin"
+            />
     <div className="container text-center mt-5">
       <div className="h4" style={{color:"#f26a20"}}>Contact Us </div>
       <div

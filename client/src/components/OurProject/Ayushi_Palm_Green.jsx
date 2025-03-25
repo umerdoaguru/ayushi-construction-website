@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import img from '../../images/ayushi-palm-green.jpg'
 
 import { FaWhatsapp } from 'react-icons/fa'
+import GoogleMapCom from '../../pages/GoogleMapCom'
 
 
 
@@ -40,83 +41,78 @@ function Ayushi_Palm_Green() {
       AMENITIES</h2>
     </div>
     <div className="col-lg-3">
-<h6>Grand Gentry Enterance</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Commercial Units/Shops</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Water Supply</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Kids Play Area</h6>
-    </div>
+            <h6>Landscaped garden with lush green campus.</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Fountain and children play area.</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Jogging Track</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Power backup for lifts and essential services.</h6>
+          </div>
 
-    <div className="col-lg-3">
-<h6>
-Soalr Lighting</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Open Air Gym</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>24 Hours Water Supply</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Jogging Track- Footpath</h6>
-    </div>
-
-    <div className="col-lg-12 mt-4">
+          <div className="col-lg-3">
+            <h6>Elegant entrance gate.</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Ample space for parking.</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Secured Campus with Boundary wall</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Club house</h6>
+          </div>
+          <div className="col-lg-3">
+            <h6>Elegant street lighting</h6>
+          </div>
+          <div className="col-lg-12 mt-4">
       <h2>
       SPECIFICATIONS</h2>
     </div>
     <div className="col-lg-3">
-<h6>R.C.C.. Framed Structure</h6>
+<h6>POP with acrylic emulsion paint on the walls.</h6>
     </div>
     <div className="col-lg-3">
-<h6>AAC Blocks Walls</h6>
+<h6>Vitrified/marble flooring</h6>
     </div>
     <div className="col-lg-3">
-<h6>Teak Entry Door</h6>
+<h6>Anodized/powder coated aluminium/PVC window frames and shutters.</h6>
+    </div>
+    
+    <div className="col-lg-3">
+<h6>Designer POP With acrylic emulsion paint on the celling.</h6>
     </div>
     <div className="col-lg-3">
-<h6>Vitrified Tiled</h6>
+<h6>Ambient lighting and modular switches.</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Designer textured wall.</h6>
     </div>
  
     <div className="col-lg-3">
-<h6>Modular Kitchen Platform</h6>
+<h6>Vitrified tiles.</h6>
     </div>
     <div className="col-lg-3">
-<h6>Branded Bath Fitting </h6>
+<h6>Stainless steel kitchen sink.</h6>
     </div>
     <div className="col-lg-3">
-<h6>ISI Electrical Goods </h6>
+<h6>Anti skid tile floorings</h6>
     </div>
     <div className="col-lg-3">
-<h6>Internal Flush Door  </h6>
+<h6>Weather proof paint on walls and ceilings.</h6>
     </div>
     <div className="col-lg-3">
-<h6>Branded Putty And Painting  </h6>
+<h6>Provision for Elevator.</h6>
     </div>
     <div className="col-lg-3">
-<h6>S.S.. Stair Railing  </h6>
+<h6>High quality electrical wiring and modular switches.</h6>
     </div>
 
-    <div className="col-lg-3">
-<h6>UPVC / Aluminium Windows</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Glass & Stainless Steel Railing At Elevation</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Testure At Elevation</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Stair Floor of Green Marble</h6>
-    </div>
-    <div className="col-lg-3 ">
-<h6>Safety Grills</h6>
-    </div>
+    <GoogleMapCom 
+                locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.2197561091393!2d79.88415197603919!3d23.162178211102614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b1486cff691b%3A0x12e0f996e72b5211!2sAyushi%20Palm%20Green%20Apartment%20(APG)!5e0!3m2!1sen!2sin!4v1742807842702!5m2!1sen!2sin"/>
 
     <div className="container text-center mt-5">
       <div className="h4" style={{color:"#f26a20"}}>Contact Us </div>

@@ -152,7 +152,7 @@ info@ayushiconstruction.com
                     <NavDropdown title="Our Project" id="basic-nav-dropdown" style={{ color: "#f26a20" }}>
                        <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
                         <NavDropdown.Item as={Link} to="/ayushi-dhara">Ayushi Dhara</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/ayushi-home">Ayushi Home</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/ayushi-home">Ayushi Homes</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/ayushi-villa">Ayushi Villa</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/ayushi-hari-vihar">Ayushi Hari Vihar</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/ayushi-vrindavan">Ayushi Vrindavan</NavDropdown.Item>
@@ -285,7 +285,7 @@ info@ayushiconstruction.com
                 
                 <NavDropdown title="Current Project" id="current-project-dropdown" drop="end">
                   <NavDropdown.Item as={Link} to="/ayushi-dhara">Ayushi Dhara</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/ayushi-home">Ayushi Home</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/ayushi-home">Ayushi Homes</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/ayushi-villa">Ayushi Villa</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/ayushi-hari-vihar">Ayushi Hari Vihar</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/ayushi-vrindavan">Ayushi Vrindavan</NavDropdown.Item>

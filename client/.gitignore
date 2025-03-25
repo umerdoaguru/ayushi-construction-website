@@ -10,10 +10,10 @@
 
 # production
 /build
-client/build.zip  
+build.zip  
 
 # Ignore video file
-client/src/images/ayushi_video.mp4
+video
 
 # misc
 .DS_Store
