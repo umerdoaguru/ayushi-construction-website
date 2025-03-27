@@ -159,7 +159,7 @@ const Wrapper = styled.div`
       height: 18rem;
     }
     @media screen and (min-width: 768px) and (max-width: 1024px) {
-      height: 15rem;
+      height: 18rem;
     }
     @media screen and (min-width: 1024px) and (max-width: 1400px) {
       height: 20rem;

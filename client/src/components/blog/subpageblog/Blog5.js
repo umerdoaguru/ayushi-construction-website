@@ -20,7 +20,7 @@ function Blog5() {
     <>
       <Wrapper>
         <div className="container">
-          <div className="container">
+          <div className="container ii">
             <h2 className="mt-5 text-center">
             Green Living: The Benefits of Eco-Friendly Homes and Sustainable Real Estate
 
@@ -277,5 +277,11 @@ const Wrapper = styled.div`
     width: 10rem;
     margin: 0.5rem;
     color: white;
+  }
+  .ii{
+    margin-top: 8rem;
+    @media screen and (max-width: 768px) {
+     margin-top: 6rem;
+    }
   }
 `;

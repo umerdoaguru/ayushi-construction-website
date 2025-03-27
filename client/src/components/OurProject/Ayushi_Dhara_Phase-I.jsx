@@ -8,7 +8,7 @@ import GoogleMapCom from '../../pages/GoogleMapCom';
 import video from '../../video/ayushidhara.mp4'
 import { Spinner } from 'react-bootstrap';
 
-function Ayushi_Dhara() {
+function Ayushi_Dhara_Phase_1() {
 
   const [loading, setLoading] = useState(true);
   
@@ -238,7 +238,7 @@ double coat glossy paint/normal paint.</h6>
   )
 }
 
-export default Ayushi_Dhara
+export default Ayushi_Dhara_Phase_1
 
 const Wrapper  = styled.div`
     img{

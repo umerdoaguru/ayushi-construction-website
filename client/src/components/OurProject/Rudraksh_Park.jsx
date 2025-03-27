@@ -26,7 +26,20 @@ function Rudraksh_Park() {
               <p>Spacious 2 BHK flats available, fully ready to move in, offering a generous 1119 sq. ft. of thoughtfully designed living space. These well-planned homes provide a perfect blend of comfort and functionality, featuring modern interiors, ample natural light, and high-quality fittings. Ideal for families and professionals alike, each flat ensures a comfortable and convenient lifestyle. Additionally, the property includes a dedicated parking facility, ensuring ease and security for residents. Located in a prime area with excellent connectivity to essential amenities, these flats offer the perfect combination of luxury and practicality.</p>
              
 
+             <div className="d-flex flex-wrap gap-1">
+             <div className="">
+                         <li><strong>Site Address : - </strong>Ganganagar Garha. </li>
+                         <li><strong>No. of Units : - </strong>152</li>
+                         <li><strong>Status : - </strong>Project completed</li>
+                       </div>
+             <div className="">
              
+                         <li><strong>No. of Sale Unit : - </strong>152</li>
+                         <li><strong>Project Type : - </strong>2bhk Building apartment</li>
+                         <li><strong>Land Area : - </strong>1.86 acre</li>
+               
+                       </div>
+             </div>
             </div>
           </div>
           <div className="col-lg-6">
@@ -187,4 +200,5 @@ const Wrapper  = styled.div`
   .container{
     margin-top: 6rem;
   }
+ 
 `

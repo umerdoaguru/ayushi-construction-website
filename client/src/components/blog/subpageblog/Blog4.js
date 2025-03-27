@@ -22,7 +22,7 @@ function Blog4() {
     <>
       <Wrapper>
         <div className="container">
-          <div className="container">
+          <div className="container ii">
             <h2 className="mt-5 text-center">
               Essential Checklist for Moving into Your New Home
             </h2>
@@ -381,5 +381,11 @@ const Wrapper = styled.div`
   }
   span{
     font-weight:bold;
+  }
+  .ii{
+    margin-top: 8rem;
+    @media screen and (max-width: 768px) {
+     margin-top: 6rem;
+    }
   }
 `;

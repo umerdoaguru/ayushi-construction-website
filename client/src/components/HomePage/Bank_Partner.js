@@ -37,43 +37,43 @@ Our Banking Partner
               ></div>
 
 <div className="row g-5">
-<div className="col-xl-3 col-lg-4 col-md-4 text-center " data-aos="zoom-in"> 
+<div className="col-xl-3 col-lg-4 col-md-6 text-center " data-aos="zoom-in"> 
         <img src={sbi} alt="" />
     </div>
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center bb " data-aos="zoom-in">
           <img src={barodra} alt="" />
     </div>
     
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center png " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center png " data-aos="zoom-in">
           <img src={pnb} alt="" />
     </div>
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center bi " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center bi " data-aos="zoom-in">
           <img src={bank_of_india} alt="" />
     </div>
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center marginset " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center marginset " data-aos="zoom-in">
           <img src={indian_bank} alt="" />
     </div>
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center  " data-aos="zoom-in">
           <img src={lic} alt="" />
     </div>
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center marginset1 " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center marginset1 " data-aos="zoom-in">
           <img src={iifl_bank} alt="" />
     </div>
 
-  <div className="col-xl-3 col-lg-4 col-md-4 text-center hdfc " data-aos="zoom-in">
+  <div className="col-xl-3 col-lg-4 col-md-6 text-center hdfc " data-aos="zoom-in">
           <img src={hdfc} alt="" />
     </div> 
-       <div className="col-xl-3 col-lg-4 col-md-4 text-center bb  " data-aos="zoom-in">
+       <div className="col-xl-3 col-lg-4 col-md-6 text-center bb  " data-aos="zoom-in">
           <img src={Bandhan_Bank} alt="" />
     </div>
 
 
  
 
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center  " data-aos="zoom-in">
           <img src={icici} alt="" />
     </div>
-  <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+  <div className="col-xl-3 col-lg-4 col-md-6 text-center  " data-aos="zoom-in">
           <img src={union} alt="" />
     </div>
 
@@ -89,7 +89,7 @@ Our Banking Partner
 
   
 
-    <div className="col-xl-3 col-lg-4 col-md-4 text-center  " data-aos="zoom-in">
+    <div className="col-xl-3 col-lg-4 col-md-6 text-center  " data-aos="zoom-in">
           <img src={Axis_Bank} alt="" />
     </div>
 
@@ -137,14 +137,14 @@ h2{
 .marginset1{
       margin-top: -0.4rem;
       @media screen and (max-width: 768px) {
-            margin-top: 2rem;
+            margin-top: 0rem;
             
       }
 }
 .bb{
      
       @media screen and (max-width: 768px) {
-            margin-top: 1rem;
+            margin-top: 2rem;
             
       }
       @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -155,7 +155,7 @@ h2{
 .hdfc{
      
       @media screen and (max-width: 768px) {
-            margin-top:1rem;
+            margin-top:-2rem;
             
       }
       @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -166,7 +166,7 @@ h2{
 .bi{
      
       @media screen and (max-width: 768px) {
-            margin-top:-1rem;
+            margin-top:0.5rem;
             
       }
       @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -177,7 +177,7 @@ h2{
 .png{
      
       @media screen and (max-width: 768px) {
-            margin-top:-1rem;
+            margin-top:1.5rem;
             
       }
       @media screen and (min-width: 768px) and (max-width: 1024px) {

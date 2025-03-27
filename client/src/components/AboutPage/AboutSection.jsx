@@ -107,14 +107,14 @@ Welcome to Ayushi Construction, one of the reputed leading home builders in Jaba
 
 </p>
         <div className="row align-items-center mt-3">
-<div className="col-lg-6">
+<div className="col-lg-6" id="desktop">
             <div className="s-about-img p-relative" data-aos= "fade-right">
               <img src= {ownerimg} alt="img" />
               
             </div>
             
           </div>
-<div className="col-lg-6">
+<div className="col-lg-6" id="desktop">
            
             <div className="s-about-img p-relative" data-aos= "fade-left">
               <img src= {ownerwifeimg} alt="img" />
@@ -122,7 +122,7 @@ Welcome to Ayushi Construction, one of the reputed leading home builders in Jaba
             </div>
           </div>
 
-        <div className="col-lg-6 mt-2">
+        <div className="col-lg-6 mt-2" id="desktop">
             <div className="about-content s-about-content pl-30  " data-aos= "fade-right">
               <div className="about-title second-atitle">
                
@@ -134,13 +134,13 @@ Welcome to Ayushi Construction, one of the reputed leading home builders in Jaba
               </p>
               <p>Under Satyendra’s leadership, Ayushi Construction has successfully completed several real estate projects, including Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, and Ayushi Homess. These projects have not only met the expectations of the clients but have also become landmarks in their respective locations.
               </p>
-              <p>Satyendra’s dedication and vision have played a crucial role in the success of these projects. He possesses a deep understanding of the real estate market and has the ability to identify lucrative opportunities for development. His strategic decision-making and meticulous planning have ensured that each project is executed flawlessly, resulting in high-quality residential properties.
+              <p>Satyendra’s dedication and vision have played a crucial role in the success of these projects. He possesses a deep understanding of the real estate market and has the ability to identify lucrative opportunities for development. His strategic decision-making and meticulous planning have ensured that each project is executed flawlessly, resulting in high-quality residential properties of Ayushi Construction.
               </p>
    
             
             </div>
           </div>
-        <div className="col-lg-6 mt-2">
+        <div className="col-lg-6 mt-2" id="desktop">
             <div className="about-content s-about-content pl-30  " data-aos= "fade-left">
               <div className="about-title second-atitle">
                
@@ -158,7 +158,61 @@ Welcome to Ayushi Construction, one of the reputed leading home builders in Jaba
             
             </div>
           </div>
-        <div className="col-lg-12 mt-3">
+
+<div className="col-lg-6" id="mobile">
+            <div className="s-about-img p-relative" data-aos= "fade-right">
+              <img src= {ownerimg} alt="img" />
+              
+            </div>
+            
+          </div>
+
+          <div className="col-lg-6 mt-2" id="mobile">
+            <div className="about-content s-about-content pl-30  " data-aos= "fade-right">
+              <div className="about-title second-atitle">
+               
+             
+                <h5><span>SATYENDRA YADAV</span>
+                </h5>
+              </div>
+              <p>Satyendra Yadav, the Director of Ayushi Construction, which is the best construction company in Jabalpur, is a seasoned professional with a decade of experience in land acquisition and development. His expertise lies in colonizing and developing townships, making him a valuable asset to the company.
+              </p>
+              <p>Under Satyendra’s leadership, Ayushi Construction has successfully completed several real estate projects, including Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, and Ayushi Homess. These projects have not only met the expectations of the clients but have also become landmarks in their respective locations.
+              </p>
+              <p>Satyendra’s dedication and vision have played a crucial role in the success of these projects. He possesses a deep understanding of the real estate market and has the ability to identify lucrative opportunities for development. His strategic decision-making and meticulous planning have ensured that each project is executed flawlessly, resulting in high-quality residential properties.
+              </p>
+   
+            
+            </div>
+          </div>
+<div className="col-lg-6" id="mobile">
+           
+            <div className="s-about-img p-relative" data-aos= "fade-left">
+              <img src= {ownerwifeimg} alt="img" />
+              
+            </div>
+          </div>
+
+        
+        <div className="col-lg-6 mt-2" id="mobile">
+            <div className="about-content s-about-content pl-30  " data-aos= "fade-left">
+              <div className="about-title second-atitle">
+               
+             
+                <h5><span>PUSHPA YADAV</span>
+                </h5>
+              </div>
+              <p>Pushpa Yadav, the Partner of Ayushi Construction, is a dedicated professional with a keen eye for excellence and a passion for real estate development. As a key figure in the company's success, Pushpa plays an integral role in ensuring that Ayushi Construction maintains its reputation as the best construction company in Jabalpur.
+              </p>
+              <p>Working alongside Satyendra Yadav, Pushpa has contributed significantly to the successful completion of prominent projects like Rudraksh Park, Ayushi Palm Greens in Ganga Nagar, Jabalpur, and Ayushi Homess. Her collaborative approach and commitment to delivering high-quality residential properties have been instrumental in establishing Ayushi Construction as a trusted name in the industry.
+              </p>
+              <p>Pushpa Yadav’s vision and dedication are reflected in the company’s consistent growth and ability to meet client expectations. Her expertise in planning and executing real estate projects, combined with her unwavering determination, continues to drive Ayushi Construction toward new heights of success.
+              </p>
+   
+            
+            </div>
+          </div>
+        <div className="col-lg-12 mt-3" id="mobile">
             <div className="about-content s-about-content pl-30  " data-aos= "fade-right">
             
               <p>In addition to his past achievements, Satyendra is currently working on two incredible ongoing projects – Ayushi Dhara and Ayushi Villa. These projects are set to redefine luxury living and set new benchmarks in the real estate industry. With his expertise and innovative ideas, Satyendra aims to create exceptional living spaces that cater to the evolving needs and aspirations of modern homebuyers.
@@ -194,10 +248,11 @@ img{
   height: 28rem;
   @media screen and (max-width: 768px) {
       height: 20rem;
+      margin-top: 1rem;
       
     }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
-height: 40rem;
+height: 32rem;
   }
 }
 h1{
@@ -246,4 +301,24 @@ p{
             
       }
 }
+#mobile {
+   display:none;
+    
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px)  {
+      display: block;
+    }
+  }
+
+  #desktop {
+    display: block;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      display: none;
+    }
+  }
 `;

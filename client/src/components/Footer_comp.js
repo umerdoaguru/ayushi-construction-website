@@ -288,6 +288,104 @@ function Footer_comp() {
           
          
         </div>
+        <div className="middle box">
+          <div className="topic mt-4">Our Projects</div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-rudraksh-park"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Rudraksh Park <span class="double-arrow">»</span>
+
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-palm-green"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Palm Green <span class="double-arrow">»</span>
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-villa"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+              Ayushi Villa <span class="double-arrow">»</span>
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-home"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+              Ayushi Homes <span class="double-arrow">»</span>
+            </Link>
+          </div>
+
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-dhara"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Dhara <span class="double-arrow">»</span>
+            </Link>
+          </div>
+
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-hari-vihar"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+           Ayushi Hari Vihar Phase-I<span class="double-arrow">»</span>
+            </Link>
+          </div>
+
+
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-vrindavan"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Vrindavan Phase-I<span class="double-arrow">»</span>
+            </Link>
+          </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-palm-green"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Awadh <span class="double-arrow">»</span>
+            </Link>
+          </div>
+          
+         
+        </div>
 
         <div className="right box mt-4">
           <div className="image">

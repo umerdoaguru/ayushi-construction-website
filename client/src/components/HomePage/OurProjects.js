@@ -639,7 +639,7 @@ const Wrapper = styled.div`
 
   p {
     color: #5a626d;
-    
+    text-align: justify;
     @media screen and (max-width: 768px) {
       font-size: 1rem;
     }

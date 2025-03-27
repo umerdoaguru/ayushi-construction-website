@@ -53,7 +53,8 @@ function Header() {
                 <NavDropdown.Item as={Link} to="/ayushi-rudraksh-park" onClick={() => handleFooterLink("/ayushi-rudraksh-park")}>Rudraksh Park</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-palm-green" onClick={() => handleFooterLink("/ayushi-palm-green")}>Ayushi Palm Green</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-villa" onClick={() => handleFooterLink("/ayushi-villa")}>Ayushi Villa</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/ayushi-dhara" onClick={() => handleFooterLink("/ayushi-dhara")}>Ayushi Dhara Phase-I</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-dhara" onClick={() => handleFooterLink("/ayushi-dhara")}>Ayushi Dhara</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-I" onClick={() => handleFooterLink("/ayushi-dhara-phase-I")}>Ayushi Dhara Phase-I</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-hari-vihar" onClick={() => handleFooterLink("/ayushi-hari-vihar")}>Ayushi Hari Vihar Phase-I</NavDropdown.Item>
                
               </NavDropdown>

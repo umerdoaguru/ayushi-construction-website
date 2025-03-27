@@ -23,7 +23,20 @@ function Ayushi_Palm_Green() {
               </div>
               <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these flats offer a perfect combination of style, comfort, and functionality. Each unit features well-ventilated rooms, contemporary interiors, and premium-quality fittings to ensure a superior living experience. Whether you are looking for a cozy space or a larger home for your family, these flats cater to diverse needs. Additionally, a dedicated parking facility is provided for added convenience and security. Situated in a prime location with easy access to essential amenities, these homes offer a seamless and luxurious lifestyle.</p>
              
+<div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Ganganagar Garha. </li>
+            <li><strong>No. of Units : - </strong>125</li>
+            <li><strong>Status : - </strong>Project completed</li>
+          </div>
+<div className="">
 
+            <li><strong>No. of Sale Unit : - </strong>125</li>
+            <li><strong>Project Type : - </strong>2/3 bhk Building apartment</li>
+            <li><strong>Land Area : - </strong>1.78 acre</li>
+  
+          </div>
+</div>
          
             </div>
           </div>

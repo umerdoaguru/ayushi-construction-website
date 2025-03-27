@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Star } from 'lucide-react';
 import "slick-carousel/slick/slick.css"; 
+import styled from 'styled-components';
 
 
 const GoogleReview = () => {
@@ -126,7 +127,7 @@ const GoogleReview = () => {
     ];
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -150,8 +151,9 @@ const GoogleReview = () => {
     };
 
     return (
-        <div className="container mt-5 mb-5">
-            <h2 className="text-center mb-4 " style={{color:"#f26a20"}}>Google Reviews</h2>
+        <Wrapper>
+         <div className="container mt-5 mb-3">
+            <h2 className="text-center  " style={{color:"#f26a20"}}>Google Reviews</h2>
             <div
                 className="underline mx-auto"
                 style={{
@@ -165,7 +167,7 @@ const GoogleReview = () => {
 
             <Slider {...settings}>
                 {reviews.map((review, index) => (
-                    <div key={index} className="p-3">
+                    <div key={index} className="p-3 ">
                         <div className="card shadow-sm border-0">
                             <div className="card-body">
                                 <h5 className="card-title text-primary">{review.author_name}</h5>
@@ -181,7 +183,29 @@ const GoogleReview = () => {
                 ))}
             </Slider>
         </div>
+        </Wrapper>
+
+       
+        
     );
 };
 
 export default GoogleReview;
+const Wrapper  = styled.div`
+.card-body{
+    height: 10rem;
+    /* height: auto; */
+    border: none;
+    padding: 15px;
+    @media screen and (max-width: 768px) {
+      height: 10rem;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      height: 10rem;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1400px) {
+      height: 11rem;
+    }
+}
+
+`

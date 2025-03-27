@@ -36,6 +36,7 @@ import Ayushi_Palm_Green from "./components/OurProject/Ayushi_Palm_Green";
 import Rudraksh_Park from "./components/OurProject/Rudraksh_Park";
 import Whatsappicon from "./pages/Whatsappicon";
 import ProjectWiseImage from "./components/gallery/ProjectWiseImage";
+import Ayushi_Dhara_Phase_1 from "./components/OurProject/Ayushi_Dhara_Phase-I";
 
 function App() {
   const user = useSelector(state => state.auth.user);
@@ -58,6 +59,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/cards" element={<Cards />} />
           <Route path="/ayushi-dhara" element={<Ayushi_Dhara />} />
+          <Route path="/ayushi-dhara-phase-I" element={<Ayushi_Dhara_Phase_1 />} />
           <Route path="/ayushi-home" element={<Ayushi_Home/>} />
           <Route path="/ayushi-villa" element={<Ayushi_Villa/>} />
           <Route path="/ayushi-hari-vihar" element={<Ayushi_Hari_Vihar/>} />

@@ -52,10 +52,10 @@ function Blog() {
                 }}
               ></div>
 </div>
-        <div className="row mt-5">
+        <div className="row mt-4">
           <div className="col-md-8 mb-5">
           <div
-              className="border border-2 mt-3"
+              className="border border-2 "
               style={{ borderColor: "rgba(0, 0, 0, 0.2)" }}
                 data-aos="fade-up"
             >
@@ -264,11 +264,11 @@ function Blog() {
               <span className="d-flex justify-content-center mb-2">
                 <form className="search-holder">
                   <ul>
-                    <li>    <Link to='/blog1'><h6>10 Tips for First-Time Home Buyers</h6></Link></li>
-                    <li>  <Link to='/blog3'><h6>Understanding Real Estate Market Trends in 2025</h6></Link></li>
-                    <li>  <Link to='/blog2'><h6>Home Renovation Ideas to Increase Property Value</h6></Link></li>
-                    <li>  <Link to='/blog4'><h6>Essential Checklist for Moving into Your New Home      </h6></Link></li>
-                    <li> <Link to='/blog5'><h6>Green Living: The Benefits of Eco-Friendly Homes and Sustainable Real Estate</h6></Link></li>
+                    <li>    <Link to='/blog1' onClick={handleFooterLink}><h6>10 Tips for First-Time Home Buyers</h6></Link></li>
+                    <li>  <Link to='/blog3' onClick={handleFooterLink}><h6>Understanding Real Estate Market Trends in 2025</h6></Link></li>
+                    <li>  <Link to='/blog2' onClick={handleFooterLink}><h6>Home Renovation Ideas to Increase Property Value</h6></Link></li>
+                    <li>  <Link to='/blog4' onClick={handleFooterLink}><h6>Essential Checklist for Moving into Your New Home      </h6></Link></li>
+                    <li> <Link to='/blog5' onClick={handleFooterLink}><h6>Green Living: The Benefits of Eco-Friendly Homes and Sustainable Real Estate</h6></Link></li>
                   </ul>
     
     

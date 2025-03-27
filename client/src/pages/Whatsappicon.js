@@ -27,8 +27,8 @@ function Whatsappicon() {
         {`
           .whatsapp-float {
             position: fixed;
-            bottom: 40px;
-            right: 20px;
+               bottom: 95px;
+            right: 10px;
             z-index: 1000;
             text-decoration: none;
           }

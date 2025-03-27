@@ -57,13 +57,17 @@ const AdminDashboard = () => {
 
   const handleFilterChange = (event) => {
     setFilterText(event.target.value);
-  };
+    setCurrentPage(0); 
+};
 
-  const handleDateFilterChange = (event) => {
+const handleDateFilterChange = (event) => {
     setDateFilter(event.target.value);
-  };
+    setCurrentPage(0); 
+};
 
   const filteredUserData = userData?.filter(userdata => {
+
+
     const fullName = userdata.name.toLowerCase().trim();
     const lowerSearchQuery = filterText.toLowerCase().trim();
     const formattedDate = moment(userdata.created_date).format("YYYY-MM-DD");
@@ -126,7 +130,7 @@ const AdminDashboard = () => {
                 <tbody>
                   {currentUserData.map((userdata, index) => (
                     <tr key={userdata.id}>
-                      <td>{offset + index + 1}</td>
+                      <td>{index + 1 + currentPage * itemsPerPage}</td>
                       <td>{userdata.name}</td>
                       <td>{userdata.email}</td>
                       <td>{userdata.mobile_no}</td>
@@ -145,10 +149,11 @@ const AdminDashboard = () => {
                 </tbody>
               </table>
               <ReactPaginate
-                previousLabel={'previous'}
-                nextLabel={'next'}
+                previousLabel={'Previous'}
+                nextLabel={'Next'}
                 breakLabel={'...'}
                 pageCount={pageCount}
+                forcePage={currentPage} 
                 marginPagesDisplayed={2}
                 pageRangeDisplayed={5}
                 onPageChange={handlePageClick}

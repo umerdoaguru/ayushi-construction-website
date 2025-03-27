@@ -177,11 +177,9 @@ const ProjectWiseImage = () => {
                                 src={image.url}
                                 className="card-img-top"
                                 alt={image.caption}
-                                style={{ height: "250px", objectFit: "cover" }}
+                                style={{ height: "220px", objectFit: "cover" }}
                             />
-                            <div className="card-body">
-                                <p className="card-text">{image.caption}</p>
-                            </div>
+                        
                         </div>
                     </div>
                 ))}
@@ -202,6 +200,9 @@ export default ProjectWiseImage;
 const Wrapper = styled.div`
 .container{
 margin-top: 8rem;
+ @media screen and (max-width: 768px) {
+     margin-top: 6rem;
+    }
 }
 .maintext{
     color: #f26a20;

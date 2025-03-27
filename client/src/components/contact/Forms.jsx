@@ -289,7 +289,7 @@ function Forms() {
   return (
     <>
       <Container>
-        <div className="container mt-5">
+        <div className="container mt-2">
           <div className="row d-flex align-items-center">
             <div className=" Address-detail col-md-4 fs-bold pt-5" data-aos="fade-right" data-aos-offset="60" data-aos-easing="ease-in-sine">
               <div>

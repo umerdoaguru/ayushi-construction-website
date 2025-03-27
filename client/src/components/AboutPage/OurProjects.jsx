@@ -21,9 +21,9 @@ function OurProjects() {
   };
   return (
   <Wrapper>
-    <div className="container" style={{marginTop:"4rem"}}>
-      <div className="row g-5">
-                  <div className="container" style={{marginTop:"4rem"}}>
+    <div className="container" >
+      <div className=" row ">
+                  <div className="container" style={{marginTop:"2rem"}}>
                    <h2 className="text-center">Our Projects</h2>
                                  <div
                                className="underline mx-auto"
@@ -37,7 +37,7 @@ function OurProjects() {
                                }}
                              ></div>
                
-               <div className="row align-items-center mt-5">
+               <div className=" row align-items-center mt-5">
                 
                          <div className="col-lg-6" id='desktop'>
                            <div className="s-about-img p-relative" data-aos= "fade-up">
@@ -116,7 +116,7 @@ function OurProjects() {
       
                        </div>
       
-                        <div className="row align-items-center mt-5">
+                        <div className=" row align-items-center mt-5">
                         
                          <div className="col-lg-6 mt-3" id='desktop'>
                            <div className="about-content s-about-content pl-30" data-aos= "fade-up">
@@ -195,7 +195,7 @@ function OurProjects() {
       
                        </div>
                
-                       <div className="row align-items-center mt-5">
+                       <div className=" row align-items-center mt-5">
                          <div className="col-lg-6"  id='desktop'>
                            <div className="s-about-img p-relative" data-aos= "fade-up">
                              <img src= {ayushi_villa} alt="img" />
@@ -271,7 +271,7 @@ function OurProjects() {
                        </div>
                
                
-                       <div className="row align-items-center mt-5">
+                       <div className=" row align-items-center mt-5">
                      
                
                
@@ -352,7 +352,7 @@ function OurProjects() {
                        </div>
                
                        
-                   <div className="row align-items-center mt-5">
+                   <div className=" row align-items-center mt-5">
                          <div className="col-lg-6" id='desktop'>
                            <div className="s-about-img p-relative" data-aos= "fade-up">
                              <img src= {ayushi_vridavan} alt="img" />
@@ -428,7 +428,7 @@ function OurProjects() {
                    
                        </div>
       
-                       <div className="row align-items-center mt-5">
+                       <div className="container row align-items-center mt-5">
                      
                
                
@@ -512,7 +512,7 @@ function OurProjects() {
                        </div>
                
                        
-                   <div className="row align-items-center mt-5">
+                   <div className="container row align-items-center mt-5">
                          <div className="col-lg-6" id='desktop'>
                            <div className="s-about-img p-relative" data-aos= "fade-up">
                              <img src= {ayushi_rudraksha_park} alt="img" />
@@ -588,6 +588,8 @@ function OurProjects() {
                          </div>
                    
                        </div>
+
+
                    </div>
               </div>
       
@@ -633,6 +635,9 @@ h2{
     @media screen and (min-width: 768px) and (max-width: 1024px) {
       display: none;
     }
+  }
+  p{
+    text-align: justify;
   }
   
 `

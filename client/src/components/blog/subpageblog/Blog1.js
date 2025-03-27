@@ -20,7 +20,7 @@ function Blog1() {
     <>
       <Wrapper>
         <div className="container">
-          <div className="container">
+          <div className="container ii" >
             <h2 className="mt-5 text-center">
               10 Tips for First-Time Home Buyers
             </h2>
@@ -403,5 +403,11 @@ const Wrapper = styled.div`
     width: 10rem;
     margin: 0.5rem;
     color: white;
+  }
+  .ii{
+    margin-top: 8rem;
+    @media screen and (max-width: 768px) {
+     margin-top: 6rem;
+    }
   }
 `;

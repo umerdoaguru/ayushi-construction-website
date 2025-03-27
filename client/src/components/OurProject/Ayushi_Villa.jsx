@@ -27,7 +27,20 @@ function Ayushi_Villa() {
               </div>
               <p>A luxurious 4 BHK villa, ready to move in, offering a spacious area ranging from 1000 to 1370 sq. ft., designed to provide an elegant and comfortable lifestyle. This beautifully crafted villa boasts modern architecture, premium-quality interiors, and ample natural light, ensuring a perfect blend of style and functionality. Each room is thoughtfully planned to maximize space and comfort, making it an ideal home for families. Additionally, the property comes with a dedicated parking facility, providing convenience and security for residents. Nestled in a prime location, this villa offers easy access to essential amenities, making it a perfect choice for those seeking a sophisticated and peaceful living environment.
               </p>
-             
+              <div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Ganganagar Garha.</li>
+            <li><strong>No. of Units : - </strong>39</li>
+            <li><strong>Status : - </strong>Project completed</li>
+          </div>
+<div className="">
+
+            <li><strong>No. of Sale Unit : - </strong>39</li>
+            <li><strong>Project Type : - </strong>4 BHK  Triplex Villas</li>
+            <li><strong>Land Area : - </strong>1.52 acre</li>
+  
+          </div>
+</div>
 
             
             </div>
