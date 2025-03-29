@@ -21,7 +21,11 @@ function Ayushi_Palm_Green() {
                 <h2>Welcome To Ayushi Palm Green</h2>
                
               </div>
-              <p>Choose between spacious 2 BHK or 3 BHK flats, fully ready to move in, with sizes ranging from 1473 to 1759 sq. ft. Designed for modern living, these flats offer a perfect combination of style, comfort, and functionality. Each unit features well-ventilated rooms, contemporary interiors, and premium-quality fittings to ensure a superior living experience. Whether you are looking for a cozy space or a larger home for your family, these flats cater to diverse needs. Additionally, a dedicated parking facility is provided for added convenience and security. Situated in a prime location with easy access to essential amenities, these homes offer a seamless and luxurious lifestyle.</p>
+              <p>Welcome to Ayushi Palm Green, a fully completed residential project in the heart of Ganganagar Garha. Spread across 1.78 acres, this premium development features 125 meticulously designed units, all of which have been successfully sold—a true mark of its excellence and demand.
+
+Offering a mix of spacious 2 & 3 BHK apartments, Ayushi Palm Green is crafted to provide modern amenities, contemporary interiors, and a serene living experience. Each unit is designed for optimal space utilization, natural ventilation, and aesthetic appeal, ensuring a perfect home for families and professionals.
+
+Located in a well-connected neighborhood, residents enjoy proximity to essential services such as schools, hospitals, shopping centers, and transport hubs, making everyday life convenient and hassle-free.</p>
              
 <div className="d-flex flex-wrap gap-1">
 <div className="">
@@ -178,5 +182,8 @@ const Wrapper  = styled.div`
   }
   .container{
     margin-top: 6rem;
+  }
+  p{
+    text-align: justify;
   }
 `

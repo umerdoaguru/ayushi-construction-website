@@ -191,41 +191,7 @@ function Footer_comp() {
         </div>
 
         <div className="middle box">
-          <div className="topic mt-4">Our Projects</div>
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-rudraksh-park"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-             Ayushi Rudraksh Park <span class="double-arrow">»</span>
-
-            </Link>
-          </div>
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-palm-green"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-             Ayushi Palm Green <span class="double-arrow">»</span>
-            </Link>
-          </div>
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-villa"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-              Ayushi Villa <span class="double-arrow">»</span>
-            </Link>
-          </div>
+          <div className="topic mt-4">Ongoing Projects</div>
           <div>
             {" "}
             <Link
@@ -234,33 +200,44 @@ function Footer_comp() {
              
               className=""
             >
-              Ayushi Homes <span class="double-arrow">»</span>
+             Ayushi Home <span class="double-arrow">»</span>
+
             </Link>
           </div>
-
           <div>
             {" "}
             <Link
-              to="/ayushi-dhara"
+              to="/ayushi-dhara-phase-II"
               onClick={handleFooterLink}
              
               className=""
             >
-             Ayushi Dhara <span class="double-arrow">»</span>
+             Ayushi Dhara Phase-II <span class="double-arrow">»</span>
             </Link>
           </div>
-
           <div>
             {" "}
             <Link
-              to="/ayushi-hari-vihar"
+              to="/ayushi-dhara-phase-III"
               onClick={handleFooterLink}
              
               className=""
             >
-           Ayushi Hari Vihar Phase-I<span class="double-arrow">»</span>
+             Ayushi Dhara Phase-III <span class="double-arrow">»</span>
             </Link>
           </div>
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-hari-vihar-phase-II"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Hari Vihar Phase-III <span class="double-arrow">»</span>
+            </Link>
+          </div>
+        
 
 
           <div>
@@ -271,25 +248,15 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Vrindavan Phase-I<span class="double-arrow">»</span>
+             Ayushi Vrindavan <span class="double-arrow">»</span>
             </Link>
           </div>
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-palm-green"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-             Ayushi Awadh <span class="double-arrow">»</span>
-            </Link>
-          </div>
+         
           
          
         </div>
         <div className="middle box">
-          <div className="topic mt-4">Our Projects</div>
+          <div className="topic mt-4">Complete Projects</div>
           <div>
             {" "}
             <Link
@@ -327,31 +294,31 @@ function Footer_comp() {
           <div>
             {" "}
             <Link
-              to="/ayushi-home"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-              Ayushi Homes <span class="double-arrow">»</span>
-            </Link>
-          </div>
-
-          <div>
-            {" "}
-            <Link
               to="/ayushi-dhara"
               onClick={handleFooterLink}
              
               className=""
             >
-             Ayushi Dhara <span class="double-arrow">»</span>
+              Ayushi Dhara<span class="double-arrow">»</span>
             </Link>
           </div>
 
           <div>
             {" "}
             <Link
-              to="/ayushi-hari-vihar"
+              to="/ayushi-dhara-phase-I"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Dhara Phase-I <span class="double-arrow">»</span>
+            </Link>
+          </div>
+
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-hari-vihar-phase-I"
               onClick={handleFooterLink}
              
               className=""
@@ -361,31 +328,41 @@ function Footer_comp() {
           </div>
 
 
+          
+          
+         
+        </div>
+
+
+        <div className="middle box">
+          <div className="topic mt-4">Upcoming Projects</div>
           <div>
             {" "}
             <Link
-              to="/ayushi-vrindavan"
-              onClick={handleFooterLink}
-             
-              className=""
-            >
-             Ayushi Vrindavan Phase-I<span class="double-arrow">»</span>
-            </Link>
-          </div>
-          <div>
-            {" "}
-            <Link
-              to="/ayushi-palm-green"
+              to="/ayushi-awadh"
               onClick={handleFooterLink}
              
               className=""
             >
              Ayushi Awadh <span class="double-arrow">»</span>
+
             </Link>
           </div>
-          
+          <div>
+            {" "}
+            <Link
+              to="/ayushi-dhara-phase-II"
+              onClick={handleFooterLink}
+             
+              className=""
+            >
+             Ayushi Lotus View<span class="double-arrow">»</span>
+            </Link>
+          </div>
+         
          
         </div>
+       
 
         <div className="right box mt-4">
           <div className="image">
@@ -474,6 +451,7 @@ function Footer_comp() {
             </div>
           </div>
         </div>
+       
       </div>
       <div className="bottom">
           <p><Link to='https://doaguru.com/' target='_blank'>© DOAGuru InfoSystems</Link> || Powered by Ayushi Construction</p>
@@ -502,9 +480,9 @@ a:hover {
     padding: 5px;
   }
    .content{
-  max-width: 1150px;
+  max-width: 1550px;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

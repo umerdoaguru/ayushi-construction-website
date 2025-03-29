@@ -23,7 +23,11 @@ function Rudraksh_Park() {
                 <h2>Welcome To Rudraksh Park</h2>
                
               </div>
-              <p>Spacious 2 BHK flats available, fully ready to move in, offering a generous 1119 sq. ft. of thoughtfully designed living space. These well-planned homes provide a perfect blend of comfort and functionality, featuring modern interiors, ample natural light, and high-quality fittings. Ideal for families and professionals alike, each flat ensures a comfortable and convenient lifestyle. Additionally, the property includes a dedicated parking facility, ensuring ease and security for residents. Located in a prime area with excellent connectivity to essential amenities, these flats offer the perfect combination of luxury and practicality.</p>
+              <p>Experience modern living at Rudraksh Park, a fully completed residential project in the prime location of Ganganagar Garha. This well-designed 2BHK apartment complex spans across 1.86 acres, offering 152 premium units, all of which have been successfully sold—a testament to its quality and desirability.
+
+Designed for comfort and convenience, each 2BHK unit features spacious interiors, modern architecture, and high-quality finishes. The project ensures a secure and community-friendly environment, making it an ideal choice for families and professionals seeking a peaceful and well-connected living space.
+
+With its strategic location, Rudraksh Park provides easy access to schools, hospitals, shopping centers, and public transport, ensuring a seamless urban lifestyle.</p>
              
 
              <div className="d-flex flex-wrap gap-1">
@@ -200,5 +204,7 @@ const Wrapper  = styled.div`
   .container{
     margin-top: 6rem;
   }
- 
+  p{
+    text-align: justify;
+  }
 `

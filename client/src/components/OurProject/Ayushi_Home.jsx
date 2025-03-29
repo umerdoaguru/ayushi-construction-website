@@ -27,10 +27,27 @@ function Ayushi_Home() {
                 <h2>Welcome To Ayushi Homes</h2>
                
               </div>
-              <p>A ready-to-move duplex offering a well-designed living space of 620 sq. ft., perfect for those seeking comfort and functionality. Situated in the heart of Jabalpur, this property is ideal for families or individuals looking for a modern home in a well-connected location. The thoughtfully planned layout ensures maximum space utilization, with well-ventilated rooms, stylish interiors, and quality finishes that enhance the overall appeal. Additionally, the property comes with a dedicated parking facility, providing convenience and security for vehicle owners. With its prime location, this duplex offers easy access to essential amenities, making it a great choice for homebuyers looking for a blend of comfort, convenience, and affordability.
+              <p>Experience modern living at its finest with our exclusive 2 BHK duplex project in Shashtrinagar, Sagra. Spanning across 2.84 acres, this ongoing development offers 53 well-designed units, out of which 48 are already sold, showcasing its high demand and appeal.
+
+These spacious and elegantly crafted duplex homes are designed to provide a comfortable and contemporary lifestyle, featuring well-ventilated interiors, modern architecture, and premium finishes. The project is located in a well-connected neighborhood, ensuring easy access to schools, hospitals, shopping centers, and public transport, making it an ideal choice for families and professionals alike.
+
+
               </p>
              
+              <div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Shashtrinagar Sagra</li>
+            <li><strong>No. of Units : - </strong>53</li>
+            <li><strong>Status : - </strong>On going project</li>
+          </div>
+<div className="">
 
+            <li><strong>No. of Sale Unit : - </strong>48</li>
+            <li><strong>Project Type : - </strong>2 Bhk duplex</li>
+            <li><strong>Land Area : - </strong>2.84 acre</li>
+  
+          </div>
+</div>
             
             </div>
           </div>
@@ -242,5 +259,8 @@ h2{
   }
   .container{
     margin-top: 6rem;
+  }
+  p{
+    text-align: justify;
   }
 `

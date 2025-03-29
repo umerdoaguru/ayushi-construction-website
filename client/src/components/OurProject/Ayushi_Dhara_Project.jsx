@@ -27,11 +27,28 @@ function Ayushi_Dhara() {
                 <h2>Welcome To Our Ayushi Dhara</h2>
                
               </div>
-              <p>A ready-to-move 3 BHK villa with a spacious area ranging from 800 to 1000 sq. ft., designed to provide a comfortable and modern living experience. This beautifully constructed villa offers ample space for families, ensuring both privacy and convenience. The interiors are thoughtfully designed, with well-ventilated rooms, elegant flooring, and premium fittings to enhance your lifestyle. The property also features a dedicated parking facility, ensuring the safety and convenience of vehicle owners. Located in a well-connected and serene neighborhood, this villa is perfect for those looking for a peaceful yet accessible living environment. Whether for investment or personal use, this property is an excellent choice for homebuyers seeking quality, comfort, and affordability.
+              <p>Discover the perfect opportunity to build your dream home in the completed residential project at Sagra, Lamheta Road. This meticulously planned development offers 148 fully sold-out plots, spread across 5.20 acres of prime land, making it an ideal investment for homeowners and developers alike.
+
+With a strategic location, the project provides easy access to schools, hospitals, shopping centers, and major transportation routes, ensuring convenience and connectivity. Each plot is designed to offer ample space, excellent infrastructure, and a peaceful environment.
+
+The project has been successfully completed, making it a ready-to-build location with essential amenities in place.
            
 </p>
 
-            
+<div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Sagra, Lamheta Road</li>
+            <li><strong>No. of Units : - </strong>148</li>
+            <li><strong>Status : - </strong>Project completed</li>
+          </div>
+<div className="">
+
+            <li><strong>No. of Sale Unit : - </strong>148</li>
+            <li><strong>Project Type : - </strong>Plots</li>
+            <li><strong>Land Area : - </strong>5.20 acre</li>
+  
+          </div>
+</div>
             </div>
           </div>
           <div className="col-lg-6">
@@ -86,115 +103,8 @@ Electricity Supply</h6>
     <div className="col-lg-3">
 <h6>Amphi Theater Stage</h6>
     </div>
-    <div className="col-lg-12 mt-4">
-      <h2>
-      SPECIFICATIONS</h2>
-    </div>
-    <div className="col-lg-3">
-<h6>Construction with fly ash bricks and  M send.</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>ISI TMT iron Saria</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Flush Door</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Personal water tank 1000 ltr. capacity.</h6>
-    </div>
- 
-    <div className="col-lg-3">
-<h6>Personal Borwell with 1/2 hp sumrseabal pump.</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Double charged vitrified flooring tiles 2"x4" </h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Window ms steel grill with three track UPVC 
-section tuffan glass.</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Granite panelling on doors.  </h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Double coat putty finish one coat primer and 
-double coat glossy paint/normal paint.</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Wiring & modular switch Anchor/CPL.</h6>
-    </div>
+   
 
-    <div className="col-lg-3">
-<h6>Modular kitchen with chimney</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Jaquar sanitary fitting</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Quba/Godrej locks and hendle.</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>SS Grill on stairs</h6>
-    </div>
-    <div className="col-lg-3 ">
-<h6>Anti skid tiles in balcony and washroom.</h6>
-    </div>
-    <div className="col-lg-3 ">
-<h6>Parking tiles 12mm 16"x16"</h6>
-    </div>
-    <div className="col-lg-3 ">
-<h6>MS Gate</h6>
-    </div>
-    <div className="col-lg-3 ">
-<h6>Tukdi Roof protection/KOWA for water leakage.</h6>
-    </div>
-    <div className="position-relative" id="cont">
-    <h2 className='text-center'>
-    Video</h2>
-    <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "3rem",
-                  backgroundColor: "#34495E",
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-<div className="mt-4">
-      {loading && (
-        <div
-          className="d-flex justify-content-center align-items-center"
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundColor: "black",
-            zIndex: 10,
-          }}
-        >
-          <Spinner animation="border" variant="light" /> {/* Change this to your preferred loader */}
-        </div>
-      )}
-<div className="text-center">
-      <video
-        src={video}
-        autoPlay
-        loop
-        muted
-        onLoadedData={handleLoadedData}
-        style={{
-          
-          
-          objectFit: "cover",
-          
-        }}
-      />
-      </div>
-</div>
-    </div>
 
     <GoogleMapCom
                 locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.9709326397283!2d79.86601557603863!3d23.134737712131795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b37bf7c868c9%3A0xb7bbcfdd18689f62!2sAyushi%20Dhara!5e0!3m2!1sen!2sin!4v1742816322465!5m2!1sen!2sin" />
@@ -271,5 +181,7 @@ video{
         width: 100%;
     }
 }
-
+p{
+    text-align: justify;
+  }
 `

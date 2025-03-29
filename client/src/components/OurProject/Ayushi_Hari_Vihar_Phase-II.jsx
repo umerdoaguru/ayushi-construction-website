@@ -6,7 +6,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 import { Button } from 'react-bootstrap';
 import GoogleMapCom from '../../pages/GoogleMapCom';
 
-function Ayushi_Hari_Vihar() {
+function Ayushi_Hari_Vihar2() {
   
     const whatsappNumber = "+919575809888"; // Your WhatsApp number
     const defaultMessage = "Hi! I came across the Ayushi Hari Vihar project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
@@ -23,13 +23,29 @@ function Ayushi_Hari_Vihar() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Ayushi Hari Vihar</h2>
+                <h2>Welcome To Ayushi Hari Vihar Phase-II</h2>
                
               </div>
-              <p>Ayushi Hari Vihar is our 4th project found in December 2015,consists in4 acers 135 units with Singlex and plots one of the most recent projects to be developed by One Realty Developers. It’s a project consist of Designer Luxury Residential Villa Plots with all standard amenities.
+              <p>Discover an expansive residential project at Paraswada, Dhanwantri Nagar, designed to offer modern living spaces and premium plots. Spanning an impressive 7.58 acres, this ongoing project features 181 thoughtfully planned units, including 2 BHK Singlex homes and residential plots.
+
+This development is crafted to provide a harmonious blend of comfort and convenience, catering to families and investors seeking a secure and well-connected neighborhood. The project boasts wide roads, essential infrastructure, and proximity to key amenities like schools, hospitals, shopping centers, and transportation hubs, ensuring a hassle-free lifestyle.
+
 </p>
              
+<div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Paraswada,Dhanwantri nagar</li>
+            <li><strong>No. of Units : - </strong>181</li>
+            <li><strong>Status : - </strong>On going project</li>
+          </div>
+<div className="">
 
+            <li><strong>No. of Sale Unit : - </strong>0</li>
+            <li><strong>Project Type : - </strong>2 Bhk Singlex and <br />Plots</li>
+            <li><strong>Land Area : - </strong>7.58  acre</li>
+  
+          </div>
+</div>
               
             </div>
           </div>
@@ -90,7 +106,7 @@ Soalr Lighting</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Hari%20Vihar%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Hari%20Vihar%20project%20phase-II%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -110,7 +126,7 @@ Soalr Lighting</h6>
   )
 }
 
-export default Ayushi_Hari_Vihar
+export default Ayushi_Hari_Vihar2
 
 const Wrapper  =  styled.div`
 img{
@@ -130,5 +146,8 @@ h2{
 
   .container{
     margin-top: 6rem;
+  }
+  p{
+    text-align: justify;
   }
 `

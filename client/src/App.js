@@ -30,13 +30,18 @@ import AdminResetPassword from "./pages/AdminResetPassword";
 import Ayushi_Dhara from "./components/OurProject/Ayushi_Dhara_Project";
 import Ayushi_Home from "./components/OurProject/Ayushi_Home";
 import Ayushi_Villa from "./components/OurProject/Ayushi_Villa";
-import Ayushi_Hari_Vihar from "./components/OurProject/Ayushi_Hari_Vihar";
+import Ayushi_Hari_Vihar from "./components/OurProject/Ayushi_Hari_Vihar_Phase-I";
 import Ayushi_Vrindavan from "./components/OurProject/Ayushi_Vrindavan";
 import Ayushi_Palm_Green from "./components/OurProject/Ayushi_Palm_Green";
 import Rudraksh_Park from "./components/OurProject/Rudraksh_Park";
 import Whatsappicon from "./pages/Whatsappicon";
 import ProjectWiseImage from "./components/gallery/ProjectWiseImage";
 import Ayushi_Dhara_Phase_1 from "./components/OurProject/Ayushi_Dhara_Phase-I";
+import Ayushi_Dhara_Phase_2 from "./components/OurProject/Ayushi_Dhara_Phase-II";
+import Ayushi_Dhara_Phase_3 from "./components/OurProject/Ayushi_Dhara_Phase-III";
+import Ayushi_Hari_Vihar2 from "./components/OurProject/Ayushi_Hari_Vihar_Phase-II";
+import Ayushi_Awadh from "./components/OurProject/Ayushi_Awadh";
+import Ayushi_Lotus_View from "./components/OurProject/Ayushi_Lotus_View";
 
 function App() {
   const user = useSelector(state => state.auth.user);
@@ -60,12 +65,17 @@ function App() {
           <Route path="/cards" element={<Cards />} />
           <Route path="/ayushi-dhara" element={<Ayushi_Dhara />} />
           <Route path="/ayushi-dhara-phase-I" element={<Ayushi_Dhara_Phase_1 />} />
+          <Route path="/ayushi-dhara-phase-II" element={<Ayushi_Dhara_Phase_2 />} />
+          <Route path="/ayushi-dhara-phase-III" element={<Ayushi_Dhara_Phase_3 />} />
           <Route path="/ayushi-home" element={<Ayushi_Home/>} />
           <Route path="/ayushi-villa" element={<Ayushi_Villa/>} />
-          <Route path="/ayushi-hari-vihar" element={<Ayushi_Hari_Vihar/>} />
+          <Route path="/ayushi-hari-vihar-phase-I" element={<Ayushi_Hari_Vihar/>} />
+          <Route path="/ayushi-hari-vihar-phase-II" element={<Ayushi_Hari_Vihar2/>} />
           <Route path="/ayushi-vrindavan" element={<Ayushi_Vrindavan/>} />
           <Route path="/ayushi-palm-green" element={<Ayushi_Palm_Green/>} />
           <Route path="/ayushi-rudraksh-park" element={<Rudraksh_Park/>} />
+          <Route path="/ayushi-awadh" element={<Ayushi_Awadh/>} />
+          <Route path="/ayushi-lotus-view" element={<Ayushi_Lotus_View/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
         
           <Route path="/blog1" element={<Blog1/>} />

@@ -25,7 +25,11 @@ function Ayushi_Villa() {
                 <h2>Welcome To Ayushi Villa</h2>
                
               </div>
-              <p>A luxurious 4 BHK villa, ready to move in, offering a spacious area ranging from 1000 to 1370 sq. ft., designed to provide an elegant and comfortable lifestyle. This beautifully crafted villa boasts modern architecture, premium-quality interiors, and ample natural light, ensuring a perfect blend of style and functionality. Each room is thoughtfully planned to maximize space and comfort, making it an ideal home for families. Additionally, the property comes with a dedicated parking facility, providing convenience and security for residents. Nestled in a prime location, this villa offers easy access to essential amenities, making it a perfect choice for those seeking a sophisticated and peaceful living environment.
+              <p>A prestigious residential project located in the prime area of Ganganagar Garha. Spanning across 1.52 acres, this fully completed project features 39 exquisitely designed 4 BHK Triplex Villas, all of which have been successfully sold, reflecting its unmatched demand and exclusivity.
+
+Each villa is thoughtfully crafted to offer a premium living experience, with modern architecture, spacious interiors, and top-notch amenities. Designed for comfort and elegance, these triplex villas provide ample natural light, open spaces, and luxurious finishes.
+
+Strategically located, Ayushi Villa ensures seamless connectivity to major city landmarks, schools, hospitals, and shopping centers, offering convenience and a high standard of living.
               </p>
               <div className="d-flex flex-wrap gap-1">
 <div className="">

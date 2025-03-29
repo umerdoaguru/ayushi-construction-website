@@ -24,15 +24,34 @@ function Ayushi_Dhara_Phase_1() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Our Ayushi Dhara</h2>
+                <h2>Welcome To Our Ayushi Dhara Phase-I</h2>
                
               </div>
-              <p>A ready-to-move 3 BHK villa with a spacious area ranging from 800 to 1000 sq. ft., designed to provide a comfortable and modern living experience. This beautifully constructed villa offers ample space for families, ensuring both privacy and convenience. The interiors are thoughtfully designed, with well-ventilated rooms, elegant flooring, and premium fittings to enhance your lifestyle. The property also features a dedicated parking facility, ensuring the safety and convenience of vehicle owners. Located in a well-connected and serene neighborhood, this villa is perfect for those looking for a peaceful yet accessible living environment. Whether for investment or personal use, this property is an excellent choice for homebuyers seeking quality, comfort, and affordability.
+              <p>Welcome to an exclusive residential development at Sagra, Lamheta Road, featuring 146 thoughtfully designed units across 4.64 acres of prime land. This project offers a mix of 3 BHK duplex homes and residential plots, catering to modern homebuyers seeking comfort, elegance, and a well-connected location.
+
+With all units sold out, this completed project stands as a testament to its desirability and high demand. The 3 BHK duplexes provide spacious living areas, contemporary architecture, and high-quality construction, while the plots offer the perfect canvas for homeowners to build their dream residences.
+
+Located in a serene yet well-connected neighborhood, residents enjoy proximity to essential amenities like schools, hospitals, shopping centers, and major roads, ensuring a convenient and fulfilling lifestyle.
+
+
            
 </p>
-
             
             </div>
+<div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Sagra, Lamheta Road.</li>
+            <li><strong>No. of Units : - </strong>146</li>
+            <li><strong>Status : - </strong>Project completed</li>
+          </div>
+<div className="">
+
+            <li><strong>No. of Sale Unit : - </strong>0</li>
+            <li><strong>Project Type : - </strong>3 Bhk duplex and Plots</li>
+            <li><strong>Land Area : - </strong>4.64 acre</li>
+  
+          </div>
+</div>
           </div>
           <div className="col-lg-6">
             <div className="s-about-img p-relative" data-aos= "fade-left">
@@ -212,7 +231,7 @@ double coat glossy paint/normal paint.</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Dhara%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Dhara%20project%20phase-I%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -271,5 +290,8 @@ video{
         width: 100%;
     }
 }
+p{
+    text-align: justify;
+  }
 
 `

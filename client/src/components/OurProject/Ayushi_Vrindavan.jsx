@@ -24,11 +24,28 @@ function Ayushi_Vrindavan() {
                 <h2>Welcome To Ayushi Vrindavan</h2>
               </div>
               <p>
-              Choose between elegantly designed 2 BHK or 3 BHK flats, fully ready to move in, with spacious sizes ranging from 1473 to 1759 sq. ft. These modern homes are crafted to offer a perfect balance of comfort and functionality, featuring well-ventilated rooms, stylish interiors, and high-quality fittings. Whether you need a cozy space or a larger home for your growing family, these flats cater to diverse lifestyle needs. Additionally, the property includes a dedicated parking facility, ensuring convenience and security for residents. Located in a well-connected area with easy access to essential amenities, these homes provide a perfect blend of luxury and practicality for a hassle-free living experience.
+              Discover your ideal investment opportunity with our ongoing residential plot project in Chowkital. Spanning across 6.30 acres, this project offers 116 well-planned plots, with 28 units already sold, reflecting its high demand and value.
+
+Located in a prime and well-connected area, these plots provide an excellent foundation for building your dream home or making a long-term investment. The project is surrounded by essential amenities, including schools, hospitals, shopping centers, and transportation hubs, ensuring a convenient and comfortable lifestyle.
+
+With limited plots available, this is your golden opportunity to secure a valuable piece of land in Chowkital. Don’t miss out—invest today and turn your dreams into reality!
       
               </p>
 
-             
+              <div className="d-flex flex-wrap gap-1">
+<div className="">
+            <li><strong>Site Address : - </strong>Chowkital</li>
+            <li><strong>No. of Units : - </strong>116</li>
+            <li><strong>Status : - </strong>On going project</li>
+          </div>
+<div className="">
+
+            <li><strong>No. of Sale Unit : - </strong>28</li>
+            <li><strong>Project Type : - </strong>Plots</li>
+            <li><strong>Land Area : - </strong>6.30 acre</li>
+  
+          </div>
+</div>
             </div>
           </div>
 
@@ -123,5 +140,8 @@ const Wrapper = styled.div`
   }
   .container{
     margin-top: 6rem;
+  }
+  p{
+    text-align: justify;
   }
 `;
