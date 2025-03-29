@@ -61,7 +61,7 @@ function Header() {
               </NavDropdown>
 
               <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">
-              <NavDropdown.Item as={Link} to="ayushi-awadh" onClick={() => handleFooterLink("ayushi-awadh")}>Ayushi Awedh</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="ayushi-awadh" onClick={() => handleFooterLink("ayushi-awadh")}>Ayushi Awadh</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="ayushi-lotus-view" onClick={() => handleFooterLink("ayushi-lotus-view")}>Ayushi Lotus View </NavDropdown.Item>
 
               </NavDropdown>

@@ -26,8 +26,9 @@ function Ayushi_Lotus_View() {
                 <h2>Welcome To Ayushi Lotus View</h2>
                
               </div>
-              <p>Ayushi Lotus View is in 41763.97 Sqfeet and  28 units with Shops And Villa Triplex and plots one of the most recent projects to be developed by Ayushi Construction. It’s a project consist of Designer Luxury Residential Villa Triplex with all standard amenities.
-</p>
+              <p>Ayushi Lotus View is an exclusive upcoming project located at Sagra, near Sai Mandir. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
+
+Each unit is meticulously planned to provide spacious layouts, contemporary architecture, and high-end amenities. The commercial spaces are designed to cater to business owners and entrepreneurs, while the villa triplexes offer a serene and comfortable lifestyle for families seeking elegance and convenience.</p>
              
 <div className="d-flex flex-wrap gap-1">
 <div className="">

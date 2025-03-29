@@ -26,7 +26,9 @@ function Ayushi_Awadh() {
                 <h2>Welcome To Ayushi Awadh</h2>
                
               </div>
-              <p>Ayushi Awadh is  in 9 acers 200 units with $ BHK Villas Triplex one of the most upcoming projects to be developed by Ayushi Construction. It’s a project consist of Designer Luxury Residential Villa with all standard amenities.
+              <p>Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road, Garha. Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle.
+
+Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.
 </p>
              
 <div className="d-flex flex-wrap gap-1">
