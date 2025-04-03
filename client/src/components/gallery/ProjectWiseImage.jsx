@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import styled from "styled-components";
 import photo1 from '../../images/Ayushi Dhara-I/photo1.jpeg'
@@ -67,7 +67,8 @@ import vrindavanimage8 from '../../images/Ayushi vrindavan/10.jpeg'
 import vrindavanimage9 from '../../images/Ayushi vrindavan/11.jpeg'
 import vrindavanimage10 from '../../images/Ayushi vrindavan/12.jpeg'
 import vrindavanimage11 from '../../images/Ayushi vrindavan/13.jpeg'
-
+import Lightbox from "react-image-lightbox";
+import "react-image-lightbox/style.css"; // Import Lightbox CSS
 
 
 const projectImages = {
@@ -98,19 +99,20 @@ const projectImages = {
     "ayushi-hari-vihar": [
         { url: hariimage,  },
         { url: hariimage1,  },
-        
+        { url: vrindavanimage4,  },
+        { url: vrindavanimage5,  },
+        { url: vrindavanimage6,  },
+        { url: vrindavanimage8,  },
+
     ],
     "ayushi-vrindavan": [
         { url: vrindavanimage,  },
         { url: vrindavanimage1,  },
         { url: vrindavanimage2,  },
         { url: vrindavanimage3,  },
-        { url: vrindavanimage4,  },
-        { url: vrindavanimage5,  },
-        { url: vrindavanimage6,  },
-        { url: vrindavanimage7,  },
-        { url: vrindavanimage8,  },
         { url: vrindavanimage9,  },
+        { url: vrindavanimage7,  },
+
         { url: vrindavanimage10,  },
         { url: vrindavanimage11,  },
       
@@ -146,65 +148,110 @@ const projectImages = {
 const ProjectWiseImage = () => {
     const { projectId } = useParams();
     const images = projectImages[projectId] || [];
-    const handleFooterLink = () => {
-        window.scrollTo(0, 0);
-        
+  
+    const [selectedImage, setSelectedImage] = useState(null);
+  
+    // Close modal on ESC key press
+    React.useEffect(() => {
+      const handleKeyDown = (event) => {
+        if (event.key === "Escape") {
+          setSelectedImage(null);
+        }
       };
-
+      window.addEventListener("keydown", handleKeyDown);
+      return () => window.removeEventListener("keydown", handleKeyDown);
+    }, []);
+  
     return (
-        <Wrapper>
-         <div className="container">
-            <h2 className="text-center mb-4 maintext">
-                {projectId.replace("-", " ").toUpperCase()} GALLERY
-            </h2>
-            <div
-                className="underline mx-auto"
-                style={{
-                  height: 3,
-                  width: "4rem",
-                  backgroundColor: "#34495E",
-
-                  marginTop: 20,
-                  marginBottom: 20,
-                }}
-              ></div>
-
-            <div className="row">
-                {images.map((image, index) => (
-                    <div key={index} className="col-md-4 mb-4">
-                        <div className="card">
-                            <img
-                                src={image.url}
-                                className="card-img-top"
-                                alt={image.caption}
-                                style={{ height: "220px", objectFit: "cover" }}
-                            />
-                        
-                        </div>
-                    </div>
-                ))}
-            </div>
-
-            <div className="text-center mt-4 mb-5">
-                <Link to="/gallery" onClick={handleFooterLink} className="btn btn-secondary">
-                    Back to Projects Gallery Page
-                </Link>
-            </div>
+      <Wrapper>
+        <div className="container">
+          <h2 className="text-center mb-4 maintext">
+            {projectId.replace("-", " ").toUpperCase()} GALLERY
+          </h2>
+          <div
+            className="underline mx-auto"
+            style={{
+              height: 3,
+              width: "4rem",
+              backgroundColor: "#34495E",
+              marginTop: 20,
+              marginBottom: 20,
+            }}
+          ></div>
+  
+          <div className="row">
+            {images.map((image, index) => (
+              <div key={index} className="col-md-4 mb-4">
+                <div className="image-container" onClick={() => setSelectedImage(image.url)}>
+                  <img src={image.url} className="thumbnail" alt={`Project ${index + 1}`} />
+                </div>
+              </div>
+            ))}
+          </div>
+  
+          <div className="text-center mt-4 mb-5">
+            <Link to="/gallery" className="btn btn-secondary">
+              Back to Projects Gallery Page
+            </Link>
+          </div>
         </div>
-        </Wrapper>
-       
+  
+        {/* Full-Screen Image Modal */}
+        {selectedImage && (
+          <div className="modal" onClick={() => setSelectedImage(null)}>
+            <img src={selectedImage} alt="Full View" className="modal-image" />
+          </div>
+        )}
+      </Wrapper>
     );
-};
-
-export default ProjectWiseImage;
-const Wrapper = styled.div`
-.container{
-margin-top: 8rem;
- @media screen and (max-width: 768px) {
-     margin-top: 6rem;
+  };
+  
+  export default ProjectWiseImage;
+  
+  const Wrapper = styled.div`
+    .container {
+      margin-top: 8rem;
+      @media screen and (max-width: 768px) {
+        margin-top: 6rem;
+      }
     }
-}
-.maintext{
-    color: #f26a20;
-}
-`;
+    .maintext {
+      color: #f26a20;
+    }
+  
+    .image-container {
+      cursor: pointer;
+    }
+  
+    .thumbnail {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+  
+    .thumbnail:hover {
+      transform: scale(1.05);
+    }
+  
+    /* Modal Styles */
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      cursor: pointer;
+    }
+  
+    .modal-image {
+      max-width: 90%;
+      max-height: 90%;
+      border: 2px solid white;
+    }
+  `;

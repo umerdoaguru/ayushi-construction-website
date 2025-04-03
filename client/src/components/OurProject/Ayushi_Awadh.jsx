@@ -9,7 +9,7 @@ import GoogleMapCom from '../../pages/GoogleMapCom';
 function Ayushi_Awadh() {
   
     const whatsappNumber = "+919575809888"; // Your WhatsApp number
-    const defaultMessage = "Hi! I came across the Ayushi Hari Vihar project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
+    const defaultMessage = "Hi! I came across the Ayushi Awadh project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
   
     // Constructing WhatsApp URL
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
@@ -26,16 +26,16 @@ function Ayushi_Awadh() {
                 <h2>Welcome To Ayushi Awadh</h2>
                
               </div>
-              <p>Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road, Garha. Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle.
+              <p>Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road Dhanvantari Nagar (near Medical College).Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle.
 
 Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.
 </p>
              
 <div className="d-flex flex-wrap gap-1">
 <div className="">
-            <li><strong>Site Address : - </strong>Purwa Road,Garha</li>
+            <li><strong>Site Address : - </strong>Purwa Road</li>
             <li><strong>No. of Units : - </strong>200</li>
-            <li><strong>Status : - </strong>Upcoming completed</li>
+            <li><strong>Status : - </strong>Upcoming Project</li>
           </div>
 <div className="">
 
@@ -61,31 +61,100 @@ Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, 
       AMENITIES</h2>
     </div>
     <div className="col-lg-3">
-<h6>Grand Gentry Enterance</h6>
+<h6>Children's Play Area
+</h6>
     </div>
     <div className="col-lg-3">
-<h6>Commercial Units/Shops</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
-<h6>Water Supply</h6>
+<h6>Clubhouse</h6>
     </div>
     <div className="col-lg-3">
-<h6>Kids Play Area</h6>
+<h6>Swimming Pool</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Gym
+</h6>
     </div>
 
     <div className="col-lg-3">
 <h6>
-Soalr Lighting</h6>
+Yoga and Meditation Space
+</h6>
     </div>
    
     <div className="col-lg-3">
-<h6>24 Hours Water Supply</h6>
+<h6>Temple
+</h6>
     </div>
     <div className="col-lg-3">
-<h6>Jogging Track- Footpath</h6>
+<h6>Open Gym
+</h6>
+    </div>
+   
+   
+    <div className="col-lg-3">
+<h6>Jogging Tracks
+
+</h6>
+    </div>
+   
+    <div className="col-lg-3">
+<h6>BADMINTON COURT/ TENIS COURT
+
+
+</h6>
     </div>
     <div className="col-lg-3">
-<h6>Beautiful garden</h6>
+<h6>BASKETBALL COURT/ VOLLEYBALL COURT
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>CRICKET TURFS
+
+
+</h6>
+    </div>
+ 
+    <div className="col-lg-3">
+<h6>Grand Entrance Gate
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Under Ground Drain System
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Sculptures
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Under Ground Electricity System
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Rcc Wide Road (40 Feet & 30 Feet)
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
+<h6>Beautiful landscape Garden
+</h6>
     </div>
 
     <GoogleMapCom
@@ -105,7 +174,7 @@ Soalr Lighting</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Hari%20Vihar%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi Awadh%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -145,5 +214,8 @@ h2{
 
   .container{
     margin-top: 6rem;
+  }
+  p{
+    text-align: justify;
   }
 `

@@ -24,7 +24,7 @@ const AdminResetPassword = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      await axios.post("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/sendOtp-superadmin", { email });
+      await axios.post("https://ayushiconstruction.com/api/sendOtp-superadmin", { email });
       cogoToast.success("OTP sent to your email");
       setShowOtp(false);
       setShowVerify(true);
@@ -39,7 +39,7 @@ const AdminResetPassword = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      await axios.post("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/verifyOtp-superadmin", { email, otp });
+      await axios.post("https://ayushiconstruction.com/api/verifyOtp-superadmin", { email, otp });
       setShowOtp(false);
       setShowVerify(false);
       setShowReset(true);
@@ -53,7 +53,7 @@ const AdminResetPassword = () => {
     e.preventDefault();
     try {
       setLoading(true);
-      await axios.put("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/resetPassword-superadmin", { email, password: newPassword });
+      await axios.put("https://ayushiconstruction.com/api/resetPassword-superadmin", { email, password: newPassword });
       cogoToast.success("Password updated successfully");
       navigate("/admin");
     } catch (error) {

@@ -2,7 +2,7 @@ import React from 'react';
 
 const GoogleMapCom = ({ locationUrl, width = "800", height = "450" }) => {
     return (
-        <div className="container mt-5 mb-3">
+        <div className="container mt-4 mb-2">
             <h2 className="text-center mb-4 " style={{color:"#f26a20"}}>Our Location</h2>
             <div
                 className="underline mx-auto"

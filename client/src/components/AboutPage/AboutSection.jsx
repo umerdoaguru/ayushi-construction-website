@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 import About2 from "../../images/banner123.jpg";
 import ownerimg from "../../images/owner-img.JPG";
-import ownerwifeimg from "../../images/OwnerWife.JPG";
+// import ownerwifeimg from "../../images/wife of owner.png";
+import ownerwifeimg from "../../images/OwnerWife.jpeg";
 
 const AboutSection = () => {
   return (
@@ -103,7 +104,16 @@ const AboutSection = () => {
                 }}
               ></div>
               <p className="mt-3">
-Welcome to Ayushi Construction, one of the reputed leading home builders in Jabalpur established in 2006, by Satyendra . We specialize in creating comfortable and affordable residential homes that cater to your needs. Our latest completed project, Rudraksh Park and Ayushi Palm Greens in Ganga Nagar, Jabalpur, offers 2/3 BHK Flats/Apartments with state-of-the-art architecture and a wide range of amenities to provide a comfortable living experience. Additionally, we have ongoing projects like Ayushi Homess, Ayushi Dhara, and Ayushi Villa.
+              Welcome to Ayushi Construction, one of the reputed leading home builders in Jabalpur established in 2006, by Satyendra . We specialize in creating comfortable and affordable residential homes that cater to your needs. Our latest completed projects Rudraksh Park, 
+Ayushi Palm Green, 
+Ayushi Villa, 
+Ayushi Dhara,
+Ayushi Dhara Phase-I, 
+Ayushi Hari Vihar Phase-I in Jabalpur, offers 2/3 BHK Flats/Apartments with state-of-the-art architecture and a wide range of amenities to provide a comfortable living experience. Additionally, we have ongoing projects like Ayushi Home,
+Shiv Malti Vihar Ayushi Dhara Phase-II,
+Ayushi Dhara Phase-III,
+Ayushi Hari Vihar Phase-II,
+Ayushi Vrindavan.
 
 </p>
         <div className="row align-items-center mt-3">
@@ -320,5 +330,8 @@ p{
     @media screen and (min-width: 768px) and (max-width: 1024px) {
       display: none;
     }
+  }
+  p{
+    text-align: justify;
   }
 `;

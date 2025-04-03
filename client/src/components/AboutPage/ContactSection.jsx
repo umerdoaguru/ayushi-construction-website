@@ -23,7 +23,7 @@ function ContactSection() {
             <main className="px-3 w-100 w-md-75 w-lg-50 mt-4 " style={{color:"#f26a20"}}>
               <h6>Don't hesitage to contact us</h6>
               <h2>MAKE AN APPOINTMENT NOW</h2>
-              <h2> 07614924920,7880002259</h2>
+              <h2> 9981268611,9575809888</h2>
 
               <button className="btn btn-lg   rounded-pill mt-3 ">
               <Link

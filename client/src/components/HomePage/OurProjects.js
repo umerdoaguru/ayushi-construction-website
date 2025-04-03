@@ -17,9 +17,9 @@ function OurProjects() {
   };
   return (
     <Wrapper>
-      <div className="container mt-5">
+      <div className="container mt-4">
         <div className="row g-5">
-          <div className="container" style={{ marginTop: "4rem" }}>
+          <div className="" style={{ marginTop: "4rem" }}>
             <h2 className="text-center">Our Projects</h2>
             <div
               className="underline mx-auto"
@@ -33,7 +33,7 @@ function OurProjects() {
               }}
             ></div>
 
-            <div className="row align-items-center mt-5">
+            <div className="row align-items-center mt-4">
               <div className="col-lg-6" id="desktop">
                 <div className="s-about-img p-relative" data-aos="fade-up">
                   <img src={ayushi_home} alt="img" />
@@ -139,7 +139,7 @@ function OurProjects() {
                   data-aos="fade-up"
                 >
                   <div className="about-title second-atitle">
-                    <h2>Welcome To Ayushi Dhara Phase-II</h2>
+                    <h2>Welcome To Shiv Malti Vihar Ayushi Dhara Phase-II</h2>
                   </div>
                   <p>
                     Nestled in the prime location of Sagra, Lamheta Road, this
@@ -193,7 +193,7 @@ function OurProjects() {
                   data-aos="fade-up"
                 >
                   <div className="about-title second-atitle">
-                    <h2>Welcome To Ayushi Dhara Phase-II</h2>
+                    <h2>Welcome To Shiv Malti Vihar Ayushi Dhara Phase-II</h2>
                   </div>
                   <p>
                     Nestled in the prime location of Sagra, Lamheta Road, this
@@ -247,19 +247,7 @@ function OurProjects() {
                     <h2>Welcome To Ayushi Dhara Phase-III</h2>
                   </div>
                   <p>
-                    Discover an exceptional residential development at Sagra,
-                    Lamheta Road, offering a perfect blend of 3 BHK duplexes, 4
-                    BHK duplexes, and residential plots. Spanning 3.14 acres,
-                    this completed project features 88 well-designed units, all
-                    of which have been successfully sold, highlighting the
-                    project's high demand and quality construction. The 3 BHK
-                    and 4 BHK duplex homes are designed to provide a modern and
-                    luxurious living experience, featuring spacious interiors,
-                    premium fittings, and a contemporary architectural design.
-                    Situated in a prime location, residents enjoy easy access to
-                    key amenities such as schools, hospitals, shopping centers,
-                    and major roadways, ensuring both convenience and
-                    connectivity.
+                  Welcome to an exclusive residential development at Sagra, Lamheta Road, featuring 146 thoughtfully designed units across 4.64 acres of prime land. This project offers a mix of 3 BHK duplex homes and residential plots, catering to modern homebuyers seeking comfort, elegance, and a well-connected location. With all units sold out, this completed project stands as a testament to its desirability and high demand. The 3 BHK duplexes provide spacious living areas, contemporary architecture, and high-quality construction, while the plots offer the perfect canvas for homeowners to build their dream residences. Located in a serene yet well-connected neighborhood, residents enjoy proximity to essential amenities like schools, hospitals, shopping centers, and major roads, ensuring a convenient and fulfilling lifestyle.
                   </p>
                   <div className="">
                     <button
@@ -452,19 +440,7 @@ function OurProjects() {
                     <h2>Welcome To Ayushi Vrindavan</h2>
                   </div>
                   <p>
-                    Discover your ideal investment opportunity with our ongoing
-                    residential plot project in Chowkital. Spanning across 6.30
-                    acres, this project offers 116 well-planned plots, with 28
-                    units already sold, reflecting its high demand and value.
-                    Located in a prime and well-connected area, these plots
-                    provide an excellent foundation for building your dream home
-                    or making a long-term investment. The project is surrounded
-                    by essential amenities, including schools, hospitals,
-                    shopping centers, and transportation hubs, ensuring a
-                    convenient and comfortable lifestyle. With limited plots
-                    available, this is your golden opportunity to secure a
-                    valuable piece of land in Chowkital. Don’t miss out—invest
-                    today and turn your dreams into reality!
+                    Discover your ideal investment opportunity with our ongoing residential plot project in front of iskcon temple in Chowkital. Spanning across 6.30 acres, this project offers 116 well-planned plots, with 28 units already sold, reflecting its high demand and value. Located in a prime and well-connected area, these plots provide an excellent foundation for building your dream home or making a long-term investment. The project is surrounded by essential amenities, including schools, hospitals, shopping centers, and transportation hubs, ensuring a convenient and comfortable lifestyle. With limited plots available, this is your golden opportunity to secure a valuable piece of land in Chowkital. Don’t miss out—invest today and turn your dreams into reality!
                   </p>
 
                   <div className="">
@@ -502,19 +478,7 @@ function OurProjects() {
                     <h2>Welcome To Ayushi Vrindavan</h2>
                   </div>
                   <p>
-                    Discover your ideal investment opportunity with our ongoing
-                    residential plot project in Chowkital. Spanning across 6.30
-                    acres, this project offers 116 well-planned plots, with 28
-                    units already sold, reflecting its high demand and value.
-                    Located in a prime and well-connected area, these plots
-                    provide an excellent foundation for building your dream home
-                    or making a long-term investment. The project is surrounded
-                    by essential amenities, including schools, hospitals,
-                    shopping centers, and transportation hubs, ensuring a
-                    convenient and comfortable lifestyle. With limited plots
-                    available, this is your golden opportunity to secure a
-                    valuable piece of land in Chowkital. Don’t miss out—invest
-                    today and turn your dreams into reality!
+                    Discover your ideal investment opportunity with our ongoing residential plot project in front of iskcon temple in Chowkital. Spanning across 6.30 acres, this project offers 116 well-planned plots, with 28 units already sold, reflecting its high demand and value. Located in a prime and well-connected area, these plots provide an excellent foundation for building your dream home or making a long-term investment. The project is surrounded by essential amenities, including schools, hospitals, shopping centers, and transportation hubs, ensuring a convenient and comfortable lifestyle. With limited plots available, this is your golden opportunity to secure a valuable piece of land in Chowkital. Don’t miss out—invest today and turn your dreams into reality!
                   </p>
 
                   <div className="">
@@ -666,7 +630,7 @@ Located in a well-connected neighborhood, residents enjoy proximity to essential
                       }}
                     >
                       <Link
-                        to="/ayushi-rudraksh-park"
+                        to="/ayushi-palm-green"
                         onClick={handleFooterLink}
                         style={{ textDecoration: "none", color: "white" }}
                       >
@@ -710,7 +674,7 @@ Located in a well-connected neighborhood, residents enjoy proximity to essential
                       }}
                     >
                       <Link
-                        to="/ayushi-rudraksh-park"
+                        to="/ayushi-palm-green"
                         onClick={handleFooterLink}
                         style={{ textDecoration: "none", color: "white" }}
                       >
@@ -901,21 +865,19 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
                 </div>
               </div>
             </div>
-
-
-
             <div className="row align-items-center mt-5">
+              
               <div className="col-lg-6 mt-3" id="desktop">
                 <div
                   className="about-content s-about-content pl-30"
                   data-aos="fade-up"
                 >
                   <div className="about-title second-atitle">
-                    <h2>Welcome to Ayushi Hari Vihar Phase-I</h2>
+                    <h2>Welcome To Ayushi Dhara Phase-I</h2>
                   </div>
                   <p>
-                    Presenting an exclusive residential development at Paraswada, Dhanwantri Nagar, offering fully developed plots in a prime location. Spanning 2.32 acres, this completed project consists of 56 meticulously planned units, all of which have been successfully sold, reflecting its high demand and superior quality. These residential plots provide an excellent opportunity for homeowners and investors alike, allowing for the construction of custom dream homes in a well-planned, thriving community. Located in Paraswada, Dhanwantri Nagar, residents benefit from proximity to key amenities such as educational institutions, healthcare centers, shopping hubs, and major transport links, ensuring convenience and connectivity.
-             </p>
+                  Find the perfect opportunity to build your dream home in the completed residential project at Sagra, Lamheta Road. This meticulously planned development offers 148 fully sold-out plots, spread across 5.20 acres of prime land, making it an ideal investment for homeowners and developers alike. With a strategic location, the project provides easy access to schools, hospitals, shopping centers, and major transportation routes, ensuring convenience and connectivity. Each plot is designed to offer ample space, excellent infrastructure, and a peaceful environment. The project has been successfully completed, making it a ready-to-build location with essential amenities in place.</p>
+             
              
                   
 
@@ -929,7 +891,7 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
                       }}
                     >
                       <Link
-                        to="/ayushi-hari-vihar-phase-I"
+                        to="/ayushi-dhara-phase-I"
                         onClick={handleFooterLink}
                         style={{ textDecoration: "none", color: "white" }}
                       >
@@ -940,33 +902,31 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6" id="desktop">
                 <div className="s-about-img p-relative" data-aos="fade-down">
-                  <img src={ayushi_hari_vihar} alt="img" />
+                  <img src={ayushi_dhara} alt="img" />
                 </div>
               </div>
-
-              <div className="col-lg-6" id="mobile">
+   <div className="col-lg-6" id="mobile">
                 <div className="s-about-img p-relative" data-aos="fade-up">
-                  <img src={ayushi_hari_vihar} alt="img" />
+                  <img src={ayushi_dhara} alt="img" />
                 </div>
               </div>
-
-              <div className="col-lg-6 mt-3" id="mobile">
+  <div className="col-lg-6 mt-3" id="mobile">
                 <div
                   className="about-content s-about-content pl-30"
                   data-aos="fade-up"
                 >
                   <div className="about-title second-atitle">
-                    <h2>Welcome to Ayushi Hari Vihar Phase-I</h2>
+                    <h2>Welcome To Ayushi Dhara Phase-I</h2>
                   </div>
                   <p>
-                    Presenting an exclusive residential development at Paraswada, Dhanwantri Nagar, offering fully developed plots in a prime location. Spanning 2.32 acres, this completed project consists of 56 meticulously planned units, all of which have been successfully sold, reflecting its high demand and superior quality. These residential plots provide an excellent opportunity for homeowners and investors alike, allowing for the construction of custom dream homes in a well-planned, thriving community. Located in Paraswada, Dhanwantri Nagar, residents benefit from proximity to key amenities such as educational institutions, healthcare centers, shopping hubs, and major transport links, ensuring convenience and connectivity.
-             </p>
+                  Find an exceptional residential development at Sagra, Lamheta Road, offering a perfect blend of 3 BHK duplexes, 4 BHK duplexes, and residential plots. Spanning 3.14 acres, this completed project features 88 well-designed units, all of which have been successfully sold, highlighting the project's high demand and quality construction. The 3 BHK and 4 BHK duplex homes are designed to provide a modern and luxurious living experience, featuring spacious interiors, premium fittings, and a contemporary architectural design. Situated in a prime location, residents enjoy easy access to key amenities such as schools, hospitals, shopping centers, and major roadways, ensuring both convenience and connectivity.
+
+</p>
+             
              
                   
-
                   <div className="">
                     <button
                       type="button"
@@ -977,7 +937,7 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
                       }}
                     >
                       <Link
-                        to="/ayushi-hari-vihar-phase-I"
+                        to="/ayushi-dhara-phase-I"
                         onClick={handleFooterLink}
                         style={{ textDecoration: "none", color: "white" }}
                       >
@@ -988,13 +948,16 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
                   </div>
                 </div>
               </div>
+           
+            
             </div>
 
 
+
             <div className="row align-items-center mt-5">
-              <div className="col-lg-6" id="desktop">
+               <div className="col-lg-6" id="desktop">
                 <div className="s-about-img p-relative" data-aos="fade-up">
-                  <img src={ayushi_awadh} alt="img" />
+                  <img src={ayushi_hari_vihar} alt="img" />
                 </div>
               </div>
               <div className="col-lg-6 mt-3" id="desktop">
@@ -1003,12 +966,93 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
                   data-aos="fade-down"
                 >
                   <div className="about-title second-atitle">
+                    <h2>Welcome to Ayushi Hari Vihar Phase-I</h2>
+                  </div>
+                  <p>
+                    Presenting an exclusive residential development at Paraswada, Dhanwantri Nagar, offering fully developed plots in a prime location. Spanning 2.32 acres, this completed project consists of 56 meticulously planned units, all of which have been successfully sold, reflecting its high demand and superior quality. These residential plots provide an excellent opportunity for homeowners and investors alike, allowing for the construction of custom dream homes in a well-planned, thriving community. Located in Paraswada, Dhanwantri Nagar, residents benefit from proximity to key amenities such as educational institutions, healthcare centers, shopping hubs, and major transport links, ensuring convenience and connectivity.
+             </p>
+             
+                  
+
+                  <div className="">
+                    <button
+                      type="button"
+                      className="btn   mb-3"
+                      style={{
+                        backgroundColor: " #f26a20",
+                        borderRadius: "1.5rem",
+                      }}
+                    >
+                      <Link
+                        to="/ayushi-hari-vihar-phase-I"
+                        onClick={handleFooterLink}
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        {" "}
+                        Read More
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+   <div className="col-lg-6" id="mobile">
+                <div className="s-about-img p-relative" data-aos="fade-up">
+                  <img src={ayushi_hari_vihar} alt="img" />
+                </div>
+              </div>
+             
+<div className="col-lg-6 mt-3" id="mobile">
+                <div
+                  className="about-content s-about-content pl-30"
+                  data-aos="fade-up"
+                >
+                  <div className="about-title second-atitle">
+                    <h2>Welcome to Ayushi Hari Vihar Phase-I</h2>
+                  </div>
+                  <p>
+                    Presenting an exclusive residential development at Paraswada, Dhanwantri Nagar, offering fully developed plots in a prime location. Spanning 2.32 acres, this completed project consists of 56 meticulously planned units, all of which have been successfully sold, reflecting its high demand and superior quality. These residential plots provide an excellent opportunity for homeowners and investors alike, allowing for the construction of custom dream homes in a well-planned, thriving community. Located in Paraswada, Dhanwantri Nagar, residents benefit from proximity to key amenities such as educational institutions, healthcare centers, shopping hubs, and major transport links, ensuring convenience and connectivity.
+             </p>
+             
+                  
+
+                  <div className="">
+                    <button
+                      type="button"
+                      className="btn   mb-3"
+                      style={{
+                        backgroundColor: " #f26a20",
+                        borderRadius: "1.5rem",
+                      }}
+                    >
+                      <Link
+                        to="/ayushi-hari-vihar-phase-I"
+                        onClick={handleFooterLink}
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        {" "}
+                        Read More
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+           
+
+              
+            </div>
+
+
+            <div className="row align-items-center mt-5">
+  <div className="col-lg-6 mt-3" id="desktop">
+                <div
+                  className="about-content s-about-content pl-30"
+                  data-aos="fade-up"
+                >
+                  <div className="about-title second-atitle">
                     <h2>Welcome To Ayushi Awadh</h2>
                   </div>
                   <p>
-                 Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road, Garha. Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle.
-
-Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.</p>
+                 Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road Dhanvantari Nagar (near Medical College).Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle. Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.</p>
              
              
                   
@@ -1034,13 +1078,17 @@ Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, 
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-6" id="mobile">
+              <div className="col-lg-6" id="desktop">
+                <div className="s-about-img p-relative" data-aos="fade-down">
+                  <img src={ayushi_awadh} alt="img" />
+                </div>
+              </div>
+  <div className="col-lg-6" id="mobile">
                 <div className="s-about-img p-relative" data-aos="fade-up">
                   <img src={ayushi_awadh} alt="img" />
                 </div>
               </div>
-              <div className="col-lg-6 mt-3" id="mobile">
+               <div className="col-lg-6 mt-3" id="mobile">
                 <div
                   className="about-content s-about-content pl-30"
                   data-aos="fade-up"
@@ -1049,9 +1097,7 @@ Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, 
                     <h2>Welcome To Ayushi Awadh</h2>
                   </div>
                   <p>
-                 Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road, Garha. Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle.
-
-Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.</p>
+                 Discover Ayushi Awadh, an upcoming premium residential project situated at Purwa Road Dhanvantari Nagar (near Medical College).Spanning across 9 acres, this elite development will offer 200 opulent 4 BHK Triplex Villas, designed to provide spacious living, modern architecture, and a luxurious lifestyle. Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.</p>
              
              
                   
@@ -1076,69 +1122,29 @@ Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, 
                   </div>
                 </div>
               </div>
+
+            
+
+           
+
             </div>
 
             <div className="row align-items-center mt-5">
-              <div className="col-lg-6 mt-3" id="desktop">
-                <div
-                  className="about-content s-about-content pl-30"
-                  data-aos="fade-up"
-                >
-                  <div className="about-title second-atitle">
-                    <h2>Welcome to Ayushi Lotus View</h2>
-                  </div>
-                  <p>
-                    Ayushi Lotus View is an exclusive upcoming project located at Sagra, near Sai Mandir. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
-
-Each unit is meticulously planned to provide spacious layouts, contemporary architecture, and high-end amenities. The commercial spaces are designed to cater to business owners and entrepreneurs, while the villa triplexes offer a serene and comfortable lifestyle for families seeking elegance and convenience.
-             </p>
-             
-                  
-
-                  <div className="">
-                    <button
-                      type="button"
-                      className="btn   mb-3"
-                      style={{
-                        backgroundColor: " #f26a20",
-                        borderRadius: "1.5rem",
-                      }}
-                    >
-                      <Link
-                        to="/ayushi-lotus-view"
-                        onClick={handleFooterLink}
-                        style={{ textDecoration: "none", color: "white" }}
-                      >
-                        {" "}
-                        Read More
-                      </Link>
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-6" id="desktop">
-                <div className="s-about-img p-relative" data-aos="fade-down">
-                  <img src={ayushi_lotus_view} alt="img" />
-                </div>
-              </div>
-
-              <div className="col-lg-6" id="mobile">
+               <div className="col-lg-6" id="desktop">
                 <div className="s-about-img p-relative" data-aos="fade-up">
                   <img src={ayushi_lotus_view} alt="img" />
                 </div>
               </div>
-
-              <div className="col-lg-6 mt-3" id="mobile">
+              <div className="col-lg-6 mt-3" id="desktop">
                 <div
                   className="about-content s-about-content pl-30"
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                 >
                   <div className="about-title second-atitle">
                     <h2>Welcome to Ayushi Lotus View</h2>
                   </div>
                   <p>
-                    Ayushi Lotus View is an exclusive upcoming project located at Sagra, near Sai Mandir. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
+                    Ayushi Lotus View is an exclusive upcoming project located near St. Augustine School Sai Mandir at Sagra Road. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
 
 Each unit is meticulously planned to provide spacious layouts, contemporary architecture, and high-end amenities. The commercial spaces are designed to cater to business owners and entrepreneurs, while the villa triplexes offer a serene and comfortable lifestyle for families seeking elegance and convenience.
              </p>
@@ -1166,6 +1172,52 @@ Each unit is meticulously planned to provide spacious layouts, contemporary arch
                   </div>
                 </div>
               </div>
+  <div className="col-lg-6" id="mobile">
+                <div className="s-about-img p-relative" data-aos="fade-up">
+                  <img src={ayushi_lotus_view} alt="img" />
+                </div>
+              </div>
+             <div className="col-lg-6 mt-3" id="mobile">
+                <div
+                  className="about-content s-about-content pl-30"
+                  data-aos="fade-up"
+                >
+                  <div className="about-title second-atitle">
+                    <h2>Welcome to Ayushi Lotus View</h2>
+                  </div>
+                  <p>
+                    Ayushi Lotus View is an exclusive upcoming project located near St. Augustine School Sai Mandir at Sagra Road. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
+
+Each unit is meticulously planned to provide spacious layouts, contemporary architecture, and high-end amenities. The commercial spaces are designed to cater to business owners and entrepreneurs, while the villa triplexes offer a serene and comfortable lifestyle for families seeking elegance and convenience.
+             </p>
+             
+                  
+
+                  <div className="">
+                    <button
+                      type="button"
+                      className="btn   mb-3"
+                      style={{
+                        backgroundColor: " #f26a20",
+                        borderRadius: "1.5rem",
+                      }}
+                    >
+                      <Link
+                        to="/ayushi-lotus-view"
+                        onClick={handleFooterLink}
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        {" "}
+                        Read More
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            
+
+              
             </div>
 
 
@@ -1248,15 +1300,7 @@ const Wrapper = styled.div`
     }
   }
 
-  .container {
-    padding: 0 15px;
-  }
-
-  .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
   #clientpages {
     padding: 5rem;
   }

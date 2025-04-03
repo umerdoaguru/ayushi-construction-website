@@ -15,12 +15,12 @@ function WhyChoose() {
       <div className="container mt-5">
         <div className="row g-5">
           
-          <div className="col-lg-12 mb-4 mt-5 text-center">
+          <div className="col-lg-12  mt-5 text-center">
             <h2>Why Choose Ayushi Construction?</h2>
             <div className="underline mx-auto"></div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mt-2 flash-animation"  >
+          <div className="col-lg-4 col-md-6 mt-4 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={wide} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">
@@ -32,7 +32,7 @@ function WhyChoose() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mt-2 flash-animation"  >
+          <div className="col-lg-4 col-md-6 mt-4 flash-animation"  >
             <div className="card shadow" id="cardshadow">
               <img src={comfortable} className="m-auto mt-3 card-img-top" />
               <div className="card-body" id="cardres">

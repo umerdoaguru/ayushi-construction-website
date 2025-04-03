@@ -68,7 +68,10 @@ Located in Paraswada, Dhanwantri Nagar, residents benefit from proximity to key 
 <h6>Grand Gentry Enterance</h6>
     </div>
     <div className="col-lg-3">
-<h6>Commercial Units/Shops</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
 <h6>Water Supply</h6>
@@ -91,7 +94,10 @@ Soalr Lighting</h6>
     <div className="col-lg-3">
 <h6>Beautiful garden</h6>
     </div>
-
+    <div className="col-lg-3">
+<h6>Temple</h6>
+    </div>
+   
     <GoogleMapCom
                 locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.0579516827493!2d79.87518507603933!3d23.168084910881046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b18fb38602d3%3A0x91e0a14a3d0fa692!2sAyushi%20Hari%20vihar!5e0!3m2!1sen!2sin!4v1742816968619!5m2!1sen!2sin"
             />

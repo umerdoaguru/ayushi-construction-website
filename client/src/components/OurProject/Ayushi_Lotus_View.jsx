@@ -9,7 +9,7 @@ import GoogleMapCom from '../../pages/GoogleMapCom';
 function Ayushi_Lotus_View() {
   
     const whatsappNumber = "+919575809888"; // Your WhatsApp number
-    const defaultMessage = "Hi! I came across the Ayushi Hari Vihar project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
+    const defaultMessage = "Hi! I came across the Ayushi Lotus View project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
   
     // Constructing WhatsApp URL
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
@@ -26,7 +26,7 @@ function Ayushi_Lotus_View() {
                 <h2>Welcome To Ayushi Lotus View</h2>
                
               </div>
-              <p>Ayushi Lotus View is an exclusive upcoming project located at Sagra, near Sai Mandir. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
+              <p>Ayushi Lotus View is an exclusive upcoming project located near St. Augustine School Sai Mandir at Sagra Road. Spanning 41,763.97 sq. ft., this elite development offers 28 premium units, combining modern commercial shops and luxurious triplex villas, designed for a harmonious blend of business and upscale living.
 
 Each unit is meticulously planned to provide spacious layouts, contemporary architecture, and high-end amenities. The commercial spaces are designed to cater to business owners and entrepreneurs, while the villa triplexes offer a serene and comfortable lifestyle for families seeking elegance and convenience.</p>
              
@@ -34,7 +34,7 @@ Each unit is meticulously planned to provide spacious layouts, contemporary arch
 <div className="">
             <li><strong>Site Address : - </strong>Sagra, Sai Mandir</li>
             <li><strong>No. of Units : - </strong>28</li>
-            <li><strong>Status : - </strong>Upcoming completed</li>
+            <li><strong>Status : - </strong>Upcoming Project</li>
           </div>
 <div className="">
 
@@ -63,7 +63,10 @@ Each unit is meticulously planned to provide spacious layouts, contemporary arch
 <h6>Grand Gentry Enterance</h6>
     </div>
     <div className="col-lg-3">
-<h6>Commercial Units/Shops</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
 <h6>Water Supply</h6>
@@ -71,7 +74,6 @@ Each unit is meticulously planned to provide spacious layouts, contemporary arch
     <div className="col-lg-3">
 <h6>Kids Play Area</h6>
     </div>
-
     <div className="col-lg-3">
 <h6>
 Soalr Lighting</h6>
@@ -104,7 +106,7 @@ Soalr Lighting</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Hari%20Vihar%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi Lotus View%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >

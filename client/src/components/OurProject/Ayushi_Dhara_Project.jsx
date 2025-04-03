@@ -66,7 +66,10 @@ The project has been successfully completed, making it a ready-to-build location
 <h6>Grand Entrance Gate</h6>
     </div>
     <div className="col-lg-3">
-<h6>Covered Campus</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
 <h6>3 Beautiful Garden</h6>
@@ -88,21 +91,8 @@ Electricity Supply</h6>
     <div className="col-lg-3">
 <h6>Children Play Area</h6>
     </div>
-    <div className="col-lg-3">
-<h6>Women Plaza</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Open Zym</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>6 Beautiful Sculpture</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Basket Ball Court</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Amphi Theater Stage</h6>
-    </div>
+  
+     
    
 
 

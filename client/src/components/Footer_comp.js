@@ -57,7 +57,7 @@ function Footer_comp() {
                   className=""
                   target='__blank'
                 >
-                  Ayushi Construction, Infront of Garha Thana, <br /> Tripuri Chowk, Jabalpur,<br /> Madhya Pradesh 482002
+                  Ayushi Construction, Infront of Garha Thana, <br /> Tripuri Chowk, Jabalpur,<br /> Madhya Pradesh 482003
                   </Link>
                   </span>
                 </div>
@@ -93,11 +93,11 @@ function Footer_comp() {
               </span>
               <span className="">
                 <Link
-                  to="tel:+91-07612672772"
+                  to="tel:+91-07613500084"
                  
                   className=""
                 >
-                 07612672772
+                 07613500084
                 </Link>
               </span>
 
@@ -212,7 +212,7 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Dhara Phase-II <span class="double-arrow">»</span>
+             Shiv Malti Vihar Ayushi Dhara Phase-II <span class="double-arrow">»</span>
             </Link>
           </div>
           <div>
@@ -234,7 +234,7 @@ function Footer_comp() {
              
               className=""
             >
-             Ayushi Hari Vihar Phase-III <span class="double-arrow">»</span>
+             Ayushi Hari Vihar Phase-II <span class="double-arrow">»</span>
             </Link>
           </div>
         
@@ -351,7 +351,7 @@ function Footer_comp() {
           <div>
             {" "}
             <Link
-              to="/ayushi-dhara-phase-II"
+              to="/ayushi-lotus-view"
               onClick={handleFooterLink}
              
               className=""

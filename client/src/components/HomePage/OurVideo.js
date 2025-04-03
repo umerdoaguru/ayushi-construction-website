@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import video from '../../video/HomePage.mp4'
 function OurVideo() {
   return (
     <Wrapper>
@@ -9,7 +9,7 @@ function OurVideo() {
         <iframe
   width="560"
   height="315"
-  src="https://www.youtube.com/embed/zp8tXO_TOu8?si=xOqW38sf43p8B-w8&autoplay=1&mute=1&loop=1&playlist=zp8tXO_TOu8"
+  src="https://www.youtube.com/embed/9S7uPpa4QZA?si=wWjiAEOKBP38ur3y&autoplay=1&mute=1&loop=1&playlist=9S7uPpa4QZA"
   title="YouTube video player"
   frameBorder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

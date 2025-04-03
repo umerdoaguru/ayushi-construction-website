@@ -8,11 +8,7 @@ import GoogleMapCom from '../../pages/GoogleMapCom';
 
 function Ayushi_Hari_Vihar2() {
   
-    const whatsappNumber = "+919575809888"; // Your WhatsApp number
-    const defaultMessage = "Hi! I came across the Ayushi Hari Vihar project on your website, and I’m interested in exploring more about it. Could we discuss the details?";
-  
-    // Constructing WhatsApp URL
-    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
+
   
   return (
    <Wrapper>
@@ -65,6 +61,12 @@ This development is crafted to provide a harmonious blend of comfort and conveni
 <h6>Grand Gentry Enterance</h6>
     </div>
     <div className="col-lg-3">
+<h6>CCTV Covered Campus
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
 <h6>Commercial Units/Shops</h6>
     </div>
     <div className="col-lg-3">
@@ -88,6 +90,23 @@ Soalr Lighting</h6>
     <div className="col-lg-3">
 <h6>Beautiful garden</h6>
     </div>
+     
+    <div className="container mt-3 mb-4" data-aos="fade-up">
+    <div className="video-responsive">
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/8ppVSkAGDwU?autoplay=1&mute=1&loop=1&playlist=8ppVSkAGDwU"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
+
+
+      </div>
 
     <GoogleMapCom
                 locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.0579516827493!2d79.87518507603933!3d23.168084910881046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b18fb38602d3%3A0x91e0a14a3d0fa692!2sAyushi%20Hari%20vihar!5e0!3m2!1sen!2sin!4v1742816968619!5m2!1sen!2sin"
@@ -149,5 +168,19 @@ h2{
   }
   p{
     text-align: justify;
+  }
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 `

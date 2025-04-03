@@ -4,8 +4,7 @@ import img from "../../images/ayushi-vrindavan.jpg";
 
 
 import OurVideo from "../HomePage/OurVideo";
-import Forms from "../contact/Forms";
-import FormNirvanaHomes from "../contact/FormNirvanaHomes";
+
 import { FaWhatsapp } from "react-icons/fa";
 import GoogleMapCom from "../../pages/GoogleMapCom";
 
@@ -24,7 +23,7 @@ function Ayushi_Vrindavan() {
                 <h2>Welcome To Ayushi Vrindavan</h2>
               </div>
               <p>
-              Discover your ideal investment opportunity with our ongoing residential plot project in Chowkital. Spanning across 6.30 acres, this project offers 116 well-planned plots, with 28 units already sold, reflecting its high demand and value.
+              Discover your ideal investment opportunity with our ongoing residential plot project in front of iskcon temple in Chowkital. Spanning across 6.30 acres, this project offers 116 well-planned plots, with 28 units already sold, reflecting its high demand and value.
 
 Located in a prime and well-connected area, these plots provide an excellent foundation for building your dream home or making a long-term investment. The project is surrounded by essential amenities, including schools, hospitals, shopping centers, and transportation hubs, ensuring a convenient and comfortable lifestyle.
 
@@ -63,8 +62,11 @@ With limited plots available, this is your golden opportunity to secure a valuab
             <h6>Grand Enterance Gate</h6>
           </div>
           <div className="col-lg-3">
-            <h6>Covered Campus</h6>
-          </div>
+<h6>CCTV Covered Campus
+
+
+</h6>
+    </div>
           <div className="col-lg-3">
             <h6>Beautiful Garden</h6>
           </div>
@@ -84,7 +86,7 @@ With limited plots available, this is your golden opportunity to secure a valuab
           <div className="col-lg-3">
             <h6>Radha Krishna sculpture</h6>
           </div>
-
+         
           <GoogleMapCom 
                 locationUrl="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1834.5566840595739!2d79.8523463786097!3d23.1295310704706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDA3JzQ2LjMiTiA3OcKwNTEnMTIuMyJF!5e0!3m2!1sen!2sin!4v1742799997431!5m2!1sen!2sin"
             />
@@ -104,7 +106,7 @@ With limited plots available, this is your golden opportunity to secure a valuab
               }}
             ></div>
             <a
-              href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Nirvana%20Home%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?"
+              href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Ayushi Vrindavan%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?"
               target="_blank"
               rel="noopener noreferrer"
             >

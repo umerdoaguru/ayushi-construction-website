@@ -7,7 +7,7 @@ import Logout from "./Logout";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
 import {  BsTrash } from "react-icons/bs";
-
+import * as XLSX from 'xlsx';
 const AdminDashboard = () => {
   const [userData, setUserData] = useState([]);
   const user = useSelector((state) => state.auth.user);
@@ -17,6 +17,8 @@ const AdminDashboard = () => {
   const [itemsPerPage] = useState(10);
   const [filterText, setFilterText] = useState("");
   const [dateFilter, setDateFilter] = useState("");
+  const [yearFilter, setYearFilter] = useState("");
+  const [monthFilter, setMonthFilter] = useState("");
   const token = user?.token;
   useEffect(() => {
   
@@ -25,7 +27,7 @@ const AdminDashboard = () => {
   }, []);
   const fetchUserdata = async () => {
     try {
-      const response = await axios.get(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/user-data`, {
+      const response = await axios.get(`https://ayushiconstruction.com/api/user-data`, {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${token}`
@@ -42,7 +44,7 @@ const AdminDashboard = () => {
     );
     if (isConfirmed) {
       try {
-        await axios.delete(`https://test.ayushiconstruction.vimubds5.a2hosted.com/api/user-data/${id}`);
+        await axios.delete(`https://ayushiconstruction.com/api/user-data/${id}`);
         fetchUserdata(); // Refresh the list after deletion
       } catch (error) {
         console.error("Error deleting lead:", error);
@@ -65,19 +67,55 @@ const handleDateFilterChange = (event) => {
     setCurrentPage(0); 
 };
 
-  const filteredUserData = userData?.filter(userdata => {
+const uniqueYears = [...new Set(userData.map(user => moment(user.created_date).format("YYYY")))];
+  const monthOrder = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
 
+  const uniqueMonths = yearFilter
+    ? [...new Set(
+      userData
+        .filter(user => moment(user.created_date).format("YYYY") === yearFilter)
+        .map(user => moment(user.created_date).format("MMMM"))
+    )].sort((a, b) => monthOrder.indexOf(a) - monthOrder.indexOf(b))
+    : [];
 
-    const fullName = userdata.name.toLowerCase().trim();
+  const filteredUserData = userData.filter(user => {
+    const fullName = user.name.toLowerCase().trim();
     const lowerSearchQuery = filterText.toLowerCase().trim();
-    const formattedDate = moment(userdata.created_date).format("YYYY-MM-DD");
+    const formattedDate = moment(user.created_date).format("YYYY-MM-DD");
+    const userYear = moment(user.created_date).format("YYYY");
+    const userMonth = moment(user.created_date).format("MMMM");
 
     return (
-      (fullName.includes(lowerSearchQuery) ||
-        userdata.email.toLowerCase().trim().includes(lowerSearchQuery)) &&
-      (!dateFilter || formattedDate === dateFilter)
+      (fullName.includes(lowerSearchQuery) || user.email.toLowerCase().trim().includes(lowerSearchQuery)) &&
+      (!dateFilter || formattedDate === dateFilter) &&
+      (!yearFilter || userYear === yearFilter) &&
+      (!monthFilter || userMonth === monthFilter)
     );
   });
+
+
+
+  const downloadExcel = () => {
+    const formattedData = filteredUserData.map((user, index) => ({
+      ID: index + 1,
+      "User Name": user.name,
+      "Email Id": user.email,
+      "Mobile Number": user.mobile_no,
+      Subject: user.subject,
+      Address: user.address,
+      Message: user.message,
+      "Created Date": moment(user.created_date).format("DD-MM-YYYY"), // Format date
+    }));
+
+    const worksheet = XLSX.utils.json_to_sheet(formattedData);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "User Data");
+
+    XLSX.writeFile(workbook, `UserData_${yearFilter || "All"}_${monthFilter || "All"}.xlsx`);
+  };
 
   const offset = currentPage * itemsPerPage;
   const currentUserData = filteredUserData.slice(offset, offset + itemsPerPage);
@@ -92,7 +130,7 @@ const handleDateFilterChange = (event) => {
       <div className="container">
         <h2>List of User Data Ayushi Construction</h2>
       
-            <div className="row mb-3">
+            {/* <div className="row mb-3">
                 <div className="col-lg-3">  <input
             type="text"
             placeholder="Filter by User Name or Email"
@@ -106,9 +144,33 @@ const handleDateFilterChange = (event) => {
             onChange={handleDateFilterChange}
             className="form-control dateset"
           /></div>
-            </div>
+            </div> */}
         
-        
+            <div className="row mb-3">
+        <div className="col-lg-3">
+          <input type="text" placeholder="Filter by Name or Email" value={filterText} onChange={(e) => setFilterText(e.target.value)} className="form-control" />
+        </div>
+        <div className="col-lg-2">
+          <input type="date" value={dateFilter} onChange={(e) => setDateFilter(e.target.value)} className="form-control" />
+        </div>
+        <div className="col-lg-2">
+          <select value={yearFilter} onChange={(e) => setYearFilter(e.target.value)} className="form-control">
+            <option value="">All Years</option>
+            {uniqueYears.map(year => <option key={year} value={year}>{year}</option>)}
+          </select>
+        </div>
+        {yearFilter && (
+          <div className="col-lg-2">
+            <select value={monthFilter} onChange={(e) => setMonthFilter(e.target.value)} className="form-control">
+              <option value="">All Months</option>
+              {uniqueMonths.map(month => <option key={month} value={month}>{month}</option>)}
+            </select>
+          </div>
+        )}
+        <div className="col-lg-2">
+          <button className="btn btn-success" onClick={downloadExcel}>Download Excel</button>
+        </div>
+      </div>
        
         <div className="" style={{ overflowY: "auto" }}>
           {currentUserData.length > 0 ? (

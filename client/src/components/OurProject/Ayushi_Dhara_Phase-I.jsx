@@ -27,28 +27,26 @@ function Ayushi_Dhara_Phase_1() {
                 <h2>Welcome To Our Ayushi Dhara Phase-I</h2>
                
               </div>
-              <p>Welcome to an exclusive residential development at Sagra, Lamheta Road, featuring 146 thoughtfully designed units across 4.64 acres of prime land. This project offers a mix of 3 BHK duplex homes and residential plots, catering to modern homebuyers seeking comfort, elegance, and a well-connected location.
+              <p>Find an exceptional residential development at Sagra, Lamheta Road, offering a perfect blend of 3 BHK duplexes, 4 BHK duplexes, and residential plots. Spanning 3.14 acres, this completed project features 88 well-designed units, all of which have been successfully sold, highlighting the project's high demand and quality construction.
 
-With all units sold out, this completed project stands as a testament to its desirability and high demand. The 3 BHK duplexes provide spacious living areas, contemporary architecture, and high-quality construction, while the plots offer the perfect canvas for homeowners to build their dream residences.
+The 3 BHK and 4 BHK duplex homes are designed to provide a modern and luxurious living experience, featuring spacious interiors, premium fittings, and a contemporary architectural design.
 
-Located in a serene yet well-connected neighborhood, residents enjoy proximity to essential amenities like schools, hospitals, shopping centers, and major roads, ensuring a convenient and fulfilling lifestyle.
+Situated in a prime location, residents enjoy easy access to key amenities such as schools, hospitals, shopping centers, and major roadways, ensuring both convenience and connectivity.
 
-
-           
 </p>
             
             </div>
 <div className="d-flex flex-wrap gap-1">
 <div className="">
-            <li><strong>Site Address : - </strong>Sagra, Lamheta Road.</li>
-            <li><strong>No. of Units : - </strong>146</li>
+            <li><strong>Site Address : - </strong>Sagra, Lamheta Road</li>
+            <li><strong>No. of Units : - </strong>88</li>
             <li><strong>Status : - </strong>Project completed</li>
           </div>
 <div className="">
 
-            <li><strong>No. of Sale Unit : - </strong>0</li>
-            <li><strong>Project Type : - </strong>3 Bhk duplex and Plots</li>
-            <li><strong>Land Area : - </strong>4.64 acre</li>
+            <li><strong>No. of Sale Unit : - </strong>88</li>
+            <li><strong>Project Type : - </strong>3 Bhk Duplex <br />& 4 Bhk Duplex & Plots</li>
+            <li><strong>Land Area : - </strong>3.14 acre</li>
   
           </div>
 </div>
@@ -68,7 +66,10 @@ Located in a serene yet well-connected neighborhood, residents enjoy proximity t
 <h6>Grand Entrance Gate</h6>
     </div>
     <div className="col-lg-3">
-<h6>Covered Campus</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
 <h6>3 Beautiful Garden</h6>
@@ -90,21 +91,7 @@ Electricity Supply</h6>
     <div className="col-lg-3">
 <h6>Children Play Area</h6>
     </div>
-    <div className="col-lg-3">
-<h6>Women Plaza</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Open Zym</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>6 Beautiful Sculpture</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Basket Ball Court</h6>
-    </div>
-    <div className="col-lg-3">
-<h6>Amphi Theater Stage</h6>
-    </div>
+
     <div className="col-lg-12 mt-4">
       <h2>
       SPECIFICATIONS</h2>

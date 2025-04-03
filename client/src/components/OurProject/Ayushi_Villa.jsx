@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import img from '../../images/ayushi-villa.png'
-
+import { Spinner } from 'react-bootstrap';
+import video from '../../video/Ayushi Villa.mp4'
 import { FaWhatsapp } from 'react-icons/fa'
 import GoogleMapCom from '../../pages/GoogleMapCom';
 
@@ -12,6 +13,11 @@ function Ayushi_Villa() {
     { src: '', title: 'Entry Gate' },
 
   ];
+   const [loading, setLoading] = useState(true);
+  
+      const handleLoadedData = () => {
+        setLoading(false);
+      };
   
   return (
     <Wrapper>
@@ -66,6 +72,12 @@ Strategically located, Ayushi Villa ensures seamless connectivity to major city 
 <h6>Grand Gentry Enterance</h6>
     </div>
     <div className="col-lg-3">
+<h6>CCTV Covered Campus
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
 <h6>Commercial Units/Shops</h6>
     </div>
     <div className="col-lg-3">
@@ -89,7 +101,7 @@ Soalr Lighting</h6>
     <div className="col-lg-3">
 <h6>Beautiful garden</h6>
     </div>
-
+    
     <div className="col-lg-12 mt-4">
       <h2>
       SPECIFICATIONS</h2>
@@ -133,7 +145,7 @@ Soalr Lighting</h6>
 <h6>Green Marble on Stairs</h6>
     </div>
     <div className="col-lg-3">
-<h6>Quba locks</h6>
+<h6>Quba/Godrej locks and hendle.</h6>
     </div>
     <div className="col-lg-3">
 <h6>SS Grill on balcony</h6>
@@ -153,6 +165,52 @@ Soalr Lighting</h6>
     <div className="col-lg-3 ">
 <h6>Tukdi Roof protection for water leakage</h6>
     </div>
+     <div className="position-relative" id="cont">
+        <h2 className='text-center'>
+        Video</h2>
+        <div
+                    className="underline mx-auto"
+                    style={{
+                      height: 3,
+                      width: "3rem",
+                      backgroundColor: "#34495E",
+                      marginTop: 20,
+                      marginBottom: 20,
+                    }}
+                  ></div>
+    <div className="mt-4">
+          {loading && (
+            <div
+              className="d-flex justify-content-center align-items-center"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundColor: "black",
+                zIndex: 10,
+              }}
+            >
+              <Spinner animation="border" variant="light" /> {/* Change this to your preferred loader */}
+            </div>
+          )}
+    <div className="text-center">
+          <video
+            src={video}
+            autoPlay
+            loop
+            muted
+            onLoadedData={handleLoadedData}
+            style={{
+         
+              
+              objectFit: "cover",
+            }}
+          />
+          </div>
+    </div>
+        </div>
     <GoogleMapCom
                 locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.2875157258477!2d79.88418817603912!3d23.159704211195507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b10015d32a01%3A0xd6a44bad73607f0!2sAyushi%20Villa!5e0!3m2!1sen!2sin!4v1742814300670!5m2!1sen!2sin"
             />
@@ -208,4 +266,10 @@ const Wrapper  = styled.div`
   .container{
     margin-top: 6rem;
   }
+  video{
+    width: 25%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
 `

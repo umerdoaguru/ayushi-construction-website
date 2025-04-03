@@ -4,7 +4,7 @@ import img from '../../images/ayushi-home.jpg'
 
 import { FaWhatsapp } from 'react-icons/fa'
 import { Spinner } from 'react-bootstrap';
-import video from '../../video/Ayushi home Video.mp4'
+import video from '../../video/Ayushi Homes.mp4'
 import GoogleMapCom from '../../pages/GoogleMapCom';
 function Ayushi_Home() {
     const [loading, setLoading] = useState(true);
@@ -68,6 +68,12 @@ These spacious and elegantly crafted duplex homes are designed to provide a comf
 <h6>Grand Gentry Enterance</h6>
     </div>
     <div className="col-lg-3">
+<h6>CCTV Covered Campus
+
+
+</h6>
+    </div>
+    <div className="col-lg-3">
 <h6>Commercial Units/Shops</h6>
     </div>
     <div className="col-lg-3">
@@ -91,7 +97,7 @@ Soalr Lighting</h6>
     <div className="col-lg-3">
 <h6>Temple</h6>
     </div>
-
+    
     <div className="col-lg-12 mt-4">
       <h2>
       SPECIFICATIONS</h2>
@@ -135,7 +141,7 @@ Soalr Lighting</h6>
 <h6>Green Marble on Stairs</h6>
     </div>
     <div className="col-lg-3">
-<h6>Quba locks</h6>
+<h6>Quba/Godrej locks and hendle.</h6>
     </div>
     <div className="col-lg-3">
 <h6>SS Grill on stairs</h6>
@@ -186,7 +192,7 @@ Soalr Lighting</h6>
           <Spinner animation="border" variant="light" /> {/* Change this to your preferred loader */}
         </div>
       )}
-
+<div className="text-center">
       <video
         src={video}
         autoPlay
@@ -194,11 +200,12 @@ Soalr Lighting</h6>
         muted
         onLoadedData={handleLoadedData}
         style={{
-          width: "100%",
-          height: "100%",
+     
+          
           objectFit: "cover",
         }}
       />
+      </div>
 </div>
     </div>
    
@@ -263,4 +270,10 @@ h2{
   p{
     text-align: justify;
   }
+  video{
+    width: 25%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
 `

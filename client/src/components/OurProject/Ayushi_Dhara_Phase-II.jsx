@@ -1,22 +1,35 @@
 
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import styled from 'styled-components'
 
 import ayushi_dhara from '../../images/ayushi-dhara.jpg'
 
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaPause, FaPlay, FaWhatsapp } from 'react-icons/fa'
 import GoogleMapCom from '../../pages/GoogleMapCom';
-import video from '../../video/ayushidhara.mp4'
+
 import { Spinner } from 'react-bootstrap';
+import video from '../../video/Ayushi Villa.mp4'
+import video1 from '../../video/ayushidhara.mp4'
 
 function Ayushi_Dhara_Phase_2() {
 
   const [loading, setLoading] = useState(true);
-  
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying1, setIsPlaying1] = useState(false);
+  const videoRef = useRef(null);
+  const videoRef1 = useRef(null);
       const handleLoadedData = () => {
         setLoading(false);
       };
-  
+      const togglePlayPause = (videoElement, setPlayingState) => {
+        if (videoElement.current.paused) {
+          videoElement.current.play();
+          setPlayingState(true);
+        } else {
+          videoElement.current.pause();
+          setPlayingState(false);
+        }
+      };
   return (
     <Wrapper>
     <div className="container">
@@ -25,7 +38,7 @@ function Ayushi_Dhara_Phase_2() {
             <div className="about-content s-about-content pl-30" data-aos= "fade-right">
               <div className="about-title second-atitle">
                 
-                <h2>Welcome To Our Ayushi Dhara Phase-II</h2>
+                <h2>Welcome To Our Shiv Malti Vihar Ayushi Dhara Phase-II</h2>
                
               </div>
               <p>Nestled in the prime location of Sagra, Lamheta Road, this ongoing project offers a perfect blend of elegance and modern living. Designed to provide a premium lifestyle experience, the project features 153 well-planned units.
@@ -67,7 +80,10 @@ Strategically located, this project provides easy access to schools, hospitals, 
 <h6>Grand Entrance Gate</h6>
     </div>
     <div className="col-lg-3">
-<h6>Covered Campus</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
 <h6>3 Beautiful Garden</h6>
@@ -104,6 +120,7 @@ Electricity Supply</h6>
     <div className="col-lg-3">
 <h6>Amphi Theater Stage</h6>
     </div>
+   
     <div className="col-lg-12 mt-4">
       <h2>
       SPECIFICATIONS</h2>
@@ -167,7 +184,23 @@ double coat glossy paint/normal paint.</h6>
 <h6>Tukdi Roof protection/KOWA for water leakage.</h6>
     </div>
   
-
+    <div className="position-relative" id="cont">
+          <h2 className='text-center'>Videos</h2>
+          <div className="row">
+            <div className="mt-4 col-lg-6 position-relative text-center">
+              <video ref={videoRef} src={video} loop muted onLoadedData={handleLoadedData} className="video-element" />
+              <button className="play-button" onClick={() => togglePlayPause(videoRef, setIsPlaying)}>
+                {isPlaying ? <FaPause /> : <FaPlay />}
+              </button>
+            </div>
+            <div className="mt-4 col-lg-6 position-relative text-center">
+              <video ref={videoRef1} src={video1} loop muted onLoadedData={handleLoadedData} className="video-element" />
+              <button className="play-button" onClick={() => togglePlayPause(videoRef1, setIsPlaying1)}>
+                {isPlaying1 ? <FaPause /> : <FaPlay />}
+              </button>
+            </div>
+          </div>
+        </div>
     <GoogleMapCom
                 locationUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.9709326397283!2d79.86601557603863!3d23.134737712131795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b37bf7c868c9%3A0xb7bbcfdd18689f62!2sAyushi%20Dhara!5e0!3m2!1sen!2sin!4v1742816322465!5m2!1sen!2sin" />
 
@@ -184,7 +217,7 @@ double coat glossy paint/normal paint.</h6>
                 }}
               ></div>
   <a 
-  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Ayushi%20Dhara%20project%20phase-II%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/919575809888?text=Hi!%20I%20came%20across%20the%20Shiv Malti Vihar Ayushi Dhara%20project%20phase-II%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -245,6 +278,32 @@ video{
 }
 p{
     text-align: justify;
+  }
+  video{
+    width: 55%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .play-button:hover {
+    background: rgba(0, 0, 0, 0.8);
   }
 
 `

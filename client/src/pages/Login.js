@@ -33,7 +33,7 @@ function Login() {
     e.preventDefault();
     setLoading(true)
     try{
-      const res  = await axios.post("https://test.ayushiconstruction.vimubds5.a2hosted.com/api/login", formData)
+      const res  = await axios.post("https://ayushiconstruction.com/api/login", formData)
       console.log(res)
       if(res.data.success === true){
         dispatch(loginUser(res.data.user)); 

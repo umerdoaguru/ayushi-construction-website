@@ -63,7 +63,10 @@ With its strategic location, Rudraksh Park provides easy access to schools, hosp
 <h6>Grand Gentry Enterance</h6>
     </div>
     <div className="col-lg-3">
-<h6>Commercial Units/Shops</h6>
+<h6>CCTV Covered Campus
+
+
+</h6>
     </div>
     <div className="col-lg-3">
 <h6>Water Supply</h6>
@@ -77,8 +80,10 @@ With its strategic location, Rudraksh Park provides easy access to schools, hosp
 Soalr Lighting</h6>
     </div>
     <div className="col-lg-3">
-<h6>Open Air Gym</h6>
+<h6>
+Temple</h6>
     </div>
+    
     <div className="col-lg-3">
 <h6>24 Hours Water Supply</h6>
     </div>

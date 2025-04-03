@@ -61,6 +61,12 @@ Located in a well-connected neighborhood, residents enjoy proximity to essential
             <h6>Landscaped garden with lush green campus.</h6>
           </div>
           <div className="col-lg-3">
+<h6>CCTV Covered Campus
+
+
+</h6>
+    </div>
+          <div className="col-lg-3">
             <h6>Fountain and children play area.</h6>
           </div>
           <div className="col-lg-3">
@@ -85,6 +91,7 @@ Located in a well-connected neighborhood, residents enjoy proximity to essential
           <div className="col-lg-3">
             <h6>Elegant street lighting</h6>
           </div>
+          
           <div className="col-lg-12 mt-4">
       <h2>
       SPECIFICATIONS</h2>
@@ -144,7 +151,7 @@ Located in a well-connected neighborhood, residents enjoy proximity to essential
                 }}
               ></div>
   <a 
-  href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Ayushi%20Villa%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
+  href="https://wa.me/917880008031?text=Hi!%20I%20came%20across%20the%20Ayushi%20Palm Green%20project%20on%20your%20website,%20and%20I%E2%80%99m%20interested%20in%20exploring%20more%20about%20it.%20Could%20we%20discuss%20the%20details?" 
   target="_blank" 
   rel="noopener noreferrer"
 >

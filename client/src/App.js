@@ -56,7 +56,7 @@ function App() {
         <Route path="/userayushiconstructiondata" element={user? <AdminDashboard />:<Login/>} />
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About/>} />
-          <Route path="/hero" element={<Heros />} />
+        <Route path="/hero" element={<Heros />} />
          
           <Route path="/completeProject" element={<CompleteProject />} />
           <Route path="/contact" element={<ContactForm />} />

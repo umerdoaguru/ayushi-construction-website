@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import img from "../images/slider_img01.webp";
 import img from "../images/banner123.jpg";
-import video from '../video/ayushi_video.mp4'
+import video from '../video/Ayushi Construction home.mp4'
 
 
 import img1 from "../images/Untitled design (10).png";
