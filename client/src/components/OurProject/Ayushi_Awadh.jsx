@@ -31,7 +31,7 @@ function Ayushi_Awadh() {
 Each villa boasts thoughtfully crafted interiors, ensuring ample natural light, elegant aesthetics, and top-tier fittings. Nestled within a secure gated community, residents will enjoy privacy, exclusivity, and world-class amenities for an unmatched living experience.
 </p>
              
-<div className="d-flex flex-wrap gap-1">
+<div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Purwa Road</li>
             <li><strong>No. of Units : - </strong>200</li>

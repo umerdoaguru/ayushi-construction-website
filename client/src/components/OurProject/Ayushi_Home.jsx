@@ -34,11 +34,11 @@ These spacious and elegantly crafted duplex homes are designed to provide a comf
 
               </p>
              
-              <div className="d-flex flex-wrap gap-1">
+              <div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Shashtrinagar Sagra</li>
             <li><strong>No. of Units : - </strong>53</li>
-            <li><strong>Status : - </strong>On going project</li>
+            <li><strong>Status : - </strong>Project completed</li>
           </div>
 <div className="">
 

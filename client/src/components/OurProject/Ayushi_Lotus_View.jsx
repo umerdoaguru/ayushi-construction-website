@@ -30,7 +30,7 @@ function Ayushi_Lotus_View() {
 
 Each unit is meticulously planned to provide spacious layouts, contemporary architecture, and high-end amenities. The commercial spaces are designed to cater to business owners and entrepreneurs, while the villa triplexes offer a serene and comfortable lifestyle for families seeking elegance and convenience.</p>
              
-<div className="d-flex flex-wrap gap-1">
+<div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Sagra, Sai Mandir</li>
             <li><strong>No. of Units : - </strong>28</li>

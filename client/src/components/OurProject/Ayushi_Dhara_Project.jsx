@@ -35,7 +35,7 @@ The project has been successfully completed, making it a ready-to-build location
            
 </p>
 
-<div className="d-flex flex-wrap gap-1">
+<div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Sagra, Lamheta Road</li>
             <li><strong>No. of Units : - </strong>148</li>

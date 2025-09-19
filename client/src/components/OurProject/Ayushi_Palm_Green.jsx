@@ -27,7 +27,7 @@ Offering a mix of spacious 2 & 3 BHK apartments, Ayushi Palm Green is crafted to
 
 Located in a well-connected neighborhood, residents enjoy proximity to essential services such as schools, hospitals, shopping centers, and transport hubs, making everyday life convenient and hassle-free.</p>
              
-<div className="d-flex flex-wrap gap-1">
+<div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Ganganagar Garha. </li>
             <li><strong>No. of Units : - </strong>125</li>

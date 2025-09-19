@@ -75,10 +75,10 @@ function Footer_comp() {
               </span>
               <span className="">
                 <Link
-                  to="tel:+91-9575809888"
+                  to="tel:+91-7000662576"
                  
                   className=""
-                > 9575809888,  
+                > 7000662576,  
                 </Link>
               </span>
               <br />

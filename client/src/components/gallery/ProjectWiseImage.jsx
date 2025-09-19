@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import styled from "styled-components";
+import newphoto1 from '../../images/Ayushi Dhara-I/20X40 duplex-01.png'
+import newphoto2 from '../../images/Ayushi Dhara-I/20X40 duplex-02.png'
+import newphoto3 from '../../images/Ayushi Dhara-I/20X40 duplex-cut section-01.png'
+import newphoto4 from '../../images/Ayushi Dhara-I/20X40 duplex-cut section-02.png'
+import newphoto5 from '../../images/Ayushi Dhara-I/20X40 duplex-cut section-03.png'
+import newphoto6 from '../../images/Ayushi Dhara-I/20X40 duplex-cut section-04.png'
+
 import photo1 from '../../images/Ayushi Dhara-I/photo1.jpeg'
 import photo2 from '../../images/Ayushi Dhara-I/photo2.jpeg'
 import photo3 from '../../images/Ayushi Dhara-I/photo3.jpeg'
@@ -21,14 +28,6 @@ import photo17 from '../../images/Ayushi Dhara-I/18.jpg'
 import photo18 from '../../images/Ayushi Dhara-I/19.jpg'
 import photo19 from '../../images/Ayushi Dhara-I/20.jpeg'
 import photo20 from '../../images/Ayushi Dhara-I/21.jpeg'
-
-
-
-
-
-
-
-
 
 import image1 from '../../images/Aysuhi Home/image1.jpeg'
 import image2 from '../../images/Aysuhi Home/image2.jpeg'
@@ -120,6 +119,12 @@ const projectImages = {
       
     ],
     "ayushi-dhara": [
+        { url: newphoto1, },
+        { url: newphoto2, },
+        { url: newphoto3, },
+        { url: newphoto4, },
+        { url: newphoto5, },
+        { url: newphoto6, },
         { url: photo1, },
         { url: photo2,},
         { url: photo3,  },

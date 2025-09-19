@@ -41,13 +41,10 @@ function Header() {
             
             <NavDropdown title="Our Project" id="basic-nav-dropdown">
               <NavDropdown title="Ongoing Project" id="ongoing-project-dropdown" drop="end">
-       
-                <NavDropdown.Item as={Link} to="/ayushi-home" onClick={() => handleFooterLink("/ayushi-home")}>Ayushi Homes</NavDropdown.Item>
-
-                <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-II" onClick={() => handleFooterLink("/ayushi-dhara-phase-II")}>Shiv Malti Vihar Ayushi Dhara Phase-II</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-III" onClick={() => handleFooterLink("/ayushi-dhara-phase-III")}>Ayushi Dhara Phase-III</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-III" onClick={() => handleFooterLink("/ayushi-dhara-phase-III")}>Ayushi Dhara Phase-III</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-hari-vihar-phase-II" onClick={() => handleFooterLink("/ayushi-hari-vihar-phase-II")}>Ayushi Hari Vihar Phase-II</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-vrindavan" onClick={() => handleFooterLink("/ayushi-vrindavan")}>Ayushi Vrindavan</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-IV" onClick={() => handleFooterLink("/ayushi-dhara-phase-IV")}>Ayushi Dhara Phase-IV</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Completed Project" id="completed-project-dropdown" drop="end">
@@ -58,6 +55,10 @@ function Header() {
                 <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-I" onClick={() => handleFooterLink("/ayushi-dhara-phase-I")}>Ayushi Dhara Phase-I</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/ayushi-hari-vihar-phase-I" onClick={() => handleFooterLink("/ayushi-hari-vihar-phase-I")}>Ayushi Hari Vihar Phase-I</NavDropdown.Item>
                
+                <NavDropdown.Item as={Link} to="/ayushi-home" onClick={() => handleFooterLink("/ayushi-home")}>Ayushi Homes</NavDropdown.Item>
+
+                <NavDropdown.Item as={Link} to="/ayushi-dhara-phase-II" onClick={() => handleFooterLink("/ayushi-dhara-phase-II")}>Shiv Malti Vihar Ayushi Dhara Phase-II</NavDropdown.Item>
+             
               </NavDropdown>
 
               <NavDropdown title="Upcoming Project" id="upcoming-project-dropdown" drop="end">

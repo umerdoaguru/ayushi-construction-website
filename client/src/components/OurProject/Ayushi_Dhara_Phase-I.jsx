@@ -36,7 +36,7 @@ Situated in a prime location, residents enjoy easy access to key amenities such 
 </p>
             
             </div>
-<div className="d-flex flex-wrap gap-1">
+<div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Sagra, Lamheta Road</li>
             <li><strong>No. of Units : - </strong>88</li>

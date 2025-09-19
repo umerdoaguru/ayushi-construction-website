@@ -42,6 +42,7 @@ import Ayushi_Dhara_Phase_3 from "./components/OurProject/Ayushi_Dhara_Phase-III
 import Ayushi_Hari_Vihar2 from "./components/OurProject/Ayushi_Hari_Vihar_Phase-II";
 import Ayushi_Awadh from "./components/OurProject/Ayushi_Awadh";
 import Ayushi_Lotus_View from "./components/OurProject/Ayushi_Lotus_View";
+import Ayushi_Dhara_Phase_IV from './components/OurProject/Ayushi_Dhara_Phase_IV';
 
 function App() {
   const user = useSelector(state => state.auth.user);
@@ -67,6 +68,7 @@ function App() {
           <Route path="/ayushi-dhara-phase-I" element={<Ayushi_Dhara_Phase_1 />} />
           <Route path="/ayushi-dhara-phase-II" element={<Ayushi_Dhara_Phase_2 />} />
           <Route path="/ayushi-dhara-phase-III" element={<Ayushi_Dhara_Phase_3 />} />
+          <Route path="/ayushi-dhara-phase-IV" element={<Ayushi_Dhara_Phase_IV />} />
           <Route path="/ayushi-home" element={<Ayushi_Home/>} />
           <Route path="/ayushi-villa" element={<Ayushi_Villa/>} />
           <Route path="/ayushi-hari-vihar-phase-I" element={<Ayushi_Hari_Vihar/>} />

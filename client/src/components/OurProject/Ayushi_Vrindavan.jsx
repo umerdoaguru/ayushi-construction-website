@@ -31,7 +31,7 @@ With limited plots available, this is your golden opportunity to secure a valuab
       
               </p>
 
-              <div className="d-flex flex-wrap gap-1">
+              <div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Chowkital</li>
             <li><strong>No. of Units : - </strong>116</li>

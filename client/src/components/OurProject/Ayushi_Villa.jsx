@@ -37,7 +37,7 @@ Each villa is thoughtfully crafted to offer a premium living experience, with mo
 
 Strategically located, Ayushi Villa ensures seamless connectivity to major city landmarks, schools, hospitals, and shopping centers, offering convenience and a high standard of living.
               </p>
-              <div className="d-flex flex-wrap gap-1">
+              <div className="d-flex flex-wrap gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Ganganagar Garha.</li>
             <li><strong>No. of Units : - </strong>39</li>

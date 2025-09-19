@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 function Whatsappicon() {
      // WhatsApp number and default message
-     const whatsappNumber = "+919575809888"; 
+     const whatsappNumber = "+9981268611"; 
   const defaultMessage = "Hello, I am interested in your Project!";
 
   // Constructing WhatsApp URL

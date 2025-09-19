@@ -30,7 +30,7 @@ Designed for comfort and convenience, each 2BHK unit features spacious interiors
 With its strategic location, Rudraksh Park provides easy access to schools, hospitals, shopping centers, and public transport, ensuring a seamless urban lifestyle.</p>
              
 
-             <div className="d-flex flex-wrap gap-1">
+             <div className="d-flex flex-wrap gap-4">
              <div className="">
                          <li><strong>Site Address : - </strong>Ganganagar Garha. </li>
                          <li><strong>No. of Units : - </strong>152</li>

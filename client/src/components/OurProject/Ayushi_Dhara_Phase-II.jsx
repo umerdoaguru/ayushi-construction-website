@@ -50,11 +50,11 @@ Strategically located, this project provides easy access to schools, hospitals, 
 </p>
             
             </div>
-<div className="d-flex flex-wrap  gap-1">
+<div className="d-flex flex-wrap  gap-4">
 <div className="">
             <li><strong>Site Address : - </strong>Sagra, Lamheta Road</li>
             <li><strong>No. of Units : - </strong>153</li>
-            <li><strong>Status : - </strong>On going project</li>
+            <li><strong>Status : - </strong>Project completed</li>
           </div>
 <div className="">
 
