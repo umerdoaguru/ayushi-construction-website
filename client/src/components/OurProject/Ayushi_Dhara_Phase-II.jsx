@@ -109,7 +109,7 @@ Electricity Supply</h6>
 <h6>Women Plaza</h6>
     </div>
     <div className="col-lg-3">
-<h6>Open Zym</h6>
+<h6>Open Gym</h6>
     </div>
     <div className="col-lg-3">
 <h6>6 Beautiful Sculpture</h6>
